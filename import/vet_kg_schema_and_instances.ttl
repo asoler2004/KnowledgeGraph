@@ -1,0 +1,236 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix sosa:  <http://www.w3.org/ns/sosa/> .
+@prefix ssn:   <http://www.w3.org/ns/ssn/> .
+@prefix obo:   <http://purl.obolibrary.org/obo/> .
+@prefix loinc: <https://loinc.org/> .
+@prefix vet:   <http://example.org/vet-rules#> .
+
+# =============================================================================
+# ONTOLOGY SCHEMA & METAMODEL
+# =============================================================================
+
+<http://example.org/vet-rules> a owl:Ontology ;
+    rdfs:label "Veterinary Diagnostic Knowledge Graph Ontology" ;
+    rdfs:comment "Ontology schema and instance model integrating SOSA/SSN, LOINC, MONDO, NCIT, UBERON, and CL for veterinary cytology and hematology." ;
+    owl:versionInfo "2.0" .
+
+# --- Classes ---
+vet:PatientCase a owl:Class ;
+    rdfs:label "Patient Case" ;
+    rdfs:comment "Represents a specific veterinary patient clinical presentation." .
+
+vet:Species a owl:Class ; rdfs:label "Veterinary Species" .
+vet:Canine a vet:Species ; rdfs:label "Perro (Canis lupus familiaris)" ; owl:sameAs obo:NCBITaxon_9615 .
+vet:Feline a vet:Species ; rdfs:label "Gato (Felis catus)" ; owl:sameAs obo:NCBITaxon_9685 .
+
+vet:SlidePreparation a owl:Class ;
+    rdfs:subClassOf sosa:Sample ;
+    rdfs:label "Slide Preparation / Frotis" ;
+    rdfs:comment "Microscopic preparation obtained via FNA, blood smear, urine sediment, or scrape." .
+
+vet:CellLineage a owl:Class ; rdfs:label "Tumor Cell Lineage" .
+vet:Lineage_RoundCells a vet:CellLineage ; rdfs:label "Células Redondas" .
+vet:Lineage_Epithelial a vet:CellLineage ; rdfs:label "Células Epiteliales" .
+vet:Lineage_Mesenchymal a vet:CellLineage ; rdfs:label "Células Mesenquimales" .
+vet:Lineage_Melanocytic a vet:CellLineage ; rdfs:label "Células Melanocíticas" .
+
+# --- Properties ---
+vet:hasSpecies a owl:ObjectProperty ; rdfs:domain vet:PatientCase ; rdfs:range vet:Species .
+vet:hasAge a owl:DatatypeProperty ; rdfs:domain vet:PatientCase ; rdfs:range xsd:float .
+vet:hasSex a owl:DatatypeProperty ; rdfs:domain vet:PatientCase ; rdfs:range xsd:string .
+vet:hasCoatColor a owl:DatatypeProperty ; rdfs:domain vet:PatientCase ; rdfs:range xsd:string .
+vet:hasInjectionSiteHistory a owl:DatatypeProperty ; rdfs:domain vet:PatientCase ; rdfs:range xsd:string .
+vet:hasBreed a owl:DatatypeProperty ; rdfs:domain vet:PatientCase ; rdfs:range xsd:string .
+
+vet:hasAnatomicSite a owl:ObjectProperty ; rdfs:domain sosa:Sample ; rdfs:range owl:Thing .
+vet:belongsToLineage a owl:ObjectProperty ; rdfs:domain sosa:Sample ; rdfs:range vet:CellLineage .
+vet:hasDiagnosis a owl:ObjectProperty ; rdfs:domain vet:PatientCase ; rdfs:range owl:Thing .
+vet:hasMalignancyStatus a owl:DatatypeProperty ; rdfs:domain vet:PatientCase ; rdfs:range xsd:string .
+vet:hasAlertLevel a owl:DatatypeProperty ; rdfs:domain vet:PatientCase ; rdfs:range xsd:string .
+vet:clinicalAction a owl:DatatypeProperty ; rdfs:domain vet:PatientCase ; rdfs:range xsd:string .
+
+# =============================================================================
+# INSTANCE LAYER: CONCRETE PATIENT CASES & OBSERVATIONS
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# CASE 1: CANINE CUTANEOUS MASTOCITOMA (ROUND CELL TUMOR)
+# -----------------------------------------------------------------------------
+vet:Case_001_Canine_Mastocitoma a vet:PatientCase ;
+    vet:hasSpecies vet:Canine ;
+    vet:hasAge "8.5"^^xsd:float ;
+    vet:hasBreed "Boxer" ;
+    vet:hasSex "Male_Intact" .
+
+vet:Sample_001_FNA_Skin a vet:SlidePreparation ;
+    sosa:isSampleOf vet:Case_001_Canine_Mastocitoma ;
+    vet:hasAnatomicSite obo:UBERON_0002072 ; # Haired Skin
+    vet:samplingMethod "FineNeedleAspiration_40x" ;
+    vet:scanPattern "GuardaGriegaCentralMonolayer" .
+
+vet:Obs_001_Cohesion a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_001_FNA_Skin ;
+    sosa:observedProperty vet:CellCohesion ;
+    sosa:hasSimpleResult "Individualized" .
+
+vet:Obs_001_Border a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_001_FNA_Skin ;
+    sosa:observedProperty vet:CellBorder ;
+    sosa:hasSimpleResult "Sharp" .
+
+vet:Obs_001_Shape a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_001_FNA_Skin ;
+    sosa:observedProperty vet:CellShape ;
+    sosa:hasSimpleResult "RoundToOval" .
+
+vet:Obs_001_Granules a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_001_FNA_Skin ;
+    sosa:observedProperty vet:MetachromaticGranules ;
+    sosa:hasSimpleResult "PurplePresent" .
+
+vet:Obs_001_Eosinophils a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_001_FNA_Skin ;
+    sosa:observedProperty vet:BackgroundEosinophils ;
+    sosa:hasSimpleResult "Present" .
+
+vet:Obs_001_Density a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_001_FNA_Skin ;
+    sosa:observedProperty vet:GranuleDensity ;
+    sosa:hasSimpleResult "ModerateToHigh" .
+
+# -----------------------------------------------------------------------------
+# CASE 2: FELINE MACROCYTIC REGENERATIVE ANEMIA & FeLV SUSPICION
+# -----------------------------------------------------------------------------
+vet:Case_002_Feline_Anemia a vet:PatientCase ;
+    vet:hasSpecies vet:Feline ;
+    vet:hasAge "4.0"^^xsd:float ;
+    vet:hasSex "Female_Spayed" .
+
+vet:Sample_002_BloodSmear a vet:SlidePreparation ;
+    sosa:isSampleOf vet:Case_002_Feline_Anemia ;
+    vet:samplingMethod "PeripheralBloodSmear" ;
+    vet:stainingMethod "MayGrunwaldGiemsa" .
+
+vet:Obs_002_HCT a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Case_002_Feline_Anemia ;
+    sosa:observedProperty loinc:20570-8 ; # Hematocrit
+    sosa:hasValue "18.5"^^xsd:float .
+
+vet:Obs_002_Reticulocytes a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Case_002_Feline_Anemia ;
+    sosa:observedProperty loinc:33252-8 ; # Absolute Reticulocytes
+    sosa:hasValue "85000.0"^^xsd:float .
+
+vet:Obs_002_MCV a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Case_002_Feline_Anemia ;
+    sosa:observedProperty loinc:787-2 ; # MCV
+    sosa:hasValue "62.0"^^xsd:float .
+
+vet:Obs_002_MCHC a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Case_002_Feline_Anemia ;
+    sosa:observedProperty loinc:28540-3 ; # MCHC
+    sosa:hasValue "27.0"^^xsd:float .
+
+# -----------------------------------------------------------------------------
+# CASE 3: CANINE BACTERIAL SEPSIS & TOXIC NEUTROPHILS
+# -----------------------------------------------------------------------------
+vet:Case_003_Canine_Sepsis a vet:PatientCase ;
+    vet:hasSpecies vet:Canine ;
+    vet:hasAge "7.0"^^xsd:float ;
+    vet:hasSex "Female_Intact" .
+
+vet:Sample_003_BloodSmear a vet:SlidePreparation ;
+    sosa:isSampleOf vet:Case_003_Canine_Sepsis ;
+    vet:samplingMethod "PeripheralBloodSmear" .
+
+vet:Obs_003_WBC a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_003_BloodSmear ;
+    sosa:observedProperty loinc:6690-2 ; # Total Leukocytes
+    sosa:hasValue "32000.0"^^xsd:float .
+
+vet:Obs_003_Segs a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_003_BloodSmear ;
+    sosa:observedProperty loinc:751-8 ; # Segmented Neutrophils
+    sosa:hasValue "14000.0"^^xsd:float .
+
+vet:Obs_003_Bands a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_003_BloodSmear ;
+    sosa:observedProperty loinc:35332-6 ; # Band Neutrophils
+    sosa:hasValue "16000.0"^^xsd:float .
+
+vet:Obs_003_Vacuoles a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_003_BloodSmear ;
+    sosa:observedProperty vet:NeutrophilVacuolization ;
+    sosa:hasSimpleResult "Present" .
+
+vet:Obs_003_Basophilia a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_003_BloodSmear ;
+    sosa:observedProperty vet:CytoplasmicBasophilia ;
+    sosa:hasSimpleResult "Present" .
+
+# -----------------------------------------------------------------------------
+# CASE 4: CANINE ETHYLENE GLYCOL POISONING (URINALYSIS)
+# -----------------------------------------------------------------------------
+vet:Case_004_Canine_Poisoning a vet:PatientCase ;
+    vet:hasSpecies vet:Canine ;
+    vet:hasAge "3.0"^^xsd:float .
+
+vet:Sample_004_UrineSediment a vet:SlidePreparation ;
+    sosa:isSampleOf vet:Case_004_Canine_Poisoning ;
+    vet:samplingMethod "UrineSedimentCentrifuged_1500rpm" .
+
+vet:Obs_004_pH a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_004_UrineSediment ;
+    sosa:observedProperty loinc:2756-5 ; # Urine pH
+    sosa:hasValue "5.5"^^xsd:float .
+
+vet:Obs_004_Crystals a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_004_UrineSediment ;
+    sosa:observedProperty vet:CrystalGeometry ;
+    sosa:hasSimpleResult "PicketFenceOrDumbbells" .
+
+# -----------------------------------------------------------------------------
+# CASE 5: CANINE VECTOR-BORNE BABESIA CANIS INFECTION
+# -----------------------------------------------------------------------------
+vet:Case_005_Canine_Babesia a vet:PatientCase ;
+    vet:hasSpecies vet:Canine ;
+    vet:hasAge "5.0"^^xsd:float .
+
+vet:Sample_005_BloodSmear a vet:SlidePreparation ;
+    sosa:isSampleOf vet:Case_005_Canine_Babesia ;
+    vet:samplingMethod "CapillaryBloodSmear_EarTip" .
+
+vet:Obs_005_Babesia a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_005_BloodSmear ;
+    sosa:observedProperty vet:IntraErythrocyticAgent ;
+    sosa:hasSimpleResult "LargePiriformDoublets2to5um" .
+
+# -----------------------------------------------------------------------------
+# CASE 6: CANINE RECTAL LYMPHOMA
+# -----------------------------------------------------------------------------
+vet:Case_006_Canine_RectalLymphoma a vet:PatientCase ;
+    vet:hasSpecies vet:Canine ;
+    vet:hasAge "9.0"^^xsd:float .
+
+vet:Sample_006_RectalScrape a vet:SlidePreparation ;
+    sosa:isSampleOf vet:Case_006_Canine_RectalLymphoma ;
+    vet:samplingMethod "RectalScrape" ;
+    vet:hasAnatomicSite obo:UBERON_0001052 . # Rectum
+
+vet:Obs_006_Site a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_006_RectalScrape ;
+    sosa:observedProperty vet:AnatomicSite ;
+    sosa:hasSimpleResult "RectalScrape" .
+
+vet:Obs_006_Lymphoblasts a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_006_RectalScrape ;
+    sosa:observedProperty vet:LymphoblastPercentage ;
+    sosa:hasValue "88.0"^^xsd:float .
+
+vet:Obs_006_InflammMix a sosa:Observation ;
+    sosa:hasFeatureOfInterest vet:Sample_006_RectalScrape ;
+    sosa:observedProperty vet:InflammatoryMix ;
+    sosa:hasSimpleResult "AbsentNoNeutrophilsEosinophilsMacrophages" .

@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Visor de grafo — Veterinary KG</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+  :root{
+    --bg: #0f1418;
+    --panel: #161d23;
+    --panel-border: #232c33;
+    --text: #dfe6ea;
+    --text-dim: #7d8b93;
+    --accent: #5ec8c0;
+    --accent-dim: #35625d;
+    --malignancy: #d97a6c;
+    --edge: #3a444b;
+    --danger: #e2635a;
+    --mono: ui-monospace, "SF Mono", Consolas, "Liberation Mono", monospace;
+    --sans: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; background:var(--bg); color:var(--text); font-family:var(--sans); }
+  #app { display:flex; height:100vh; }
+
+  #sidebar {
+    width: 320px; min-width:320px; background:var(--panel); border-right:1px solid var(--panel-border);
+    padding: 18px 18px 12px; display:flex; flex-direction:column; gap:14px; overflow-y:auto;
+  }
+  #sidebar h1 { font-size:15px; font-weight:600; margin:0 0 2px; letter-spacing:0.2px; }
+  #sidebar .sub { font-size:12px; color:var(--text-dim); margin:0 0 8px; line-height:1.5; }
+
+  label { display:block; font-size:11px; color:var(--text-dim); margin-bottom:4px; }
+  input, select, textarea {
+    width:100%; background:#0c1114; border:1px solid var(--panel-border); color:var(--text);
+    padding:7px 8px; border-radius:5px; font-family:var(--mono); font-size:12.5px; margin-bottom:10px;
+  }
+  input:focus, select:focus, textarea:focus { outline:none; border-color:var(--accent-dim); }
+
+  .row { display:flex; gap:8px; }
+  .row > div { flex:1; }
+
+  button {
+    background: var(--accent); color:#08211f; border:none; border-radius:5px; padding:9px 12px;
+    font-size:13px; font-weight:600; cursor:pointer; width:100%;
+  }
+  button:hover { filter:brightness(1.08); }
+  button.secondary {
+    background:transparent; color:var(--text); border:1px solid var(--panel-border); font-weight:500;
+  }
+  button.secondary:hover { border-color:var(--accent-dim); }
+
+  details { border-top:1px solid var(--panel-border); padding-top:10px; }
+  summary { cursor:pointer; font-size:12px; color:var(--text-dim); }
+  details p, details li { font-size:12px; color:var(--text-dim); line-height:1.6; }
+  details code { color:var(--accent); font-family:var(--mono); font-size:11.5px; }
+
+  #legend { display:flex; flex-direction:column; gap:6px; font-size:12px; margin-top:auto; padding-top:12px; border-top:1px solid var(--panel-border); }
+  .legend-item { display:flex; align-items:center; gap:8px; color:var(--text-dim); }
+  .swatch { width:11px; height:11px; border-radius:50%; flex-shrink:0; }
+  .swatch.sq { border-radius:2px; }
+
+  .mode-tabs { display:flex; gap:6px; margin-bottom:12px; }
+  .mode-tabs button { width:auto; flex:1; background:transparent; color:var(--text-dim); border:1px solid var(--panel-border); font-size:11.5px; padding:7px 6px; }
+  .mode-tabs button.active { background:var(--accent-dim); color:var(--text); border-color:var(--accent-dim); }
+  .mode-panel { display:none; flex-direction:column; }
+  .mode-panel.active { display:flex; }
+
+  textarea {
+    min-height:110px; resize:vertical; line-height:1.5;
+  }
+  select.presets { margin-bottom:8px; }
+
+  #status { font-size:11.5px; padding:8px 10px; border-radius:5px; background:#0c1114; border:1px solid var(--panel-border); color:var(--text-dim); min-height:14px; }
+  #status.error { color:var(--danger); border-color:#4a2622; }
+  #status.ok { color:var(--accent); }
+
+  #canvas-wrap { flex:1; position:relative; display:flex; flex-direction:column; }
+  svg { width:100%; height:100%; min-height:300px; display:block; flex:1; }
+  #resultsPanel {
+    max-height: 260px; overflow:auto; border-top:1px solid var(--panel-border); background:rgba(12,17,20,0.9);
+    padding: 10px 12px 12px; display:none;
+  }
+  #resultsPanel.visible { display:block; }
+  #resultsPanel h3 {
+    margin: 0 0 8px; font-size: 12px; color: var(--text-dim); letter-spacing: 0.08em; text-transform: uppercase;
+  }
+  #resultsTable {
+    width:100%; border-collapse:collapse; font-size:11.5px; color:var(--text);
+  }
+  #resultsTable th, #resultsTable td {
+    border:1px solid var(--panel-border); padding:7px 8px; text-align:left; vertical-align:top;
+    word-break: break-word; max-width: 260px;
+  }
+  #resultsTable th { background:#10171b; color:var(--text-dim); }
+  #resultsTable a { color: var(--accent); text-decoration:none; }
+  #resultsTable a:hover { text-decoration:underline; }
+  .link { stroke:var(--edge); stroke-width:1.2px; }
+  .link-label { fill:var(--text-dim); font-size:9.5px; font-family:var(--mono); pointer-events:none; }
+  .node circle { stroke:var(--bg); stroke-width:2px; cursor:pointer; }
+  .node circle.seed { stroke:var(--accent); stroke-width:3px; }
+  .node text { fill:var(--text); font-size:11px; font-family:var(--sans); pointer-events:none; }
+  .node:hover circle { filter:brightness(1.3); }
+
+  #tooltip {
+    position:absolute; background:#0c1114; border:1px solid var(--panel-border); color:var(--text);
+    padding:8px 10px; border-radius:6px; font-family:var(--mono); font-size:11.5px; pointer-events:none;
+    max-width:420px; word-break:break-all; opacity:0; transition:opacity 0.1s; z-index:10;
+  }
+
+  #hint {
+    position:absolute; bottom:14px; left:14px; font-size:11px; color:var(--text-dim);
+    background:rgba(12,17,20,0.85); padding:6px 10px; border-radius:5px; border:1px solid var(--panel-border);
+  }
+
+  .node.dim { opacity: 0.15; }
+  .node.highlight circle, .node.highlight rect { stroke:var(--accent); stroke-width:3px; filter:brightness(1.35); }
+  .link.dim { opacity: 0.08; }
+  .link.highlight { stroke:var(--accent); stroke-width:2.5px; }
+  .link-label.dim { opacity: 0.08; }
+
+  .checkbox-row { display:flex; align-items:center; gap:7px; margin-bottom:10px; font-size:11.5px; color:var(--text-dim); }
+  .checkbox-row input { width:auto; margin:0; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="sidebar">
+    <div>
+      <h1>Visor de grafo</h1>
+      <p class="sub">Consulta un endpoint Fuseki y explora el vecindario, las reglas clínicas y los casos de diagnóstico veterinario.</p>
+    </div>
+
+    <div>
+      <label for="endpoint">Endpoint SPARQL</label>
+      <input id="endpoint" value="http://localhost:3030/Veterinary/query" spellcheck="false">
+    </div>
+
+    <div class="mode-tabs">
+      <button id="tab-neighborhood" class="active" type="button">Vecindario</button>
+      <button id="tab-query" type="button">Consulta SPARQL</button>
+      <button id="tab-case" type="button">Caso + CSV</button>
+    </div>
+
+    <div id="panel-neighborhood" class="mode-panel active">
+      <label for="seed">URI semilla</label>
+      <input id="seed" value="http://example.org/vet-rules#Rule_Lymphoma" spellcheck="false">
+
+      <div class="row">
+        <div>
+          <label for="hops">Saltos</label>
+          <select id="hops">
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div>
+          <label for="cap">Máx. nodos</label>
+          <input id="cap" value="120" type="number" min="10" max="500">
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-query" class="mode-panel">
+      <label for="presets">Consultas de ejemplo</label>
+      <select id="presets" class="presets">
+        <option value="">— elegir un ejemplo —</option>
+        <option value="tumorRules">Reglas tumorales y diagnóstico</option>
+        <option value="patientCases">Casos clínicos y muestras</option>
+        <option value="bloodDiagnostics">Hallazgos hematológicos</option>
+        <option value="urineDiagnostics">Criterios de urianálisis</option>
+        <option value="roundCellLineage">Línea celular redonda</option>
+      </select>
+
+      <label for="customQuery">Consulta SELECT (debe devolver ?s ?p ?o)</label>
+      <textarea id="customQuery" spellcheck="false">PREFIX vet: &lt;http://example.org/vet-rules#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT ?s ?p ?o WHERE {
+  ?s a vet:TumorRule .
+  ?s ?p ?o .
+} LIMIT 200</textarea>
+
+      <label for="queryCap">Máx. nodos a graficar</label>
+      <input id="queryCap" value="150" type="number" min="10" max="1000">
+
+      <div class="checkbox-row">
+        <input type="checkbox" id="highlightMode">
+        <label for="highlightMode" style="margin:0;">Resaltar sobre el grafo actual (no reemplazar)</label>
+      </div>
+    </div>
+
+    <div id="panel-case" class="mode-panel">
+      <label for="casePatientId">ID paciente</label>
+      <input id="casePatientId" value="CASE_001" spellcheck="false">
+
+      <div class="row">
+        <div>
+          <label for="caseSpecies">Especie</label>
+          <select id="caseSpecies">
+            <option value="Canine">Canine</option>
+            <option value="Feline">Feline</option>
+          </select>
+        </div>
+        <div>
+          <label for="caseAge">Edad</label>
+          <input id="caseAge" value="8.5" type="number" step="0.1">
+        </div>
+      </div>
+
+      <div class="row">
+        <div>
+          <label for="caseBreed">Raza</label>
+          <input id="caseBreed" value="Boxer" spellcheck="false">
+        </div>
+        <div>
+          <label for="caseSex">Sexo</label>
+          <input id="caseSex" value="Male_Intact" spellcheck="false">
+        </div>
+      </div>
+
+      <label for="caseSampleType">Tipo de muestra</label>
+      <select id="caseSampleType">
+        <option value="Cytology">Citología</option>
+        <option value="Blood">Sangre</option>
+        <option value="Urine">Orina</option>
+        <option value="Feces">Heces / rectal</option>
+      </select>
+
+      <label for="caseSite">Sitio anatómico</label>
+      <input id="caseSite" value="Haired Skin" spellcheck="false">
+
+      <label for="caseMethod">Método de toma</label>
+      <input id="caseMethod" value="FineNeedleAspiration_40x" spellcheck="false">
+
+      <label for="caseObservation">Propiedad / hallazgo clínico</label>
+      <input id="caseObservation" value="CellCohesion" spellcheck="false">
+
+      <label for="caseValue">Valor medido</label>
+      <input id="caseValue" value="Individualized" spellcheck="false">
+
+      <label for="caseClinicalNote">Observación del veterinario</label>
+      <textarea id="caseClinicalNote" spellcheck="false">Mastocitoma cutáneo con células redondas, gránulos metacromáticos y eosinofilia de fondo.</textarea>
+
+      <label for="sampleCsvCaseSelect">Paciente del CSV</label>
+      <select id="sampleCsvCaseSelect">
+        <option value="">— seleccionar caso —</option>
+      </select>
+
+      <button id="buildPatientQuery" type="button">Generar consulta SPARQL</button>
+      <button id="loadSampleCsv" class="secondary" type="button">Cargar CSV de ejemplo</button>
+      <button id="saveCsv" class="secondary" type="button">Guardar paciente en CSV</button>
+      <input id="csvFileInput" type="file" accept=".csv" style="margin-bottom:10px;">
+    </div>
+
+    <button id="run">Cargar grafo</button>
+    <button id="clearHighlight" class="secondary" style="display:none;">Quitar resaltado</button>
+    <button id="clear" class="secondary">Limpiar</button>
+
+    <div id="status"></div>
+
+    <details>
+      <summary>Notas de configuración</summary>
+      <ul>
+        <li>Este visor está alineado con el dataset real de Fuseki en <code>http://localhost:3030/Veterinary/query</code> y con el esquema de reglas <code>http://example.org/vet-rules#</code> cargado en el grafo.</li>
+        <li>Si se abre desde <code>https://</code> u otra vista previa, el navegador bloquea llamadas a localhost por contenido mixto; guardá el archivo y abrilo directamente como <code>file://</code>.</li>
+        <li>En modo Consulta SPARQL se recomienda devolver exactos <code>?s ?p ?o</code> para visualizar nodos y aristas. Las presets nuevas usan propiedades reales del grafo de diagnóstico.</li>
+        <li>El formulario de casos puede generar consultas para analizar citología, sangre, orina y heces y luego descargar una fila nueva en CSV.</li>
+      </ul>
+    </details>
+
+    <div id="legend">
+      <div class="legend-item"><span class="swatch" style="background:var(--accent)"></span>Nodo semilla</div>
+      <div class="legend-item"><span class="swatch" style="background:#5b7d99"></span>Nodo del grafo</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--malignancy)"></span>Criterio de malignidad</div>
+      <div class="legend-item"><span class="swatch sq" style="background:#8a8f9a"></span>Valor literal</div>
+    </div>
+  </div>
+
+  <div id="canvas-wrap">
+    <svg id="svg"></svg>
+    <div id="resultsPanel">
+      <h3>Resultados</h3>
+      <div id="resultsTableWrap"></div>
+    </div>
+    <div id="tooltip"></div>
+    <div id="hint">Arrastrá para mover · rueda para zoom · doble click en un nodo para re-centrar</div>
+  </div>
+</div>
+
+<script>
+const statusEl = document.getElementById('status');
+const VET_NS = 'http://example.org/vet-rules#';
+const SOSA_NS = 'http://www.w3.org/ns/sosa/';
+const RDFS_NS = 'http://www.w3.org/2000/01/rdf-schema#';
+let currentMode = 'neighborhood';
+let simulation = null;
+let lastGraph = null;
+let lastResults = [];
+
+function setStatus(msg, kind) {
+  statusEl.textContent = msg;
+  statusEl.className = kind || '';
+}
+
+function localName(uri) {
+  const m = uri.match(/[#\/ ]?([^#\/]+)$/);
+  return m ? m[1] : uri;
+}
+
+async function sparqlSelect(endpoint, query) {
+  const url = endpoint + '?query=' + encodeURIComponent(query);
+  const res = await fetch(url, { headers: { 'Accept': 'application/sparql-results+json' } });
+  if (!res.ok) throw new Error('HTTP ' + res.status + ' — ' + (await res.text()).slice(0, 200));
+  const json = await res.json();
+  return json.results.bindings;
+}
+
+function clearResultsTable() {
+  lastResults = [];
+  renderResultsTable([]);
+}
+
+async function fetchOutgoing(endpoint, uri, limit) {
+  const q = `PREFIX vet: <${VET_NS}>
+PREFIX sosa: <${SOSA_NS}>
+SELECT ?p ?o WHERE {
+  GRAPH ?g { <${uri}> ?p ?o }
+} LIMIT ${limit}`;
+  return sparqlSelect(endpoint, q);
+}
+
+async function fetchIncoming(endpoint, uri, limit) {
+  const q = `PREFIX vet: <${VET_NS}>
+PREFIX sosa: <${SOSA_NS}>
+SELECT ?s ?p WHERE {
+  GRAPH ?g { ?s ?p <${uri}> }
+} LIMIT ${limit}`;
+  return sparqlSelect(endpoint, q);
+}
+
+async function fetchLabels(endpoint, uris) {
+  const labels = {};
+  const chunkSize = 25;
+  for (let i = 0; i < uris.length; i += chunkSize) {
+    const chunk = uris.slice(i, i + chunkSize);
+    const values = chunk.map(u => `<${u}>`).join(' ');
+    const q = `PREFIX rdfs: <${RDFS_NS}>
+      SELECT ?s ?label WHERE { VALUES ?s { ${values} } GRAPH ?g { ?s rdfs:label ?label } }`;
+    try {
+      const rows = await sparqlSelect(endpoint, q);
+      rows.forEach(r => { if (!labels[r.s.value]) labels[r.s.value] = r.label.value; });
+    } catch (e) {
+      // best effort only
+    }
+  }
+  return labels;
+}
+
+async function buildGraph(endpoint, seedUri, hops, cap) {
+  const nodes = new Map();
+  const edgeSet = new Set();
+  const edges = [];
+  nodes.set(seedUri, { id: seedUri, isSeed: true });
+
+  let frontier = [seedUri];
+  const perNodeLimit = 40;
+
+  for (let hop = 0; hop < hops && nodes.size < cap; hop++) {
+    const nextFrontier = [];
+    for (const uri of frontier) {
+      if (nodes.size >= cap) break;
+      let out = [], inc = [];
+      try {
+        [out, inc] = await Promise.all([
+          fetchOutgoing(endpoint, uri, perNodeLimit),
+          fetchIncoming(endpoint, uri, perNodeLimit),
+        ]);
+      } catch (e) {
+        throw new Error('Fallo al consultar ' + localName(uri) + ': ' + e.message);
+      }
+
+      for (const row of out) {
+        if (row.o.type === 'literal') continue;
+        const target = row.o.value;
+        if (!nodes.has(target) && nodes.size < cap) {
+          nodes.set(target, { id: target });
+          nextFrontier.push(target);
+        }
+        if (nodes.has(target)) {
+          const key = uri + '|' + row.p.value + '|' + target;
+          if (!edgeSet.has(key)) {
+            edgeSet.add(key);
+            edges.push({ source: uri, target, predicate: row.p.value });
+          }
+        }
+      }
+      for (const row of inc) {
+        const source = row.s.value;
+        if (!nodes.has(source) && nodes.size < cap) {
+          nodes.set(source, { id: source });
+          nextFrontier.push(source);
+        }
+        if (nodes.has(source)) {
+          const key = source + '|' + row.p.value + '|' + uri;
+          if (!edgeSet.has(key)) {
+            edgeSet.add(key);
+            edges.push({ source, target: uri, predicate: row.p.value });
+          }
+        }
+      }
+    }
+    frontier = nextFrontier;
+  }
+
+  const labels = await fetchLabels(endpoint, Array.from(nodes.keys()));
+  const nodeArr = Array.from(nodes.values()).map(n => ({
+    ...n,
+    label: labels[n.id] || localName(n.id),
+    isMalignancy: /aniso|mitos|nucleoli|multinuc|cohesion|vacuoles|atypia|lymphoblast/i.test(localName(n.id)),
+  }));
+
+  return { nodes: nodeArr, edges };
+}
+
+const PRESET_QUERIES = {
+  tumorRules: `PREFIX vet: <${VET_NS}>
+PREFIX rdfs: <${RDFS_NS}>
+SELECT ?s ?p ?o WHERE {
+  ?s a vet:TumorRule .
+  ?s ?p ?o .
+} LIMIT 200`,
+  patientCases: `PREFIX vet: <${VET_NS}>
+PREFIX sosa: <${SOSA_NS}>
+SELECT ?s ?p ?o WHERE {
+  ?case a vet:PatientCase .
+  ?case ?p ?o .
+  OPTIONAL { ?sample sosa:isSampleOf ?case . }
+  OPTIONAL { ?obs sosa:hasFeatureOfInterest ?sample . ?obs ?p ?o . }
+} LIMIT 200`,
+  bloodDiagnostics: `PREFIX vet: <${VET_NS}>
+PREFIX sosa: <${SOSA_NS}>
+SELECT ?case ?sample ?obs ?property ?result WHERE {
+  ?case a vet:PatientCase ; vet:hasSpecies ?species .
+  ?sample a vet:SlidePreparation ; sosa:isSampleOf ?case ; vet:samplingMethod ?method .
+  ?obs a sosa:Observation ; sosa:hasFeatureOfInterest ?sample ; sosa:observedProperty ?property .
+  OPTIONAL { ?obs sosa:hasValue ?result . }
+  OPTIONAL { ?obs sosa:hasSimpleResult ?result . }
+  FILTER(CONTAINS(LCASE(STR(?method)), 'blood') || CONTAINS(LCASE(STR(?method)), 'smear'))
+} LIMIT 200`,
+  urineDiagnostics: `PREFIX vet: <${VET_NS}>
+PREFIX sosa: <${SOSA_NS}>
+SELECT ?case ?sample ?obs ?property ?result WHERE {
+  ?case a vet:PatientCase .
+  ?sample a vet:SlidePreparation ; sosa:isSampleOf ?case ; vet:samplingMethod ?method .
+  ?obs a sosa:Observation ; sosa:hasFeatureOfInterest ?sample ; sosa:observedProperty ?property .
+  OPTIONAL { ?obs sosa:hasValue ?result . }
+  OPTIONAL { ?obs sosa:hasSimpleResult ?result . }
+  FILTER(CONTAINS(LCASE(STR(?method)), 'urine') || CONTAINS(LCASE(STR(?method)), 'sediment'))
+} LIMIT 200`,
+  roundCellLineage: `PREFIX vet: <${VET_NS}>
+SELECT ?s ?p ?o WHERE {
+  ?s vet:belongsToLineage vet:Lineage_RoundCells .
+  ?s ?p ?o .
+} LIMIT 200`
+};
+
+function setMode(mode) {
+  currentMode = mode;
+  document.getElementById('tab-neighborhood').classList.toggle('active', mode === 'neighborhood');
+  document.getElementById('tab-query').classList.toggle('active', mode === 'query');
+  document.getElementById('tab-case').classList.toggle('active', mode === 'case');
+  document.getElementById('panel-neighborhood').classList.toggle('active', mode === 'neighborhood');
+  document.getElementById('panel-query').classList.toggle('active', mode === 'query');
+  document.getElementById('panel-case').classList.toggle('active', mode === 'case');
+}
+
+document.getElementById('tab-neighborhood').addEventListener('click', () => setMode('neighborhood'));
+document.getElementById('tab-query').addEventListener('click', () => setMode('query'));
+document.getElementById('tab-case').addEventListener('click', () => setMode('case'));
+document.getElementById('presets').addEventListener('change', (e) => {
+  const key = e.target.value;
+  if (key && PRESET_QUERIES[key]) document.getElementById('customQuery').value = PRESET_QUERIES[key];
+});
+
+function parseCsv(text) {
+  const rows = [];
+  let current = '';
+  let row = [];
+  let inQuotes = false;
+
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    const next = text[i + 1];
+
+    if (ch === '"') {
+      if (inQuotes && next === '"') {
+        current += '"';
+        i++;
+      } else {
+        inQuotes = !inQuotes;
+      }
+    } else if (ch === ',' && !inQuotes) {
+      row.push(current);
+      current = '';
+    } else if ((ch === '\n' || ch === '\r') && !inQuotes) {
+      if (ch === '\r' && next === '\n') i++;
+      row.push(current);
+      if (row.some(value => value !== '')) rows.push(row);
+      row = [];
+      current = '';
+    } else {
+      current += ch;
+    }
+  }
+
+  if (current.length || row.length) {
+    row.push(current);
+    if (row.some(value => value !== '')) rows.push(row);
+  }
+
+  return rows;
+}
+
+let loadedSampleRecords = [];
+
+function buildRecordsFromCsvText(text) {
+  const rows = parseCsv(text);
+  if (!rows.length) return [];
+  const headers = rows[0].map(h => h.trim());
+  return rows.slice(1)
+    .filter(row => row.some(cell => cell && cell.trim()))
+    .map(row => {
+      const record = {};
+      headers.forEach((header, idx) => {
+        record[header] = (row[idx] || '').trim();
+      });
+      return record;
+    });
+}
+
+function renderSampleCsvOptions(records) {
+  const select = document.getElementById('sampleCsvCaseSelect');
+  select.innerHTML = '<option value="">— seleccionar caso —</option>';
+  records.forEach((record, index) => {
+    const id = record.patient_id || `Row_${index + 1}`;
+    const option = document.createElement('option');
+    option.value = id;
+    option.textContent = id;
+    select.appendChild(option);
+  });
+
+  if (records.length) {
+    const defaultId = records[0].patient_id || 'Row_1';
+    select.value = defaultId;
+  }
+}
+
+function loadRecordFromSelection() {
+  const select = document.getElementById('sampleCsvCaseSelect');
+  if (!loadedSampleRecords.length || !select.value) return;
+  const record = loadedSampleRecords.find(r => (r.patient_id || '').trim() === select.value)
+    || loadedSampleRecords.find((_, idx) => `Row_${idx + 1}` === select.value)
+    || loadedSampleRecords[0];
+  if (record) fillFormFromRow(record);
+}
+
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function buildGraphRows(graph) {
+  const rows = [];
+  for (const edge of graph.edges || []) {
+    const source = typeof edge.source === 'string' ? edge.source : edge.source.id;
+    const target = typeof edge.target === 'string' ? edge.target : edge.target.id;
+    rows.push({
+      s: { type: 'uri', value: source },
+      p: { type: 'uri', value: edge.predicate },
+      o: { type: 'uri', value: target },
+    });
+  }
+  return rows;
+}
+
+function renderResultsTable(bindings) {
+  const panel = document.getElementById('resultsPanel');
+  const wrap = document.getElementById('resultsTableWrap');
+
+  if (!bindings || !bindings.length) {
+    panel.classList.remove('visible');
+    wrap.innerHTML = '';
+    return;
+  }
+
+  const headers = Object.keys(bindings[0]);
+  const rowsHtml = bindings.map((row) => {
+    const cells = headers.map((key) => {
+      const value = row[key];
+      if (!value) return '<td>-</td>';
+      if (value.type === 'uri') {
+        const label = localName(value.value);
+        return `<td><a href="${escapeHtml(value.value)}" target="_blank" rel="noopener" title="${escapeHtml(value.value)}">${escapeHtml(label)}</a></td>`;
+      }
+      const text = value.value ?? '';
+      const suffix = value['xml:lang'] ? `@${value['xml:lang']}` : (value.datatype ? `^^${localName(value.datatype)}` : '');
+      return `<td>${escapeHtml(text)}${suffix ? escapeHtml(suffix) : ''}</td>`;
+    }).join('');
+    return `<tr>${cells}</tr>`;
+  }).join('');
+
+  const headersHtml = headers.map((key) => `<th>?${key}</th>`).join('');
+  wrap.innerHTML = `
+    <table id="resultsTable">
+      <thead><tr>${headersHtml}</tr></thead>
+      <tbody>${rowsHtml}</tbody>
+    </table>
+  `;
+  panel.classList.add('visible');
+}
+
+function toCsvRow(values) {
+  return values.map(value => {
+    const str = String(value ?? '');
+    return '"' + str.replace(/"/g, '""') + '"';
+  }).join(',');
+}
+
+function fillFormFromRow(rowMap) {
+  const mapping = {
+    patient_id: 'casePatientId',
+    species: 'caseSpecies',
+    age: 'caseAge',
+    breed: 'caseBreed',
+    sex: 'caseSex',
+    sample_type: 'caseSampleType',
+    site: 'caseSite',
+    sample_method: 'caseMethod',
+    observation_property: 'caseObservation',
+    observation_value: 'caseValue',
+    clinical_note: 'caseClinicalNote',
+    suspected_diagnosis: 'caseObservation'
+  };
+
+  Object.entries(mapping).forEach(([key, id]) => {
+    if (rowMap[key] !== undefined && rowMap[key] !== null) {
+      const element = document.getElementById(id);
+      if (!element) return;
+      element.value = rowMap[key];
+    }
+  });
+}
+
+async function loadSampleCsv() {
+  setStatus('Cargando CSV de ejemplo…');
+  try {
+    const response = await fetch('./sample_veterinary_patients.csv');
+    if (!response.ok) throw new Error('No se pudo leer sample_veterinary_patients.csv');
+    const text = await response.text();
+    const records = buildRecordsFromCsvText(text);
+    if (!records.length) throw new Error('El CSV no tiene filas de ejemplo.');
+    loadedSampleRecords = records;
+    renderSampleCsvOptions(records);
+    loadRecordFromSelection();
+    setStatus('Se cargó el caso de ejemplo seleccionado desde el CSV.', 'ok');
+  } catch (error) {
+    setStatus(error.message, 'error');
+  }
+}
+
+document.getElementById('loadSampleCsv').addEventListener('click', loadSampleCsv);
+document.getElementById('sampleCsvCaseSelect').addEventListener('change', loadRecordFromSelection);
+
+document.getElementById('csvFileInput').addEventListener('change', async function (event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  try {
+    const text = await file.text();
+    const records = buildRecordsFromCsvText(text);
+    if (!records.length) throw new Error('El archivo CSV está vacío o no tiene filas de datos.');
+    loadedSampleRecords = records;
+    renderSampleCsvOptions(records);
+    loadRecordFromSelection();
+    setStatus('Se cargó el paciente desde el CSV local.', 'ok');
+  } catch (error) {
+    setStatus('No se pudo leer el CSV cargado: ' + error.message, 'error');
+  }
+});
+
+function buildPatientQuery() {
+  const patient = {
+    patientId: document.getElementById('casePatientId').value.trim() || 'CASE_NEW',
+    species: document.getElementById('caseSpecies').value || 'Canine',
+    site: document.getElementById('caseSite').value.trim() || 'Unknown',
+    method: document.getElementById('caseMethod').value.trim() || 'Unknown',
+    property: document.getElementById('caseObservation').value.trim() || 'CellCohesion',
+  };
+
+  const speciesUri = patient.species === 'Canine' ? 'vet:Canine' : 'vet:Feline';
+  const observationUri = /^vet:/.test(patient.property) ? patient.property : `vet:${patient.property}`;
+  const sampleMethodFilter = (() => {
+    const f = document.getElementById('caseSampleType').value.toLowerCase();
+    if (f.includes('blood')) return `FILTER(CONTAINS(LCASE(STR(?method)), 'blood') || CONTAINS(LCASE(STR(?method)), 'smear'))`;
+    if (f.includes('urine')) return `FILTER(CONTAINS(LCASE(STR(?method)), 'urine') || CONTAINS(LCASE(STR(?method)), 'sediment'))`;
+    if (f.includes('feces') || f.includes('rectal')) return `FILTER(CONTAINS(LCASE(STR(?method)), 'feces') || CONTAINS(LCASE(STR(?method)), 'rectal'))`;
+    return `FILTER(CONTAINS(LCASE(STR(?method)), 'aspiration') || CONTAINS(LCASE(STR(?method)), 'scrape') || CONTAINS(LCASE(STR(?method)), 'cytology'))`;
+  })();
+
+  const query = `PREFIX vet: <${VET_NS}>
+PREFIX sosa: <${SOSA_NS}>
+SELECT ?case ?sample ?method ?obs ?property ?result WHERE {
+  ?case a vet:PatientCase ;
+        vet:hasSpecies ${speciesUri} .
+  ?sample a vet:SlidePreparation ;
+          sosa:isSampleOf ?case ;
+          vet:samplingMethod ?method ;
+          vet:hasAnatomicSite ?site .
+  ?obs a sosa:Observation ;
+       sosa:hasFeatureOfInterest ?sample ;
+       sosa:observedProperty ?property .
+  OPTIONAL { ?obs sosa:hasValue ?result . }
+  OPTIONAL { ?obs sosa:hasSimpleResult ?result . }
+  FILTER(?property = ${observationUri} || STR(?property) = "${patient.property}")
+  ${sampleMethodFilter}
+  FILTER(CONTAINS(STR(?site), "${patient.site.replace(/"/g, '\"')}"))
+} LIMIT 200`;
+
+  document.getElementById('customQuery').value = query;
+  setMode('query');
+  setStatus('Consulta SPARQL generada para el caso activo.', 'ok');
+  return query;
+}
+
+document.getElementById('buildPatientQuery').addEventListener('click', () => {
+  const query = buildPatientQuery();
+  const endpoint = document.getElementById('endpoint').value.trim();
+  if (!endpoint) {
+    setStatus('Define primero un endpoint SPARQL antes de ejecutar la consulta generada.', 'error');
+    return;
+  }
+  sparqlSelect(endpoint, query)
+    .then((rows) => {
+      if (!rows.length) {
+        setStatus('La consulta generada no devolvió resultados en el grafo actual.', 'error');
+        return;
+      }
+      setStatus(`${rows.length} filas encontradas para el caso ${document.getElementById('casePatientId').value}.`, 'ok');
+    })
+    .catch((error) => setStatus(error.message, 'error'));
+});
+
+function saveCurrentPatientToCsv() {
+  const formData = {
+    patient_id: document.getElementById('casePatientId').value.trim() || 'CASE_NEW',
+    species: document.getElementById('caseSpecies').value,
+    age: document.getElementById('caseAge').value.trim(),
+    breed: document.getElementById('caseBreed').value.trim(),
+    sex: document.getElementById('caseSex').value.trim(),
+    case_type: document.getElementById('caseSampleType').value,
+    sample_type: document.getElementById('caseSampleType').value,
+    site: document.getElementById('caseSite').value.trim(),
+    sample_method: document.getElementById('caseMethod').value.trim(),
+    observation_property: document.getElementById('caseObservation').value.trim(),
+    observation_value: document.getElementById('caseValue').value.trim(),
+    observation_unit: '',
+    clinical_note: document.getElementById('caseClinicalNote').value.trim(),
+    suspected_diagnosis: document.getElementById('caseObservation').value.trim(),
+  };
+
+  const headers = ['patient_id','species','age','breed','sex','case_type','sample_type','site','sample_method','observation_property','observation_value','observation_unit','clinical_note','suspected_diagnosis'];
+  const row = headers.map(h => formData[h] ?? '');
+  const csv = [headers.join(','), toCsvRow(row)].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `veterinary_case_${formData.patient_id.replace(/\s+/g, '_')}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+  setStatus('Se descargó el paciente nuevo en CSV para guardarlo localmente.', 'ok');
+}
+
+document.getElementById('saveCsv').addEventListener('click', saveCurrentPatientToCsv);
+
+async function buildGraphFromQuery(endpoint, query, cap) {
+  const bindings = await sparqlSelect(endpoint, query);
+  if (!bindings.length) {
+    return { nodes: [], edges: [], truncated: false };
+  }
+
+  const nodes = new Map();
+  const edgeSet = new Set();
+  const edges = [];
+  let truncated = false;
+
+  const tripleMode = bindings[0].s && bindings[0].p && bindings[0].o;
+
+  for (const row of bindings) {
+    if (nodes.size >= cap) {
+      truncated = true;
+      break;
+    }
+
+    if (tripleMode) {
+      const s = row.s.value;
+      const p = row.p.value;
+      const isLiteral = row.o.type === 'literal';
+      const oId = isLiteral ? (s + '|' + p + '|literal|' + row.o.value) : row.o.value;
+
+      if (!nodes.has(s)) nodes.set(s, { id: s, isLiteral: false });
+      if (!nodes.has(oId)) {
+        nodes.set(oId, isLiteral ? { id: oId, isLiteral: true, literalValue: row.o.value } : { id: oId, isLiteral: false });
+      }
+      const key = s + '|' + p + '|' + oId;
+      if (!edgeSet.has(key)) {
+        edgeSet.add(key);
+        edges.push({ source: s, target: oId, predicate: p });
+      }
+      continue;
+    }
+
+    const variables = Object.keys(row);
+    const values = [];
+    for (const variable of variables) {
+      const value = row[variable];
+      const id = value.type === 'literal' ? ('literal|' + variable + '|' + value.value) : value.value;
+      if (!nodes.has(id)) {
+        nodes.set(id, {
+          id,
+          isLiteral: value.type === 'literal',
+          literalValue: value.type === 'literal' ? value.value : undefined,
+        });
+      }
+      values.push({ varName: variable, id });
+    }
+
+    for (let i = 1; i < values.length; i++) {
+      const prev = values[i - 1];
+      const curr = values[i];
+      const key = prev.id + '|' + prev.varName + '->' + curr.varName + '|' + curr.id;
+      if (!edgeSet.has(key)) {
+        edgeSet.add(key);
+        edges.push({ source: prev.id, target: curr.id, predicate: `${prev.varName}->${curr.varName}` });
+      }
+    }
+  }
+
+  const entityUris = Array.from(nodes.values()).filter(n => !n.isLiteral).map(n => n.id);
+  const labels = await fetchLabels(endpoint, entityUris);
+  const nodeArr = Array.from(nodes.values()).map(n => ({
+    ...n,
+    label: n.isLiteral ? (n.literalValue.length > 40 ? n.literalValue.slice(0, 38) + '…' : n.literalValue)
+      : (labels[n.id] || localName(n.id)),
+  }));
+
+  return { nodes: nodeArr, edges, truncated };
+}
+
+function highlightInGraph(nodeIdSet, edgeKeySet) {
+  const svg = d3.select('#svg');
+  svg.selectAll('.node')
+    .classed('dim', d => !nodeIdSet.has(d.id))
+    .classed('highlight', d => nodeIdSet.has(d.id));
+  svg.selectAll('.link')
+    .classed('dim', d => !edgeKeySet.has(d.source.id + '|' + d.predicate + '|' + d.target.id))
+    .classed('highlight', d => edgeKeySet.has(d.source.id + '|' + d.predicate + '|' + d.target.id));
+  svg.selectAll('.link-label')
+    .classed('dim', d => !edgeKeySet.has(d.source.id + '|' + d.predicate + '|' + d.target.id));
+  document.getElementById('clearHighlight').style.display = 'block';
+}
+
+function clearHighlight() {
+  const svg = d3.select('#svg');
+  svg.selectAll('.node, .link, .link-label').classed('dim', false).classed('highlight', false);
+  document.getElementById('clearHighlight').style.display = 'none';
+}
+
+document.getElementById('clearHighlight').addEventListener('click', clearHighlight);
+
+function render(graph) {
+  lastGraph = graph;
+  const svg = d3.select('#svg');
+  svg.selectAll('*').remove();
+  const wrap = document.getElementById('canvas-wrap');
+  const width = wrap.clientWidth, height = wrap.clientHeight;
+
+  svg.append('defs').append('marker')
+    .attr('id', 'arrow').attr('viewBox', '0 -4 8 8').attr('refX', 20).attr('refY', 0)
+    .attr('markerWidth', 6).attr('markerHeight', 6).attr('orient', 'auto')
+    .append('path').attr('d', 'M0,-4L8,0L0,4').attr('fill', '#3a444b');
+
+  const g = svg.append('g');
+  svg.call(d3.zoom().scaleExtent([0.15, 4]).on('zoom', (e) => g.attr('transform', e.transform)));
+
+  const tooltip = d3.select('#tooltip');
+
+  const link = g.append('g').selectAll('line')
+    .data(graph.edges).join('line')
+    .attr('class', 'link').attr('marker-end', 'url(#arrow)');
+
+  const linkLabel = g.append('g').selectAll('text')
+    .data(graph.edges).join('text')
+    .attr('class', 'link-label')
+    .text(d => localName(d.predicate));
+
+  const node = g.append('g').selectAll('g')
+    .data(graph.nodes, d => d.id).join('g')
+    .attr('class', 'node')
+    .call(d3.drag()
+      .on('start', (e, d) => { if (!e.active) simulation.alphaTarget(0.25).restart(); d.fx = d.x; d.fy = d.y; })
+      .on('drag', (e, d) => { d.fx = e.x; d.fy = e.y; })
+      .on('end', (e, d) => { if (!e.active) simulation.alphaTarget(0); }));
+
+  node.filter(d => !d.isLiteral).append('circle')
+    .attr('r', d => d.isSeed ? 12 : 8)
+    .attr('class', d => d.isSeed ? 'seed' : '')
+    .attr('fill', d => d.isSeed ? 'var(--accent)' : '#5b7d99');
+
+  node.filter(d => d.isLiteral).append('rect')
+    .attr('x', -5).attr('y', -5).attr('width', 10).attr('height', 10).attr('rx', 2)
+    .attr('fill', '#8a8f9a').attr('stroke', 'var(--bg)').attr('stroke-width', 2);
+
+  node.append('text')
+    .attr('dx', 13).attr('dy', 4)
+    .text(d => d.label.length > 34 ? d.label.slice(0, 32) + '…' : d.label);
+
+  node.on('mouseenter', (e, d) => {
+    tooltip.style('opacity', 1).html(`<strong>${d.label}</strong><br>${d.isLiteral ? '(valor literal)' : d.id}`);
+  }).on('mousemove', (e) => {
+    tooltip.style('left', (e.offsetX + 16) + 'px').style('top', (e.offsetY + 16) + 'px');
+  }).on('mouseleave', () => tooltip.style('opacity', 0));
+
+  node.on('click', (e, d) => { d.fx = d.fx == null ? d.x : null; d.fy = d.fy == null ? d.y : null; });
+  node.on('dblclick', async (e, d) => {
+    if (d.isLiteral) return;
+    setMode('neighborhood');
+    document.getElementById('seed').value = d.id;
+    await loadGraph();
+  });
+
+  simulation = d3.forceSimulation(graph.nodes)
+    .force('link', d3.forceLink(graph.edges).id(d => d.id).distance(90).strength(0.5))
+    .force('charge', d3.forceManyBody().strength(-260))
+    .force('center', d3.forceCenter(width / 2, height / 2))
+    .force('collide', d3.forceCollide(24))
+    .on('tick', () => {
+      link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+          .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+      linkLabel.attr('x', d => (d.source.x + d.target.x) / 2)
+                .attr('y', d => (d.source.y + d.target.y) / 2);
+      node.attr('transform', d => `translate(${d.x},${d.y})`);
+    });
+}
+
+async function loadGraph() {
+  const endpoint = document.getElementById('endpoint').value.trim();
+  if (!endpoint) {
+    setStatus('Falta el endpoint.', 'error');
+    return;
+  }
+
+  if (currentMode === 'neighborhood') {
+    const seed = document.getElementById('seed').value.trim();
+    const hops = parseInt(document.getElementById('hops').value, 10);
+    const cap = parseInt(document.getElementById('cap').value, 10) || 120;
+    if (!seed) {
+      setStatus('Falta la URI semilla.', 'error');
+      return;
+    }
+    setStatus('Consultando…');
+    try {
+      const graph = await buildGraph(endpoint, seed, hops, cap);
+      if (graph.nodes.length <= 1) {
+        setStatus('No se encontraron triples para esa URI en este endpoint.', 'error');
+        return;
+      }
+      lastResults = buildGraphRows(graph);
+      renderResultsTable(lastResults);
+      render(graph);
+      setStatus(`${graph.nodes.length} nodos, ${graph.edges.length} conexiones.`, 'ok');
+    } catch (e) {
+      setStatus(e.message + ' — revisá CORS, la URL del endpoint o la conexión de red.', 'error');
+    }
+    return;
+  }
+
+  const query = document.getElementById('customQuery').value.trim();
+  const cap = parseInt(document.getElementById('queryCap').value, 10) || 150;
+  const highlightOnly = document.getElementById('highlightMode').checked;
+  if (!query) {
+    setStatus('Falta la consulta SPARQL.', 'error');
+    return;
+  }
+
+  if (highlightOnly && lastGraph) {
+    setStatus('Ejecutando consulta…');
+    try {
+      const bindings = await sparqlSelect(endpoint, query);
+      lastResults = bindings;
+      renderResultsTable(bindings);
+      const hasTripleShape = bindings.length && bindings[0].s && bindings[0].p && bindings[0].o;
+      const nodeIdSet = new Set();
+      const edgeKeySet = new Set();
+      for (const row of bindings) {
+        if (hasTripleShape) {
+          nodeIdSet.add(row.s.value);
+          if (row.o.type !== 'literal') nodeIdSet.add(row.o.value);
+          edgeKeySet.add(row.s.value + '|' + row.p.value + '|' + row.o.value);
+        } else {
+          const values = Object.keys(row).map(key => ({ key, value: row[key] }));
+          for (const item of values) {
+            const id = item.value.type === 'literal' ? ('literal|' + item.key + '|' + item.value.value) : item.value.value;
+            nodeIdSet.add(id);
+          }
+          for (let i = 1; i < values.length; i++) {
+            const prev = values[i - 1];
+            const curr = values[i];
+            const prevId = prev.value.type === 'literal' ? ('literal|' + prev.key + '|' + prev.value.value) : prev.value.value;
+            const currId = curr.value.type === 'literal' ? ('literal|' + curr.key + '|' + curr.value.value) : curr.value.value;
+            edgeKeySet.add(prevId + '|' + prev.key + '->' + curr.key + '|' + currId);
+          }
+        }
+      }
+      highlightInGraph(nodeIdSet, edgeKeySet);
+      const matchedOnScreen = lastGraph.nodes.filter(n => nodeIdSet.has(n.id)).length;
+      setStatus(`${matchedOnScreen} de ${lastGraph.nodes.length} nodos del grafo actual coinciden con la consulta.`, 'ok');
+    } catch (e) {
+      setStatus(e.message + ' — revisá la sintaxis SPARQL, CORS, o la conexión de red.', 'error');
+    }
+    return;
+  }
+
+  if (highlightOnly && !lastGraph) {
+    setStatus('No hay grafo cargado para resaltar — se hará una carga normal primero.', '');
+  }
+  setStatus('Ejecutando consulta…');
+  try {
+    const bindings = await sparqlSelect(endpoint, query);
+    lastResults = bindings;
+    renderResultsTable(bindings);
+    if (!bindings.length) {
+      setStatus('La consulta no devolvió resultados.', 'error');
+      return;
+    }
+    const graph = await buildGraphFromQuery(endpoint, query, cap);
+    if (graph.nodes.length === 0) {
+      setStatus('La consulta no devolvió resultados.', 'error');
+      return;
+    }
+    render(graph);
+    const truncNote = graph.truncated ? ` (truncado a ${cap} nodos — subí "Máx. nodos" o ajustá el LIMIT de la consulta)` : '';
+    setStatus(`${graph.nodes.length} nodos, ${graph.edges.length} conexiones.${truncNote}`, 'ok');
+  } catch (e) {
+    setStatus(e.message + ' — revisá la sintaxis SPARQL, CORS, o la conexión de red.', 'error');
+  }
+}
+
+document.getElementById('run').addEventListener('click', loadGraph);
+document.getElementById('clear').addEventListener('click', () => {
+  d3.select('#svg').selectAll('*').remove();
+  if (simulation) simulation.stop();
+  lastGraph = null;
+  clearResultsTable();
+  document.getElementById('clearHighlight').style.display = 'none';
+  setStatus('');
+});
+</script>
+</body>
+</html>

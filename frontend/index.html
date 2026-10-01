@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DigPathoVet · Explorador del Grafo de Conocimiento</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+  :root{
+    --bg: #eef1ee;
+    --paper: #f8faf8;
+    --ink: #16211d;
+    --ink-soft: #4b5a53;
+    --line: #c7d0c9;
+    --line-soft: #dde3dc;
+    --teal: #1f4b43;
+    --teal-deep: #142f2a;
+    --teal-mist: #e2ebe8;
+    --amber: #b8752e;
+    --amber-soft: #f4e6d2;
+    --red: #a33a2c;
+    --red-soft: #f5e0da;
+    --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+    --sans: 'IBM Plex Sans', system-ui, sans-serif;
+    --radius: 3px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-size:14px;
+    line-height:1.5;
+    min-height:100vh;
+  }
+  a{color:var(--teal);}
+
+  /* ---------- Header ---------- */
+  header.topbar{
+    background:var(--teal-deep);
+    color:#eef4f1;
+    padding:18px 28px;
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+    border-bottom:3px solid var(--teal);
+  }
+  header.topbar .title-block h1{
+    margin:0;
+    font-size:19px;
+    font-weight:600;
+    letter-spacing:0.2px;
+  }
+  header.topbar .title-block p{
+    margin:2px 0 0;
+    font-size:12.5px;
+    color:#a9c3ba;
+    font-family:var(--mono);
+  }
+  .endpoint-row{
+    display:flex;
+    gap:8px;
+    align-items:center;
+    font-family:var(--mono);
+    font-size:12.5px;
+  }
+  .endpoint-row input{
+    background:#0f211d;
+    border:1px solid #2b5249;
+    color:#dcece6;
+    padding:7px 9px;
+    border-radius:var(--radius);
+    font-family:var(--mono);
+    font-size:12.5px;
+    width:320px;
+  }
+  .btn{
+    font-family:var(--sans);
+    font-weight:600;
+    font-size:12.5px;
+    border:1px solid var(--teal);
+    background:var(--teal);
+    color:#f1f6f4;
+    padding:7px 13px;
+    border-radius:var(--radius);
+    cursor:pointer;
+  }
+  .btn:hover{background:var(--teal-deep);}
+  .btn.ghost{background:transparent;color:var(--teal);}
+  .btn.ghost:hover{background:var(--teal-mist);}
+  .btn.small{padding:4px 9px;font-size:11.5px;}
+  .status-dot{
+    display:inline-block;width:8px;height:8px;border-radius:50%;
+    background:#6b7a73;margin-right:6px;
+  }
+  .status-dot.ok{background:#4f9b6e;}
+  .status-dot.err{background:#c1503e;}
+
+  /* ---------- Layout ---------- */
+  .shell{
+    display:grid;
+    grid-template-columns:300px 1fr;
+    gap:0;
+    align-items:start;
+  }
+  @media (max-width:880px){ .shell{grid-template-columns:1fr;} }
+
+  aside.sidebar{
+    background:var(--paper);
+    border-right:1px solid var(--line);
+    min-height:calc(100vh - 76px);
+    padding:20px;
+  }
+  main.content{
+    padding:22px 26px 60px;
+  }
+  section.block{
+    margin-bottom:26px;
+  }
+  .block h2{
+    font-size:11.5px;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    color:var(--ink-soft);
+    margin:0 0 10px;
+    font-weight:600;
+    border-bottom:1px solid var(--line-soft);
+    padding-bottom:6px;
+  }
+
+  /* graph list */
+  #graphList{list-style:none;margin:0;padding:0;font-family:var(--mono);font-size:12px;}
+  #graphList li{
+    display:flex;justify-content:space-between;gap:6px;
+    padding:6px 7px;border-radius:var(--radius);cursor:pointer;
+    border:1px solid transparent;
+  }
+  #graphList li:hover{background:var(--teal-mist);border-color:var(--line);}
+  #graphList li.active{background:var(--teal-mist);border-color:var(--teal);}
+  #graphList .cnt{color:var(--ink-soft);}
+
+  /* patient loader */
+  #patientSelect{width:100%;padding:7px;border:1px solid var(--line);border-radius:var(--radius);font-family:var(--sans);font-size:12.5px;background:#fff;}
+  .file-row{display:flex;flex-direction:column;gap:8px;}
+  .hint{font-size:11.5px;color:var(--ink-soft);line-height:1.45;}
+
+  /* ---------- Tabs ---------- */
+  .tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);margin-bottom:18px;}
+  .tab{
+    font-family:var(--sans);font-weight:600;font-size:13px;
+    background:transparent;border:none;border-bottom:3px solid transparent;
+    padding:9px 14px;cursor:pointer;color:var(--ink-soft);
+  }
+  .tab.active{color:var(--teal);border-bottom-color:var(--teal);}
+  .tabpanel{display:none;}
+  .tabpanel.active{display:block;}
+
+  /* ---------- Form ---------- */
+  fieldset{
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:14px 16px 16px;
+    margin:0 0 14px;
+    background:var(--paper);
+  }
+  legend{
+    font-family:var(--mono);
+    font-size:11.5px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--teal);
+    padding:0 6px;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+    gap:10px 14px;
+  }
+  .field label{
+    display:block;font-size:11.5px;color:var(--ink-soft);margin-bottom:3px;
+    font-family:var(--mono);
+  }
+  .field input, .field select{
+    width:100%;padding:7px 8px;border:1px solid var(--line);border-radius:var(--radius);
+    font-family:var(--sans);font-size:13px;background:#fff;color:var(--ink);
+  }
+  .field input:focus, .field select:focus{outline:2px solid var(--teal);outline-offset:1px;}
+  .field.wide{grid-column:1/-1;}
+
+  .builder-actions{display:flex;gap:10px;margin:6px 0 22px;flex-wrap:wrap;}
+
+  /* ---------- Examples ---------- */
+  .example-card{
+    border:1px solid var(--line);border-left:4px solid var(--teal);
+    border-radius:var(--radius);background:var(--paper);
+    padding:12px 14px;margin-bottom:12px;
+  }
+  .example-card h3{margin:0 0 4px;font-size:14px;}
+  .example-card p{margin:0 0 10px;font-size:12.5px;color:var(--ink-soft);}
+
+  /* ---------- SPARQL editor + results ---------- */
+  .editor-label{
+    display:flex;justify-content:space-between;align-items:center;margin:22px 0 6px;
+  }
+  .editor-label span{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:0.06em;color:var(--ink-soft);}
+  textarea#sparqlBox{
+    width:100%;min-height:190px;
+    font-family:var(--mono);font-size:12.5px;line-height:1.55;
+    padding:12px 14px;border:1px solid var(--line);border-radius:var(--radius);
+    background:#101d19;color:#d8ead2;
+    resize:vertical;
+  }
+  .run-row{display:flex;gap:10px;align-items:center;margin:10px 0 4px;}
+  #queryMsg{font-family:var(--mono);font-size:12px;color:var(--ink-soft);}
+  #queryMsg.err{color:var(--red);}
+  #queryMsg.ok{color:var(--teal);}
+
+  .results-wrap{margin-top:18px;border:1px solid var(--line);border-radius:var(--radius);overflow:auto;max-height:480px;}
+  table.results{border-collapse:collapse;width:100%;font-size:12.5px;}
+  table.results th{
+    position:sticky;top:0;background:var(--teal-deep);color:#eef4f1;
+    text-align:left;padding:8px 10px;font-family:var(--mono);font-weight:500;
+    white-space:nowrap;
+  }
+  table.results td{
+    padding:7px 10px;border-top:1px solid var(--line-soft);
+    font-family:var(--mono);font-size:12px;max-width:340px;
+    overflow-wrap:anywhere;
+  }
+  table.results tr:nth-child(even) td{background:#f2f5f1;}
+  .uri-chip{color:var(--teal-deep);}
+  .lit-alert{color:var(--red);font-weight:600;}
+
+  footer.foot{padding:22px 26px 40px;color:var(--ink-soft);font-size:11.5px;font-family:var(--mono);border-top:1px solid var(--line);}
+
+  /* ---------- Node explorer ---------- */
+  .node-toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;}
+  .node-toolbar input{
+    padding:7px 9px;border:1px solid var(--line);border-radius:var(--radius);
+    font-family:var(--sans);font-size:12.5px;width:220px;background:#fff;
+  }
+  .node-legend{display:flex;gap:16px;flex-wrap:wrap;font-size:11.5px;color:var(--ink-soft);margin:0 0 10px;font-family:var(--mono);}
+  .node-legend span{display:inline-flex;align-items:center;gap:5px;}
+  .swatch{width:10px;height:10px;border-radius:50%;display:inline-block;}
+  .sw-rule{background:#1f4b43;}
+  .sw-case{background:#b8752e;}
+  .sw-concept{background:#3a4a8f;}
+  .sw-ontology{background:#7c8a84;}
+  .sw-highlight{background:#e0c34a;border:2px solid #8a6d1a;width:8px;height:8px;}
+
+  .graph-wrap{
+    border:1px solid var(--line);border-radius:var(--radius);
+    background:var(--paper);
+    height:520px;position:relative;overflow:hidden;
+  }
+  .graph-wrap svg{width:100%;height:100%;cursor:grab;}
+  .graph-wrap svg:active{cursor:grabbing;}
+  .node-empty-msg{
+    position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+    color:var(--ink-soft);font-size:13px;text-align:center;max-width:280px;
+  }
+  .gnode circle{stroke:#fff;stroke-width:1.5px;cursor:pointer;}
+  .gnode circle.highlighted{stroke:#8a6d1a;stroke-width:3px;}
+  .gnode text{font-family:var(--mono);font-size:10px;fill:var(--ink);pointer-events:none;}
+  .glink{stroke:#a9b6ae;stroke-width:1.2px;}
+  .glink-label{font-family:var(--mono);font-size:8.5px;fill:var(--ink-soft);pointer-events:none;}
+  #nodeDetailArea{margin-top:14px;}
+  #nodeResultNote{font-family:var(--mono);font-size:12px;color:var(--teal);margin:8px 0 0;}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="title-block">
+    <h1>DigPathoVet — Explorador del Grafo de Conocimiento</h1>
+    <p>Jena Fuseki · dataset "Veterinary" · 9 grafos con nombre · ontología SOSA/SSN + NCIT/MONDO/UBERON/CL/vetSNOMED</p>
+  </div>
+  <div class="endpoint-row">
+    <span id="statusDot"><span class="status-dot" id="dot"></span><span id="statusText">sin verificar</span></span>
+    <input type="text" id="endpoint" value="http://localhost:3030/Veterinary/sparql" spellcheck="false">
+    <button class="btn ghost small" id="testConn">Probar conexión</button>
+  </div>
+</header>
+
+<div class="shell">
+
+  <aside class="sidebar">
+
+    <section class="block">
+      <h2>Grafos con nombre</h2>
+      <button class="btn small" id="loadGraphs" style="margin-bottom:10px;">Listar grafos</button>
+      <ul id="graphList"><li style="color:var(--ink-soft);cursor:default;">(sin cargar)</li></ul>
+      <p class="hint" id="graphHint" style="margin-top:8px;">Elegí un grafo para ver sus clases e instancias en la pestaña "Explorar".</p>
+    </section>
+
+    <section class="block">
+      <h2>Pacientes de ejemplo (CSV)</h2>
+      <div class="file-row">
+        <input type="file" id="csvFile" accept=".csv" style="font-size:12px;">
+        <select id="patientSelect"><option>— cargue un CSV —</option></select>
+        <button class="btn small ghost" id="loadPatient">Cargar en el formulario</button>
+      </div>
+      <p class="hint">El CSV precarga edad, especie, resultados de laboratorio y hallazgos de citología/orina/heces en el constructor de consultas.</p>
+    </section>
+
+  </aside>
+
+  <main class="content">
+
+    <div class="tabs">
+      <button class="tab active" data-tab="explorar">Explorar grafo</button>
+      <button class="tab" data-tab="constructor">Constructor de consultas</button>
+      <button class="tab" data-tab="ejemplos">Consultas de ejemplo</button>
+      <button class="tab" data-tab="nodos">Explorador de nodos</button>
+      <button class="tab" data-tab="manual">SPARQL manual</button>
+    </div>
+
+    <!-- ================= EXPLORAR ================= -->
+    <div class="tabpanel active" id="tab-explorar">
+      <p class="hint">Elegí un grafo en la barra lateral para listar sus clases (con conteo de instancias). Luego elegí una clase para ver instancias, y una instancia para ver todas sus propiedades.</p>
+      <div id="explorerArea"></div>
+    </div>
+
+    <!-- ================= CONSTRUCTOR ================= -->
+    <div class="tabpanel" id="tab-constructor">
+      <p class="hint">Completá los campos que tengan datos disponibles del paciente. El botón genera una consulta SPARQL que cruza <code>complete_vet_rules</code> (reglas diagnósticas) con los umbrales de laboratorio o con hallazgos visuales de citología / orina / heces. Dejá en blanco lo que no aplique.</p>
+
+      <fieldset>
+        <legend>Paciente</legend>
+        <div class="grid">
+          <div class="field"><label>Especie</label>
+            <select id="f_species">
+              <option value="">— cualquiera —</option>
+              <option value="Canine">Canino</option>
+              <option value="Feline">Felino</option>
+            </select>
+          </div>
+          <div class="field"><label>Raza</label><input id="f_breed" placeholder="ej. Boxer"></div>
+          <div class="field"><label>Edad (años)</label><input id="f_age" type="number" step="0.1"></div>
+          <div class="field"><label>Sexo</label><input id="f_sex" placeholder="ej. Male_Intact"></div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Sangre / Hemograma (CBC)</legend>
+        <div class="grid">
+          <div class="field"><label>HCT (%) · LOINC 20570-8</label><input id="f_hct" type="number" step="0.1"></div>
+          <div class="field"><label>MCV (fL) · LOINC 787-2</label><input id="f_mcv" type="number" step="0.1"></div>
+          <div class="field"><label>MCHC (%) · LOINC 28540-3</label><input id="f_mchc" type="number" step="0.1"></div>
+          <div class="field"><label>Reticulocitos (/µL) · LOINC 33252-8</label><input id="f_retic" type="number" step="1"></div>
+          <div class="field"><label>WBC totales (/µL) · LOINC 6690-2</label><input id="f_wbc" type="number" step="1"></div>
+          <div class="field"><label>Segmentados (/µL) · LOINC 751-8</label><input id="f_segs" type="number" step="1"></div>
+          <div class="field"><label>Bandas (/µL) · LOINC 35332-6</label><input id="f_bands" type="number" step="1"></div>
+          <div class="field"><label>Plaquetas (/µL) · LOINC 777-3</label><input id="f_plt" type="number" step="1"></div>
+          <div class="field"><label>Relación M:E · LOINC 26488-7</label><input id="f_me" type="number" step="0.01"></div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Citología (FNA / frotis / raspado)</legend>
+        <div class="grid">
+          <div class="field wide"><label>Hallazgo visual (texto libre — busca en visualFeature / cohesionState / etc.)</label>
+            <input id="f_cyto" placeholder="ej. gránulos metacromáticos púrpura, núcleos en coma...">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Orina</legend>
+        <div class="grid">
+          <div class="field"><label>pH</label><input id="f_uph" type="number" step="0.1"></div>
+          <div class="field"><label>Eritrocitos /campo</label><input id="f_urbc" type="number" step="1"></div>
+          <div class="field"><label>Leucocitos /campo</label><input id="f_uwbc" type="number" step="1"></div>
+          <div class="field wide"><label>Morfología de cristal / cilindro / sedimento (texto libre)</label>
+            <input id="f_ucrystal" placeholder="ej. prismas tapa de ataúd, sobre con líneas en X...">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Heces / Coprología</legend>
+        <div class="grid">
+          <div class="field wide"><label>Hallazgo parasitológico (texto libre)</label>
+            <input id="f_feces" placeholder="ej. trofozoítos piriformes, movimiento hoja que cae...">
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="builder-actions">
+        <button class="btn" id="buildQuery">Generar consulta SPARQL</button>
+        <button class="btn ghost" id="clearForm">Limpiar formulario</button>
+      </div>
+    </div>
+
+    <!-- ================= EJEMPLOS ================= -->
+    <div class="tabpanel" id="tab-ejemplos">
+      <p class="hint">Consultas reales, probadas contra el grafo actual. Cada una carga en el editor de abajo — revisala y ejecutala.</p>
+      <div id="examplesArea"></div>
+    </div>
+
+    <!-- ================= NODOS ================= -->
+    <div class="tabpanel" id="tab-nodos">
+      <p class="hint">Hacé clic en un nodo para expandir sus vecinos (triples entrantes y salientes). Doble clic para ver todas sus propiedades en la tabla de resultados de abajo. Los resultados de cualquier consulta ejecutada se pueden volcar acá con el botón "Ver en el explorador de nodos" que aparece junto al mensaje de resultados.</p>
+      <div class="node-toolbar">
+        <button class="btn small" id="seedTumors">Cargar muestra: reglas de tumores</button>
+        <button class="btn small ghost" id="seedRules">Cargar muestra: todas las reglas</button>
+        <input type="text" id="nodeSearch" placeholder="Buscar por palabra clave y agregar...">
+        <button class="btn small ghost" id="nodeSearchBtn">Buscar</button>
+        <button class="btn small ghost" id="clearGraph">Limpiar grafo</button>
+      </div>
+      <div class="node-legend">
+        <span><i class="swatch sw-rule"></i>Regla diagnóstica</span>
+        <span><i class="swatch sw-case"></i>Caso de paciente</span>
+        <span><i class="swatch sw-concept"></i>Otro concepto vetr:</span>
+        <span><i class="swatch sw-ontology"></i>Ontología externa (OBO/LOINC/SNOMED)</span>
+        <span><i class="swatch sw-highlight"></i>Resaltado por última consulta</span>
+      </div>
+      <div class="graph-wrap" id="graphWrap">
+        <svg id="nodeSvg"></svg>
+        <div class="node-empty-msg" id="graphEmptyMsg">El grafo visual está vacío.<br>Cargá una muestra o buscá un nodo para empezar.</div>
+      </div>
+      <div id="nodeSearchResults"></div>
+      <div id="nodeDetailArea"></div>
+    </div>
+
+    <!-- ================= MANUAL ================= -->
+    <div class="tabpanel" id="tab-manual">
+      <p class="hint">Escribí cualquier consulta SPARQL directamente. Los prefijos <code>vetr:</code>, <code>sosa:</code> y <code>rdfs:</code> ya están declarados en el editor por defecto.</p>
+    </div>
+
+    <!-- ============ EDITOR + RESULTADOS (compartido) ============ -->
+    <div class="editor-label">
+      <span>Editor SPARQL</span>
+      <span id="editorSourceTag" style="font-family:var(--mono);font-size:11px;color:var(--ink-soft);"></span>
+    </div>
+    <textarea id="sparqlBox" spellcheck="false"></textarea>
+    <div class="run-row">
+      <button class="btn" id="runQuery">▶ Ejecutar consulta</button>
+      <button class="btn ghost small" id="copyQuery">Copiar</button>
+      <button class="btn ghost small" id="visualizeBtn" style="display:none;">🔵 Ver en el explorador de nodos</button>
+      <span id="queryMsg"></span>
+    </div>
+
+    <div class="results-wrap" id="resultsWrap" style="display:none;">
+      <table class="results" id="resultsTable"></table>
+    </div>
+
+  </main>
+</div>
+
+<footer class="foot">
+  DigPathoVet KG Explorer — herramienta local, sin dependencias externas de red salvo el endpoint SPARQL configurado arriba.
+  Si las consultas fallan por CORS, habilitá CORS en Fuseki (viene activado por defecto en versiones recientes) o serví este archivo desde un servidor local en vez de abrirlo como file://.
+</footer>
+
+<script>
+/* ============================================================
+   Config & vocabulary
+   ============================================================ */
+const NS = {
+  vetr: 'http://example.org/vet-rules#',
+  sosa: 'http://www.w3.org/ns/sosa/',
+  rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
+  rdf:  'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+};
+const GRAPHS = [
+  'http://digpatho.org/complete_vet_rules',
+  'http://digpatho.org/sosa_schema',
+  'http://digpatho.org/vetsnomed',
+  'http://digpatho.org/taxslim_full',
+  'http://digpatho.org/ncbitaxon_subset',
+  'http://digpatho.org/mondo_subset',
+  'http://digpatho.org/ncit_subset',
+  'http://digpatho.org/uberon_subset',
+  'http://digpatho.org/cell_lineage'
+];
+const RULES_GRAPH = 'http://digpatho.org/complete_vet_rules';
+const CASES_GRAPH  = 'http://digpatho.org/sosa_schema';
+
+const PREFIXES = `PREFIX vetr: <${NS.vetr}>
+PREFIX sosa: <${NS.sosa}>
+PREFIX rdfs: <${NS.rdfs}>
+PREFIX rdf:  <${NS.rdf}>
+`;
+
+// Lab fields: form id -> { loinc code, human label }
+const LAB_FIELDS = [
+  { id:'f_hct',   loinc:'20570-8', label:'HCT' },
+  { id:'f_mcv',   loinc:'787-2',   label:'MCV' },
+  { id:'f_mchc',  loinc:'28540-3', label:'MCHC' },
+  { id:'f_retic', loinc:'33252-8', label:'Reticulocitos' },
+  { id:'f_wbc',   loinc:'6690-2',  label:'WBC' },
+  { id:'f_segs',  loinc:'751-8',   label:'Neutrofilos segmentados' },
+  { id:'f_bands', loinc:'35332-6', label:'Neutrofilos en banda' },
+  { id:'f_plt',   loinc:'777-3',   label:'Plaquetas' },
+  { id:'f_me',    loinc:'26488-7', label:'Relacion M:E' }
+];
+
+/* ============================================================
+   Tabs
+   ============================================================ */
+document.querySelectorAll('.tab').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.tabpanel').forEach(p=>p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-'+btn.dataset.tab).classList.add('active');
+  });
+});
+
+/* ============================================================
+   SPARQL execution
+   ============================================================ */
+async function execSparql(query){
+  const endpoint = document.getElementById('endpoint').value.trim();
+  const msg = document.getElementById('queryMsg');
+  msg.textContent = 'ejecutando...';
+  msg.className='';
+  try{
+    const res = await fetch(endpoint, {
+      method:'POST',
+      headers:{
+        'Content-Type':'application/x-www-form-urlencoded',
+        'Accept':'application/sparql-results+json'
+      },
+      body: 'query=' + encodeURIComponent(query)
+    });
+    if(!res.ok){
+      const txt = await res.text();
+      throw new Error('HTTP '+res.status+': '+txt.slice(0,300));
+    }
+    const json = await res.json();
+    msg.textContent = (json.results.bindings.length)+' filas';
+    msg.className='ok';
+    return json;
+  }catch(err){
+    msg.textContent = 'Error: '+err.message;
+    msg.className='err';
+    throw err;
+  }
+}
+
+function renderResults(json){
+  const wrap = document.getElementById('resultsWrap');
+  const table = document.getElementById('resultsTable');
+  if(!json || !json.results.bindings.length){
+    wrap.style.display='none';
+    table.innerHTML='';
+    return;
+  }
+  const vars = json.head.vars;
+  let html = '<thead><tr>' + vars.map(v=>`<th>${v}</th>`).join('') + '</tr></thead><tbody>';
+  for(const row of json.results.bindings){
+    html += '<tr>' + vars.map(v=>{
+      if(!row[v]) return '<td></td>';
+      const b = row[v];
+      let val = b.value;
+      let cls = '';
+      if(b.type==='uri'){
+        val = val.replace(NS.vetr,'vetr:').replace('http://purl.obolibrary.org/obo/','obo:').replace('https://loinc.org/','loinc:');
+        cls='uri-chip';
+      } else if(/grave|extremadamente|critical|severe|alert/i.test(val)){
+        cls='lit-alert';
+      }
+      return `<td class="${cls}">${escapeHtml(val)}</td>`;
+    }).join('') + '</tr>';
+  }
+  html += '</tbody>';
+  table.innerHTML = html;
+  wrap.style.display='block';
+}
+function escapeHtml(s){
+  return String(s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+let lastResultsJson = null;
+
+document.getElementById('runQuery').addEventListener('click', async ()=>{
+  const q = document.getElementById('sparqlBox').value;
+  const vizBtn = document.getElementById('visualizeBtn');
+  try{
+    const json = await execSparql(q);
+    renderResults(json);
+    lastResultsJson = json;
+    const hasUris = json.results.bindings.some(row => json.head.vars.some(v => row[v] && row[v].type==='uri'));
+    vizBtn.style.display = hasUris ? 'inline-block' : 'none';
+  }catch(e){ renderResults(null); vizBtn.style.display='none'; }
+});
+document.getElementById('copyQuery').addEventListener('click', ()=>{
+  navigator.clipboard.writeText(document.getElementById('sparqlBox').value);
+});
+document.getElementById('testConn').addEventListener('click', async ()=>{
+  const dot = document.getElementById('dot');
+  const txt = document.getElementById('statusText');
+  try{
+    await execSparql(PREFIXES + 'SELECT (COUNT(*) AS ?c) WHERE { GRAPH ?g { ?s ?p ?o } } LIMIT 1');
+    dot.className='status-dot ok'; txt.textContent='conectado';
+  }catch(e){
+    dot.className='status-dot err'; txt.textContent='sin conexion';
+  }
+});
+
+function setEditor(query, sourceLabel){
+  document.getElementById('sparqlBox').value = query;
+  document.getElementById('editorSourceTag').textContent = sourceLabel || '';
+  document.getElementById('sparqlBox').scrollIntoView({behavior:'smooth', block:'center'});
+}
+
+/* ============================================================
+   GRAPH EXPLORER
+   ============================================================ */
+document.getElementById('loadGraphs').addEventListener('click', async ()=>{
+  const list = document.getElementById('graphList');
+  list.innerHTML = '<li style="color:var(--ink-soft)">cargando...</li>';
+  const q = PREFIXES + `SELECT ?g (COUNT(*) AS ?c) WHERE { GRAPH ?g { ?s ?p ?o } } GROUP BY ?g ORDER BY DESC(?c)`;
+  try{
+    const json = await execSparql(q);
+    list.innerHTML='';
+    for(const row of json.results.bindings){
+      const g = row.g.value;
+      const c = row.c.value;
+      const li = document.createElement('li');
+      li.innerHTML = `<span>${g.replace('http://digpatho.org/','')}</span><span class="cnt">${Number(c).toLocaleString()}</span>`;
+      li.addEventListener('click', ()=>exploreGraph(g, li));
+      list.appendChild(li);
+    }
+  }catch(e){
+    list.innerHTML = '<li style="color:var(--red)">no se pudo conectar</li>';
+  }
+});
+
+async function exploreGraph(graphUri, liEl){
+  document.querySelectorAll('#graphList li').forEach(l=>l.classList.remove('active'));
+  if(liEl) liEl.classList.add('active');
+  document.querySelector('[data-tab="explorar"]').click();
+  const area = document.getElementById('explorerArea');
+  area.innerHTML = `<p class="hint">Clases en <code>${graphUri}</code>...</p>`;
+  const q = PREFIXES + `SELECT ?type (COUNT(*) AS ?c) WHERE { GRAPH <${graphUri}> { ?s a ?type } } GROUP BY ?type ORDER BY DESC(?c) LIMIT 60`;
+  try{
+    const json = await execSparql(q);
+    if(json.results.bindings.length === 0){
+      // No rdf:type triples in this graph (e.g. SNOMED/SKOS exports that model
+      // classes only via rdfs:subClassOf). Fall back to hierarchy browsing.
+      return exploreHierarchyRoots(graphUri, area);
+    }
+    let html = `<fieldset><legend>Clases en ${graphUri.replace('http://digpatho.org/','')}</legend><div class="grid">`;
+    for(const row of json.results.bindings){
+      const t = row.type.value;
+      const short = t.replace(NS.vetr,'vetr:').replace('http://purl.obolibrary.org/obo/','obo:');
+      html += `<button class="btn ghost small class-btn" data-graph="${graphUri}" data-type="${t}" style="text-align:left;">${short} <span style="color:var(--ink-soft)">(${row.c.value})</span></button>`;
+    }
+    html += `</div></fieldset><div id="instanceArea"></div>`;
+    area.innerHTML = html;
+    area.querySelectorAll('.class-btn').forEach(b=>{
+      b.addEventListener('click', ()=>exploreClass(b.dataset.graph, b.dataset.type));
+    });
+  }catch(e){
+    area.innerHTML = `<p style="color:var(--red)">Error consultando el grafo.</p>`;
+  }
+}
+
+async function exploreClass(graphUri, typeUri){
+  const instArea = document.getElementById('instanceArea');
+  instArea.innerHTML = '<p class="hint">cargando instancias...</p>';
+  const q = PREFIXES + `SELECT ?s (SAMPLE(?lbl) AS ?label) WHERE {
+  GRAPH <${graphUri}> {
+    ?s a <${typeUri}> .
+    OPTIONAL { ?s rdfs:label ?lbl }
+  }
+} GROUP BY ?s LIMIT 50`;
+  try{
+    const json = await execSparql(q);
+    let html = `<fieldset><legend>Instancias de ${typeUri.replace(NS.vetr,'vetr:')}</legend><div class="grid">`;
+    for(const row of json.results.bindings){
+      const s = row.s.value;
+      const label = row.label ? row.label.value : s.split(/[#/]/).pop();
+      html += `<button class="btn ghost small inst-btn" data-uri="${s}" data-graph="${graphUri}" style="text-align:left;">${escapeHtml(label)}</button>`;
+    }
+    html += `</div></fieldset><div id="detailArea"></div>`;
+    instArea.innerHTML = html;
+    instArea.querySelectorAll('.inst-btn').forEach(b=>{
+      b.addEventListener('click', ()=>showInstance(b.dataset.graph, b.dataset.uri));
+    });
+  }catch(e){
+    instArea.innerHTML = `<p style="color:var(--red)">Error.</p>`;
+  }
+}
+
+/* ---- Fallback browsing for graphs with no rdf:type (e.g. SNOMED/SKOS via rdfs:subClassOf) ---- */
+async function exploreHierarchyRoots(graphUri, area){
+  area.innerHTML = `<p class="hint">Este grafo no usa <code>rdf:type</code> — es una jerarquía SKOS/SNOMED organizada por <code>rdfs:subClassOf</code>. Mostrando los conceptos raíz (sin padre dentro del grafo).</p><p class="hint">cargando raíces...</p>`;
+  const q = PREFIXES + `SELECT DISTINCT ?s (SAMPLE(?lbl) AS ?label) (COUNT(DISTINCT ?child) AS ?children) WHERE {
+  GRAPH <${graphUri}> {
+    ?child rdfs:subClassOf ?s .
+    OPTIONAL { ?s rdfs:label ?lbl }
+    FILTER NOT EXISTS { ?s rdfs:subClassOf ?parent }
+  }
+} GROUP BY ?s ORDER BY DESC(?children) LIMIT 40`;
+  try{
+    const json = await execSparql(q);
+    let html = `<fieldset><legend>Conceptos raíz en ${graphUri.replace('http://digpatho.org/','')}</legend><div class="grid">`;
+    for(const row of json.results.bindings){
+      const s = row.s.value;
+      const label = row.label ? row.label.value : s.split(/[#/]/).pop();
+      html += `<button class="btn ghost small hnode-btn" data-graph="${graphUri}" data-uri="${s}" style="text-align:left;">${escapeHtml(label)} <span style="color:var(--ink-soft)">(${row.children.value} hijos)</span></button>`;
+    }
+    html += `</div></fieldset><div id="hierarchyArea"></div>`;
+    area.innerHTML = html;
+    area.querySelectorAll('.hnode-btn').forEach(b=>{
+      b.addEventListener('click', ()=>exploreHierarchyChildren(b.dataset.graph, b.dataset.uri, [{uri:b.dataset.uri, label:b.textContent.trim()}]));
+    });
+  }catch(e){
+    area.innerHTML = `<p style="color:var(--red)">Error consultando la jerarquía.</p>`;
+  }
+}
+
+async function exploreHierarchyChildren(graphUri, uri, trail){
+  const host = document.getElementById('hierarchyArea');
+  host.innerHTML = '<p class="hint">cargando hijos...</p>';
+  const q = PREFIXES + `SELECT DISTINCT ?child (SAMPLE(?lbl) AS ?label) (COUNT(DISTINCT ?grandchild) AS ?children) WHERE {
+  GRAPH <${graphUri}> {
+    ?child rdfs:subClassOf <${uri}> .
+    OPTIONAL { ?child rdfs:label ?lbl }
+    OPTIONAL { ?grandchild rdfs:subClassOf ?child }
+  }
+} GROUP BY ?child ORDER BY DESC(?children) LIMIT 60`;
+  try{
+    const json = await execSparql(q);
+    const breadcrumb = trail.map((t,i)=>
+      `<button class="btn ghost small" data-idx="${i}">${escapeHtml(t.label)}</button>`
+    ).join(' › ');
+    let html = `<div style="margin:10px 0;font-size:12px;">${breadcrumb}</div>`;
+    html += `<fieldset><legend>Hijos de ${escapeHtml(trail[trail.length-1].label)}</legend><div class="grid">`;
+    if(json.results.bindings.length === 0){
+      html += `<span class="hint">Sin hijos — es un concepto hoja.</span>`;
+    }
+    for(const row of json.results.bindings){
+      const c = row.child.value;
+      const label = row.label ? row.label.value : c.split(/[#/]/).pop();
+      const nKids = row.children.value;
+      html += `<button class="btn ghost small hchild-btn" data-uri="${c}" data-label="${escapeHtml(label)}" style="text-align:left;">${escapeHtml(label)} ${nKids>0?`<span style="color:var(--ink-soft)">(${nKids})</span>`:''}</button>`;
+    }
+    html += `</div></fieldset>
+      <button class="btn ghost small" id="viewLeafDetail" data-uri="${uri}">Ver todas las propiedades de "${escapeHtml(trail[trail.length-1].label)}"</button>
+      <div id="detailArea"></div>`;
+    host.innerHTML = html;
+    host.querySelectorAll('.hchild-btn').forEach(b=>{
+      b.addEventListener('click', ()=> exploreHierarchyChildren(graphUri, b.dataset.uri, [...trail, {uri:b.dataset.uri, label:b.dataset.label}]));
+    });
+    host.querySelectorAll('[data-idx]').forEach(b=>{
+      b.addEventListener('click', ()=>{
+        const idx = parseInt(b.dataset.idx);
+        if(idx === 0) exploreHierarchyRoots(graphUri, document.getElementById('explorerArea'));
+        else exploreHierarchyChildren(graphUri, trail[idx].uri, trail.slice(0, idx+1));
+      });
+    });
+    document.getElementById('viewLeafDetail').addEventListener('click', ()=> showInstance(graphUri, uri));
+  }catch(e){
+    host.innerHTML = `<p style="color:var(--red)">Error consultando hijos.</p>`;
+  }
+}
+
+async function showInstance(graphUri, uri){
+  const detail = document.getElementById('detailArea');
+  const q = PREFIXES + `SELECT ?p ?o WHERE { GRAPH <${graphUri}> { <${uri}> ?p ?o } } ORDER BY ?p`;
+  setEditor(q, 'explorador · triples de la instancia');
+  const json = await execSparql(q);
+  renderResults(json);
+  lastResultsJson = json;
+  document.getElementById('visualizeBtn').style.display = 'inline-block';
+  detail.innerHTML = `<p class="hint">Mostrando triples de <code>${uri}</code> abajo, en la tabla de resultados.
+    <button class="btn ghost small" id="jumpToNode">Ver este nodo en el explorador de nodos</button></p>`;
+  document.getElementById('jumpToNode').addEventListener('click', ()=> expandNode(uri));
+}
+
+/* ============================================================
+   EXAMPLE QUERIES
+   ============================================================ */
+const EXAMPLES = [
+  {
+    title: '1. Catálogo de tumores con diagnóstico y hallazgo visual',
+    desc: 'Todas las TumorRule del grafo de reglas, con su linaje celular, código de diagnóstico y hallazgo citológico característico.',
+    query: PREFIXES + `SELECT ?rule ?lineage ?diagnosis ?visualFeature WHERE {
+  GRAPH <${RULES_GRAPH}> {
+    ?rule a vetr:TumorRule ;
+          vetr:hasDiagnosis ?diagnosis .
+    OPTIONAL { ?rule vetr:belongsToLineage ?lineage }
+    OPTIONAL { ?rule vetr:visualFeature ?visualFeature }
+  }
+}
+ORDER BY ?lineage ?rule`
+  },
+  {
+    title: '2. Umbrales de anemia por especie',
+    desc: 'Reglas de índice hematológico que disparan sospecha de anemia (regla de nombre "Anemia"), con especie, umbral y operador.',
+    query: PREFIXES + `SELECT ?rule ?species ?operator ?threshold ?diagnosis WHERE {
+  GRAPH <${RULES_GRAPH}> {
+    ?rule vetr:appliesTo ?species ;
+          vetr:thresholdValue ?threshold ;
+          vetr:operator ?operator ;
+          vetr:potentialDiagnosis ?diagnosis .
+    FILTER(CONTAINS(STR(?rule), "Anemia"))
+  }
+}
+ORDER BY ?species ?rule`
+  },
+  {
+    title: '3. Diagnóstico cruzado: HCT del paciente vs. umbral de anemia (2 grafos)',
+    desc: 'Consulta real de diagnóstico: toma el HCT observado de cada PatientCase (grafo sosa_schema) y lo compara contra el umbral de anemia de su especie (grafo complete_vet_rules). Devuelve solo los casos que caen por debajo del umbral.',
+    query: PREFIXES + `SELECT ?case ?species ?hct ?threshold ?diagnosis WHERE {
+  GRAPH <${CASES_GRAPH}> {
+    ?case a vetr:PatientCase ;
+          vetr:hasSpecies ?species .
+    ?obs sosa:hasFeatureOfInterest ?case ;
+         sosa:observedProperty <https://loinc.org/20570-8> ;
+         sosa:hasValue ?hct .
+  }
+  GRAPH <${RULES_GRAPH}> {
+    ?rule vetr:appliesTo ?species ;
+          vetr:triggerParameter <https://loinc.org/20570-8> ;
+          vetr:thresholdValue ?threshold ;
+          vetr:potentialDiagnosis ?diagnosis .
+  }
+  FILTER(?hct < ?threshold)
+}`
+  },
+  {
+    title: '4. Cristaluria: morfología, pH asociado y alertas de toxicidad',
+    desc: 'Todas las reglas de cristales urinarios con su morfología descriptiva y, si existe, alerta de toxicidad (ej. etilenglicol) o alerta clínica crítica.',
+    query: PREFIXES + `SELECT ?rule ?morphology ?associatedPH ?toxicityAlert ?criticalAlert WHERE {
+  GRAPH <${RULES_GRAPH}> {
+    ?rule a vetr:CrystalluriaRule .
+    OPTIONAL { ?rule vetr:morphology ?morphology }
+    OPTIONAL { ?rule vetr:associatedPH ?associatedPH }
+    OPTIONAL { ?rule vetr:toxicityAlert ?toxicityAlert }
+    OPTIONAL { ?rule vetr:criticalAlert ?criticalAlert }
+  }
+}`
+  },
+  {
+    title: '5. Enfermedades transmitidas por vector: agente, célula huésped y hallazgo microscópico',
+    desc: 'Parásitos hemáticos (Babesia, Anaplasma, Ehrlichia, Mycoplasma, Leishmania) con su taxón NCBI, célula huésped (Cell Ontology) y descripción visual para identificación en frotis.',
+    query: PREFIXES + `SELECT ?rule ?targetTaxon ?hostCell ?visualFeature ?clinicalPrecaution WHERE {
+  GRAPH <${RULES_GRAPH}> {
+    ?rule vetr:targetTaxon ?targetTaxon ;
+          vetr:visualFeature ?visualFeature .
+    OPTIONAL { ?rule vetr:hostCell ?hostCell }
+    OPTIONAL { ?rule vetr:clinicalPrecaution ?clinicalPrecaution }
+  }
+}
+ORDER BY ?rule`
+  },
+  {
+    title: '6. Búsqueda por palabra clave en hallazgos citológicos (ej. "granul")',
+    desc: 'Busca cualquier regla cuyo hallazgo visual, morfología o condición contenga una palabra clave — útil para "no sé qué regla es, pero vi esto en el microscopio". Editá la palabra "granul" en el editor antes de ejecutar.',
+    query: PREFIXES + `SELECT ?rule ?matchedText ?diagnosis ?lineage WHERE {
+  GRAPH <${RULES_GRAPH}> {
+    ?rule (vetr:visualFeature|vetr:morphology|vetr:condition|vetr:associatedSymptom|vetr:secondaryFeature) ?matchedText .
+    FILTER(CONTAINS(LCASE(STR(?matchedText)), "granul"))
+    OPTIONAL { ?rule vetr:hasDiagnosis ?diagnosis }
+    OPTIONAL { ?rule vetr:belongsToLineage ?lineage }
+  }
+}`
+  },
+  {
+    title: '7. Casos clínicos de ejemplo cargados en el grafo, con su muestra y método',
+    desc: 'Todos los PatientCase precargados en sosa_schema con su especie, edad, tipo de muestra y método de obtención — útil para ver qué datos de ejemplo ya existen en el KG.',
+    query: PREFIXES + `SELECT ?case ?species ?age ?sample ?samplingMethod WHERE {
+  GRAPH <${CASES_GRAPH}> {
+    ?case a vetr:PatientCase ;
+          vetr:hasSpecies ?species ;
+          vetr:hasAge ?age .
+    OPTIONAL {
+      ?sample sosa:isSampleOf ?case .
+      OPTIONAL { ?sample vetr:samplingMethod ?samplingMethod }
+    }
+  }
+}
+ORDER BY ?case`
+  },
+  {
+    title: '8. Reglas de validación cruzada (control de calidad diagnóstica)',
+    desc: 'Las tres reglas que exigen confirmar un hallazgo visual específico antes de subir la confianza diagnóstica (fragmentación mecánica, injuria oxidativa, IMHA).',
+    query: PREFIXES + `SELECT ?rule ?clinicalIndication ?requiredFeature ?diagnosticConfidence WHERE {
+  GRAPH <${RULES_GRAPH}> {
+    ?rule vetr:requiredFeature ?requiredFeature .
+    OPTIONAL { ?rule vetr:clinicalIndication ?clinicalIndication }
+    OPTIONAL { ?rule vetr:diagnosticConfidence ?diagnosticConfidence }
+  }
+}`
+  }
+];
+
+function renderExamples(){
+  const area = document.getElementById('examplesArea');
+  area.innerHTML = EXAMPLES.map((ex,i)=>`
+    <div class="example-card">
+      <h3>${ex.title}</h3>
+      <p>${ex.desc}</p>
+      <button class="btn small" data-idx="${i}">Cargar en el editor</button>
+    </div>
+  `).join('');
+  area.querySelectorAll('button[data-idx]').forEach(b=>{
+    b.addEventListener('click', ()=>{
+      const ex = EXAMPLES[b.dataset.idx];
+      setEditor(ex.query, 'ejemplo: '+ex.title);
+      document.getElementById('resultsWrap').style.display='none';
+    });
+  });
+}
+renderExamples();
+
+/* ============================================================
+   QUERY BUILDER
+   ============================================================ */
+function val(id){ return document.getElementById(id).value.trim(); }
+
+document.getElementById('buildQuery').addEventListener('click', ()=>{
+  const species = val('f_species'); // 'Canine' | 'Feline' | ''
+  const blocks = [];
+
+  // --- lab threshold blocks ---
+  for(const lf of LAB_FIELDS){
+    const v = val(lf.id);
+    if(v === '') continue;
+    const numeric = parseFloat(v);
+    let speciesFilter = '';
+    if(species){
+      speciesFilter = `FILTER(!BOUND(?species) || ?species = vetr:${species})`;
+    }
+    blocks.push(`  {
+    GRAPH <${RULES_GRAPH}> {
+      ?rule vetr:triggerParameter <https://loinc.org/${lf.loinc}> ;
+            vetr:thresholdValue ?threshold ;
+            vetr:operator ?op .
+      OPTIONAL { ?rule vetr:appliesTo ?species }
+      OPTIONAL { ?rule vetr:potentialDiagnosis ?diagnosis }
+      OPTIONAL { ?rule vetr:hasDiagnosis ?diagnosis }
+    }
+    BIND(${numeric} AS ?value)
+    BIND("${lf.label}" AS ?parameter)
+    FILTER(
+      (?op = "<" && ?value < ?threshold) ||
+      (?op = ">" && ?value > ?threshold)
+    )
+    ${speciesFilter}
+  }`);
+  }
+
+  // --- free text keyword blocks ---
+  const keywordFields = [
+    { id:'f_cyto',     label:'Citologia' },
+    { id:'f_ucrystal',  label:'Orina - sedimento/cristal' },
+    { id:'f_feces',     label:'Heces - parasitologia' }
+  ];
+  for(const kf of keywordFields){
+    const kw = val(kf.id);
+    if(kw === '') continue;
+    const escaped = kw.replace(/"/g,'\\"').toLowerCase();
+    blocks.push(`  {
+    GRAPH <${RULES_GRAPH}> {
+      ?rule (vetr:visualFeature|vetr:morphology|vetr:condition|vetr:associatedSymptom|vetr:secondaryFeature|vetr:clinicalState|vetr:behavioralAlert) ?matchedText .
+      FILTER(CONTAINS(LCASE(STR(?matchedText)), "${escaped}"))
+      OPTIONAL { ?rule vetr:hasDiagnosis ?diagnosis }
+      OPTIONAL { ?rule vetr:potentialDiagnosis ?diagnosis }
+      OPTIONAL { ?rule vetr:belongsToLineage ?lineage }
+    }
+    BIND("${kf.label}" AS ?parameter)
+  }`);
+  }
+
+  // --- urine numeric thresholds (hematuria / piuria, not LOINC-coded in this KG, so handled as direct comparisons) ---
+  const urbc = val('f_urbc');
+  if(urbc !== ''){
+    blocks.push(`  {
+    GRAPH <${RULES_GRAPH}> {
+      ?rule a vetr:UrinalysisRule ;
+            vetr:requiredCell <http://purl.obolibrary.org/obo/CL_0000232> ;
+            vetr:thresholdValue ?threshold ;
+            vetr:operator ?op ;
+            vetr:potentialDiagnosis ?diagnosis .
+    }
+    BIND(${parseFloat(urbc)} AS ?value)
+    BIND("Orina - eritrocitos/campo" AS ?parameter)
+    FILTER( (?op = ">" && ?value > ?threshold) )
+  }`);
+  }
+  const uwbc = val('f_uwbc');
+  if(uwbc !== ''){
+    blocks.push(`  {
+    GRAPH <${RULES_GRAPH}> {
+      ?rule a vetr:UrinalysisRule ;
+            vetr:requiredCell <http://purl.obolibrary.org/obo/CL_0000775> ;
+            vetr:thresholdValue ?threshold ;
+            vetr:operator ?op ;
+            vetr:potentialDiagnosis ?diagnosis .
+    }
+    BIND(${parseFloat(uwbc)} AS ?value)
+    BIND("Orina - leucocitos/campo" AS ?parameter)
+    FILTER( (?op = ">" && ?value > ?threshold) )
+  }`);
+  }
+
+  if(blocks.length === 0){
+    document.getElementById('queryMsg').textContent = 'Completa al menos un campo del formulario.';
+    document.getElementById('queryMsg').className='err';
+    return;
+  }
+
+  const query = PREFIXES + `SELECT ?rule ?parameter ?value ?threshold ?diagnosis ?matchedText ?lineage ?species WHERE {
+${blocks.join('\n  UNION\n')}
+}
+ORDER BY ?rule`;
+
+  setEditor(query, 'constructor de consultas');
+  document.getElementById('queryMsg').textContent = '';
+  document.querySelector('[data-tab="constructor"]');
+});
+
+document.getElementById('clearForm').addEventListener('click', ()=>{
+  document.querySelectorAll('#tab-constructor input, #tab-constructor select').forEach(el=>el.value='');
+});
+
+/* ============================================================
+   CSV patient loader
+   ============================================================ */
+let PATIENTS = [];
+
+function parseCSV(text){
+  const lines = text.replace(/\r/g,'').split('\n').filter(l=>l.length>0);
+  const headers = splitCsvLine(lines[0]);
+  return lines.slice(1).map(line=>{
+    const cells = splitCsvLine(line);
+    const obj = {};
+    headers.forEach((h,i)=> obj[h.trim()] = (cells[i]||'').trim());
+    return obj;
+  });
+}
+function splitCsvLine(line){
+  const out = []; let cur=''; let inQ=false;
+  for(let i=0;i<line.length;i++){
+    const c = line[i];
+    if(c === '"'){ inQ = !inQ; continue; }
+    if(c === ',' && !inQ){ out.push(cur); cur=''; continue; }
+    cur += c;
+  }
+  out.push(cur);
+  return out;
+}
+
+document.getElementById('csvFile').addEventListener('change', (e)=>{
+  const file = e.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = ()=>{
+    PATIENTS = parseCSV(reader.result);
+    const sel = document.getElementById('patientSelect');
+    sel.innerHTML = PATIENTS.map((p,i)=>`<option value="${i}">${p.patient_id} — ${p.name} (${p.species})</option>`).join('');
+  };
+  reader.readAsText(file);
+});
+
+document.getElementById('loadPatient').addEventListener('click', ()=>{
+  const sel = document.getElementById('patientSelect');
+  const p = PATIENTS[sel.value];
+  if(!p) return;
+  const map = {
+    f_species:'species', f_breed:'breed', f_age:'age_years', f_sex:'sex',
+    f_hct:'hct', f_mcv:'mcv', f_mchc:'mchc', f_retic:'retic', f_wbc:'wbc',
+    f_segs:'segs', f_bands:'bands', f_plt:'plt', f_me:'me_ratio',
+    f_cyto:'cytology_keyword', f_uph:'urine_ph', f_ucrystal:'urine_crystal_keyword',
+    f_urbc:'urine_rbc', f_uwbc:'urine_wbc', f_feces:'feces_keyword'
+  };
+  for(const [fieldId, col] of Object.entries(map)){
+    document.getElementById(fieldId).value = p[col] || '';
+  }
+  document.querySelector('[data-tab="constructor"]').click();
+});
+
+/* ============================================================
+   NODE EXPLORER (force-directed graph, D3)
+   ============================================================ */
+const graphNodes = new Map();   // uri -> {id, label, kind, highlighted}
+let   graphLinks  = [];         // [{source, target, label}]  (source/target = uri strings before D3 mutates them)
+let   simulation  = null;
+
+function shortLabel(uri){
+  if(typeof uri !== 'string') return String(uri);
+  if(uri.startsWith(NS.vetr)) return uri.slice(NS.vetr.length);
+  if(uri.startsWith('http://purl.obolibrary.org/obo/')) return 'obo:'+uri.split('/').pop();
+  if(uri.startsWith('https://loinc.org/')) return 'loinc:'+uri.split('/').pop();
+  if(uri.startsWith('http://digpatho.org/')) return uri.replace('http://digpatho.org/','');
+  try{
+    const u = new URL(uri);
+    const tail = decodeURIComponent(u.pathname.split('/').filter(Boolean).pop() || u.hostname);
+    return tail.length>28 ? tail.slice(0,26)+'…' : tail;
+  }catch(e){ return String(uri).slice(0,28); }
+}
+function nodeKind(uri){
+  if(typeof uri !== 'string') return 'ontology';
+  if(/vet-rules#(Case_|PatientCase)/i.test(uri)) return 'case';
+  if(uri.startsWith(NS.vetr) && /Rule/i.test(uri)) return 'rule';
+  if(uri.startsWith(NS.vetr)) return 'concept';
+  return 'ontology';
+}
+function kindColor(kind){
+  return { rule:'#1f4b43', case:'#b8752e', concept:'#3a4a8f', ontology:'#7c8a84' }[kind] || '#7c8a84';
+}
+
+function addNode(uri, highlighted){
+  if(typeof uri !== 'string') return;
+  const existing = graphNodes.get(uri);
+  if(existing){
+    if(highlighted) existing.highlighted = true;
+  }else{
+    graphNodes.set(uri, { id:uri, label:shortLabel(uri), kind:nodeKind(uri), highlighted: !!highlighted });
+  }
+}
+function addLink(s,p,o){
+  if(typeof s!=='string' || typeof o!=='string') return;
+  if(graphLinks.some(l => (l.source===s||l.source.id===s) && (l.target===o||l.target.id===o) && l.label===shortLabel(p))) return;
+  graphLinks.push({ source:s, target:o, label: shortLabel(p) });
+}
+
+function updateEmptyMsg(){
+  document.getElementById('graphEmptyMsg').style.display = graphNodes.size ? 'none' : 'block';
+}
+
+function renderGraph(){
+  updateEmptyMsg();
+  const wrap = document.getElementById('graphWrap');
+  const w = wrap.clientWidth || 800;
+  const h = wrap.clientHeight || 520;
+  const svg = d3.select('#nodeSvg').attr('viewBox', [0,0,w,h]);
+  svg.selectAll('*').remove();
+  if(graphNodes.size === 0) return;
+
+  svg.append('defs').append('marker')
+    .attr('id','arrow').attr('viewBox','0 -4 8 8').attr('refX',20).attr('refY',0)
+    .attr('markerWidth',7).attr('markerHeight',7).attr('orient','auto')
+    .append('path').attr('d','M0,-4L8,0L0,4').attr('fill','#a9b6ae');
+
+  const g = svg.append('g');
+  svg.call(d3.zoom().scaleExtent([0.2,4]).on('zoom', ev => g.attr('transform', ev.transform)));
+
+  const nodesArr = Array.from(graphNodes.values());
+  const linksArr = graphLinks.map(l => ({...l}));
+
+  simulation = d3.forceSimulation(nodesArr)
+    .force('link', d3.forceLink(linksArr).id(d=>d.id).distance(95).strength(0.5))
+    .force('charge', d3.forceManyBody().strength(-260))
+    .force('center', d3.forceCenter(w/2, h/2))
+    .force('collide', d3.forceCollide(30));
+
+  const link = g.append('g').selectAll('line').data(linksArr).join('line')
+    .attr('class','glink').attr('marker-end','url(#arrow)');
+
+  const linkLabel = g.append('g').selectAll('text').data(linksArr).join('text')
+    .attr('class','glink-label').text(d=>d.label);
+
+  const node = g.append('g').selectAll('g').data(nodesArr).join('g')
+    .attr('class','gnode')
+    .call(d3.drag()
+      .on('start', (ev,d)=>{ if(!ev.active) simulation.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+      .on('drag', (ev,d)=>{ d.fx=ev.x; d.fy=ev.y; })
+      .on('end', (ev,d)=>{ if(!ev.active) simulation.alphaTarget(0); d.fx=null; d.fy=null; }));
+
+  node.append('circle')
+    .attr('r', d=> d.kind==='rule'||d.kind==='case' ? 9 : 6)
+    .attr('fill', d=>kindColor(d.kind))
+    .attr('class', d=>d.highlighted ? 'highlighted' : '')
+    .append('title').text(d=>d.id);
+
+  node.append('text').attr('dy', -12).attr('text-anchor','middle').text(d=>d.label);
+
+  node.on('click', (ev,d)=>{ ev.stopPropagation(); expandNode(d.id); });
+  node.on('dblclick', (ev,d)=>{ ev.stopPropagation(); showNodeDetail(d.id); });
+
+  simulation.on('tick', ()=>{
+    link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+    linkLabel.attr('x', d=>(d.source.x+d.target.x)/2).attr('y', d=>(d.source.y+d.target.y)/2);
+    node.attr('transform', d=>`translate(${d.x},${d.y})`);
+  });
+}
+
+async function expandNode(uri){
+  document.querySelector('[data-tab="nodos"]').click();
+  const q = PREFIXES + `SELECT ?p ?o ?dir WHERE {
+  {
+    GRAPH ?g { <${uri}> ?p ?o }
+    FILTER(isURI(?o))
+    BIND("out" AS ?dir)
+  } UNION {
+    GRAPH ?g { ?o ?p <${uri}> }
+    BIND("in" AS ?dir)
+  }
+  FILTER(?p != rdf:type)
+} LIMIT 80`;
+  try{
+    const json = await execSparql(q);
+    addNode(uri);
+    for(const row of json.results.bindings){
+      const p = row.p.value, o = row.o.value, dir = row.dir.value;
+      addNode(o);
+      if(dir === 'out') addLink(uri, p, o); else addLink(o, p, uri);
+    }
+    renderGraph();
+  }catch(e){ /* status already shown in queryMsg */ }
+}
+
+async function showNodeDetail(uri){
+  const q = PREFIXES + `SELECT ?p ?o WHERE {
+  { GRAPH ?g { <${uri}> ?p ?o } }
+} ORDER BY ?p`;
+  setEditor(q, 'explorador de nodos · propiedades de '+shortLabel(uri));
+  const json = await execSparql(q);
+  renderResults(json);
+  lastResultsJson = json;
+  document.getElementById('nodeDetailArea').innerHTML =
+    `<p class="hint">Mostrando propiedades de <code>${uri}</code> en la tabla de resultados, arriba del constructor.</p>`;
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+document.getElementById('seedTumors').addEventListener('click', async ()=>{
+  const q = PREFIXES + `SELECT ?rule ?p ?o WHERE {
+  GRAPH <${RULES_GRAPH}> {
+    ?rule a vetr:TumorRule .
+    ?rule ?p ?o .
+    FILTER(?p != rdf:type)
+    FILTER(isURI(?o))
+  }
+} LIMIT 200`;
+  try{
+    const json = await execSparql(q);
+    for(const row of json.results.bindings){
+      addNode(row.rule.value); addNode(row.o.value);
+      addLink(row.rule.value, row.p.value, row.o.value);
+    }
+    renderGraph();
+  }catch(e){}
+});
+
+document.getElementById('seedRules').addEventListener('click', async ()=>{
+  const q = PREFIXES + `SELECT ?rule ?p ?o WHERE {
+  GRAPH <${RULES_GRAPH}> {
+    ?rule ?p ?o .
+    FILTER(?p != rdf:type)
+    FILTER(isURI(?o))
+  }
+} LIMIT 400`;
+  try{
+    const json = await execSparql(q);
+    for(const row of json.results.bindings){
+      addNode(row.rule.value); addNode(row.o.value);
+      addLink(row.rule.value, row.p.value, row.o.value);
+    }
+    renderGraph();
+  }catch(e){}
+});
+
+document.getElementById('clearGraph').addEventListener('click', ()=>{
+  graphNodes.clear(); graphLinks = [];
+  document.getElementById('nodeSearchResults').innerHTML = '';
+  document.getElementById('nodeDetailArea').innerHTML = '';
+  renderGraph();
+});
+
+document.getElementById('nodeSearchBtn').addEventListener('click', async ()=>{
+  const kw = document.getElementById('nodeSearch').value.trim().toLowerCase();
+  const results = document.getElementById('nodeSearchResults');
+  if(!kw){ results.innerHTML=''; return; }
+  results.innerHTML = '<p class="hint">buscando...</p>';
+  const q2 = PREFIXES + `SELECT DISTINCT ?s WHERE {
+  GRAPH ?g {
+    { ?s ?p ?o . FILTER(isURI(?s) && CONTAINS(LCASE(STR(?s)), "${kw.replace(/"/g,'')}")) }
+    UNION
+    { ?s rdfs:label ?l . FILTER(CONTAINS(LCASE(STR(?l)), "${kw.replace(/"/g,'')}")) }
+  }
+} LIMIT 25`;
+  try{
+    const json = await execSparql(q2);
+    if(!json.results.bindings.length){
+      results.innerHTML = '<p class="hint">Sin coincidencias.</p>';
+      return;
+    }
+    results.innerHTML = json.results.bindings.map(row=>{
+      const uri = row.s.value;
+      return `<button class="btn ghost small add-node-btn" data-uri="${uri}" style="margin:2px 4px 2px 0;">${shortLabel(uri)}</button>`;
+    }).join('');
+    results.querySelectorAll('.add-node-btn').forEach(b=>{
+      b.addEventListener('click', ()=> expandNode(b.dataset.uri));
+    });
+  }catch(e){
+    results.innerHTML = '<p style="color:var(--red)">Error en la búsqueda.</p>';
+  }
+});
+
+document.getElementById('visualizeBtn').addEventListener('click', ()=>{
+  if(!lastResultsJson) return;
+  const vars = lastResultsJson.head.vars;
+  for(const row of lastResultsJson.results.bindings){
+    const uriVars = vars.filter(v => row[v] && row[v].type==='uri');
+    uriVars.forEach(v => addNode(row[v].value, true));
+    for(let i=0;i<uriVars.length-1;i++){
+      addLink(row[uriVars[i]].value, uriVars[i+1], row[uriVars[i+1]].value);
+    }
+  }
+  renderGraph();
+  document.querySelector('[data-tab="nodos"]').click();
+  document.getElementById('graphWrap').scrollIntoView({behavior:'smooth', block:'center'});
+});
+
+renderGraph();
+</script>
+</body>
+</html>
