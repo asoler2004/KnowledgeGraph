@@ -1,0 +1,56 @@
+@prefix rdf: <http://w3.org> .
+@prefix rdfs: <http://w3.org> .
+@prefix owl: <http://w3.org> .
+@prefix xsd: <http://w3.org> .
+@prefix vet: <http://veterinary-oncology.org> .
+
+### 1. SCHEMA CATEGORIES (Classes)
+vet:Species rdfs:label "Species" ; rdf:type rdfs:Class .
+vet:Grade rdfs:label "Grade" ; rdf:type rdfs:Class .
+vet:CellSize rdfs:label "CellSize" ; rdf:type rdfs:Class .
+vet:Chromatin rdfs:label "Chromatin" ; rdf:type rdfs:Class .
+vet:Nucleoli rdfs:label "Nucleoli" ; rdf:type rdfs:Class .
+vet:AnatomicalForm rdfs:label "AnatomicalForm" ; rdf:type rdfs:Class .
+vet:Immunophenotype rdfs:label "Immunophenotype" ; rdf:type rdfs:Class .
+vet:ConfirmatoryTest rdfs:label "ConfirmatoryTest" ; rdf:type rdfs:Class .
+
+### 2. DROPDOWN VALUES (Individuals)
+
+# --- Species ---
+vet:Canine rdf:type vet:Species ; rdfs:label "Canine" .
+vet:Feline rdf:type vet:Species ; rdfs:label "Feline" .
+
+# --- Grade ---
+vet:HighGrade rdf:type vet:Grade ; rdfs:label "High-Grade (Aggressive)" .
+vet:LowGrade rdf:type vet:Grade ; rdfs:label "Low-Grade (Indolent)" .
+vet:IntermediateGrade rdf:type vet:Grade ; rdfs:label "Intermediate-Grade" .
+
+# --- Cell Size ---
+vet:SmallSize rdf:type vet:CellSize ; rdfs:label "Small (< 1.5x size of normal RBC)" .
+vet:MediumSize rdf:type vet:CellSize ; rdfs:label "Medium (1.5x to 2x size of normal RBC)" .
+vet:LargeSize rdf:type vet:CellSize ; rdfs:label "Large (> 2x size of normal RBC)" .
+
+# --- Nuclear Chromatin ---
+vet:ChromatinDispersed rdf:type vet:Chromatin ; rdfs:label "Finely Dispersed (Open/Blastic)" .
+vet:ChromatinClumped rdf:type vet:Chromatin ; rdfs:label "Coarsely Clumped (Mature)" .
+
+# --- Nucleoli ---
+vet:NucleoliMultiple rdf:type vet:Nucleoli ; rdfs:label "1 to 3 Prominent, Peripheral" .
+vet:NucleoliSingle rdf:type vet:Nucleoli ; rdfs:label "Single, Large, Central" .
+vet:NucleoliInconspicuous rdf:type vet:Nucleoli ; rdfs:label "Inconspicuous or Absent" .
+
+# --- Anatomical Forms ---
+vet:FormMulticentric rdf:type vet:AnatomicalForm ; rdfs:label "Multicentric (Generalized Lymphadenopathy)" .
+vet:FormAlimentary rdf:type vet:AnatomicalForm ; rdfs:label "Alimentary (Gastrointestinal)" .
+vet:FormMediastinal rdf:type vet:AnatomicalForm ; rdfs:label "Mediastinal (Thymic/Thoracic)" .
+vet:FormExtranodal rdf:type vet:AnatomicalForm ; rdfs:label "Extranodal (Cutaneous/Renal/CNS)" .
+
+# --- Immunophenotype Markers ---
+vet:ImmunoBCell rdf:type vet:Immunophenotype ; rdfs:label "B-Cell (CD20+, Pax5+, CD3-)" .
+vet:ImmunoTCell rdf:type vet:Immunophenotype ; rdfs:label "T-Cell (CD3+, CD20-)" .
+vet:ImmunoNullCell rdf:type vet:Immunophenotype ; rdfs:label "Null-Cell (CD3-, CD20-)" .
+
+# --- Advanced Validation Testing ---
+vet:TestPARR rdf:type vet:ConfirmatoryTest ; rdfs:label "PARR (Clonality PCR Assay)" .
+vet:TestFlowCytometry rdf:type vet:ConfirmatoryTest ; rdfs:label "Flow Cytometry Panel" .
+vet:TestIHC rdfs:label rdf:type vet:ConfirmatoryTest ; rdfs:label "Immunohistochemistry (Biopsy)" .

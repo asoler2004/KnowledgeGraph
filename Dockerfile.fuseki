@@ -1,0 +1,23 @@
+FROM stain/jena-fuseki:latest
+
+# Environment setup matching your local inspect configuration
+ENV ADMIN_PASSWORD=password123
+ENV FUSEKI_BASE=/fuseki
+ENV FUSEKI_HOME=/jena-fuseki
+
+# Switch to root to ensure proper permissions during copy
+USER root
+
+# Copy all extracted local volume data (datasets, configs, TDB2 files)
+COPY fuseki-data/ /fuseki/
+
+# Set ownership to the fuseki user used by the base image
+RUN chown -R fuseki:fuseki /fuseki
+
+# Revert to non-root user
+USER fuseki
+
+EXPOSE 3030
+
+ENTRYPOINT ["/sbin/tini", "--", "sh", "/docker-entrypoint.sh"]
+CMD ["/jena-fuseki/fuseki-server"]

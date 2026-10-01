@@ -1,0 +1,3 @@
+Disease Subtype (Name),Species,Biological Behavior (Grade),Primary Anatomical Site,Cell Size,Nucleoli,Immunophenotype Markers,NCIT/Ontology Code (Optional)
+Diffuse Large B-Cell Lymphoma (DLBCL),Canine,High-Grade (Aggressive),Generalized Peripheral Lymph Nodes,Large (> 2x size of normal RBC),1 to 3 prominent peripheral nucleoli,"B-cell positive (CD20+, Pax5+), CD3-",ncit:C3099
+Small Cell Gastrointestinal Lymphoma,Feline,Low-Grade (Indolent),Mesenteric Lymph Nodes / GI Wall,Small to medium (< 1.5x size of normal RBC),,"T-cell positive (CD3+), CD20-",ncit:C7944

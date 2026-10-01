@@ -1,0 +1,34 @@
+{
+  "1_hematology": [
+    "hematocrit", "hemoglobin", "erythrocyte", "reticulocyte",
+    "mean corpuscular volume", "mean corpuscular hemoglobin concentration",
+    "platelet count", "platelets", "leukocyte", "neutrophil",
+    "band neutrophil", "lymphocyte", "monocyte", "eosinophil", "basophil",
+    "nucleated red blood cell", "erythroblast", "anisocytosis",
+    "spherocyte", "schistocyte", "heinz bod", "eccentrocyte",
+    "dohle bod", "toxic granulation", "platelet clump", "platelet aggregat",
+    "pseudothrombocytopenia"
+  ],
+  "2_urinalysis": [
+    "ph of urine", "specific gravity", "erythrocytes/high power field",
+    "leukocytes/high power field", "squamous epithelial",
+    "transitional epithelial", "urothelial", "renal tubular epithelial",
+    "struvite", "calcium oxalate", "ammonium biurate crystal",
+    "bilirubin crystal", "cystine crystal", "hyaline cast",
+    "granular cast", "epithelial cast", "fatty cast", "waxy cast",
+    "bacteria", "yeast"
+  ],
+  "3_coprology": [
+    "giardia lamblia", "pentatrichomonas", "balantidium coli",
+    "entamoeba histolytica", "prototheca", "saccharomycopsis",
+    "cytology.rectal", "rectal scrape", "rectal cytology", "lymphoblast"
+  ],
+  "4_bone_marrow": [
+    "rubriblast", "prorubricyte", "rubricyte", "metarubricyte",
+    "myeloblast", "promyelocyte", "myelocyte", "metamyelocyte",
+    "myeloid/erythroid ratio", "bone marrow cellularity", "megakaryocyte"
+  ],
+  "5_cytopathology": [
+    "cytology, skin", "fine needle aspirat", "cytology report"
+  ]
+}

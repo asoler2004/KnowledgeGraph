@@ -1,0 +1,8717 @@
+# Re-run: flagged terms (higher limit, shortest-match-first)
+
+
+## "platelet count"  (search term: "platelet")
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/28542-9`  (matched: "Platelet")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> EntMeanVol
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0944136
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071497
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet mean volume, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelet:EntMeanVol:Pt:Bld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 80
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP443407-4
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Blood; HEMATOLOGY/CELL COUNTS; Pl; Platelets; Platelt; Plt; Point in time; QNT; Quan; Quant; Quantitative; Random; Thrombocyte; Thrombocytes…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> fL
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/69742-5
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/24317-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP16772-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelet
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: Precoordination of the component with Property: mean volume; the decision was to post coor…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> fL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 28542-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet (Bld) [Entitic mean vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet:EntMeanVol:To identify measures at a point in time:Whole blood:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> PMV Bld
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet [Entitic mean volume] in Blood
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/32623-1`  (matched: "Platelet")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> EntMeanVol
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1315182
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071497
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet mean volume, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelet:EntMeanVol:Pt:Bld:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 25
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP443407-4
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Auto; Automated detection; Blood; Elec; Elect; Electr; HEMATOLOGY/CELL COUNTS; Pl; Platelets; Platelt; Plt; Point in time; QNT; Quan; Quant;…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> fL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/53800-9
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/58410-2
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/93340-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP16772-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelet
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: Precoordination of the component with Property: mean volume; the decision was to post coor…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> fL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 32623-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet Auto (Bld) [Entitic mean vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet:EntMeanVol:To identify measures at a point in time:Whole blood:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> PMV Bld Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet [Entitic mean volume] in Blood by Automated count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.09
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/47283-7`  (matched: "Platelet")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> EntMeanVol
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1831351
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071497
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet mean volume, Cord blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelet:EntMeanVol:Pt:BldCo:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU072203
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP443407-4
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Blood - (umbilical) cord; Cord (umbilical) blood; Cord bld; Cord blood; HEMATOLOGY/CELL COUNTS; Pl; Platelets; Platelt; Plt; Point in time; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> BldCo
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> fL
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47288-6
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/74412-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP16772-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelet
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: Precoordination of the component with Property: mean volume; the decision was to post coor…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> fL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7069-0
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 47283-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet:EntMeanVol:To identify measures at a point in time:Blood - cord:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet [Entitic mean volume] in Cord blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet (BldCo) [Entitic mean vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> PMV BldCo
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.19
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/776-5`  (matched: "Platelet")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> EntMeanVol
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0362993
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071497
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet mean volume, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelet:EntMeanVol:Pt:Bld:Qn:Rees-Ecker
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 419
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP443407-4
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Blood; HEMATOLOGY/CELL COUNTS; Pl; Platelets; Platelt; Plt; Point in time; QNT; Quan; Quant; Quantitative; Random; Thrombocyte; Thrombocytes…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Rees-Ecker
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> fL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6483-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP16772-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelet
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: Precoordination of the component with Property: mean volume; the decision was to post coor…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> fL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 776-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet [Entitic mean volume] in Blood by Rees-Ecker
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet:EntMeanVol:To identify measures at a point in time:Whole blood:Quantitative:Rees-Ecker
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> PMV Bld Rees-Ecker
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet Rees-Ecker (Bld) [Entitic mean vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/104705-9`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938175
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:PrThr:Pt:Bld:Ord
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Blood; HEMATOLOGY/CELL COUNTS; Ordinal; Platelet; Platelet adequacy; Platelet estimate; Platelt; Plt; Point in time; PR; QL; Qual; Qualitati…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 104705-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [Presence] in Blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet Bld Ql
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Ql (Bld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Presence or Threshold:To identify measures at a point in time:Whole blood:Ordinal
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/11126-0`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Morph
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549844
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393222-7
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:Morph:Pt:Bone mar:Nom
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 753
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6832-2
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BM; BON; Bone marrow; HEMATOLOGY/CELL COUNTS; MAR; Marrow (bone); minimal angle of resolution; Minimum angle of resolution; Morphology; Nomi…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7750-5
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Nom
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 11126-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Nom (BM)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet Mar
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [Morphology] in Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Morphology:To identify measures at a point in time:Marrow (bone):Nominal
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/111353-9`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> {Measurement}
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6021008
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU854845
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:{Measurement}:-:Bld:-
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> -
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP447904-6
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Blood; Lab orders; Msmt; Platelet; Platelt; Plt; Thrb; Thrombocyte; Thrombocytes; WB; Whole blood
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> TRIAL
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7747-1
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Order
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> -
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP70420-2
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> LABORDERS.ONTOLOGY
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP448291-7
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 111353-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets (Bld) [Measurement]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:{Measurement}:-:Whole blood:-
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [Measurement] in Blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet Msmt Bld
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> This term is intended to collate similar measurements for the LOINC SNOMED CT Collaboration in an ontological view. Additionally, it can be …
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/13056-7`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549845
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393224-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Plas:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 19151
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002157
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; HEMATOLOGY/CELL COUNTS; Number co…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Plas
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32776-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7479-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 13056-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Plasma by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Plas Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Plasma:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Auto (P) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/13057-5`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> ACnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549843
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393223-5
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Dialysis fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:ACnc:Pt:Dial fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003414
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.69
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6773-8
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Arbitrary concentration; Diaf; Dialysate; Dialysis fluid; HEMATOLOGY/CELL COUNTS; Platelet; Platelt; Plt; Point in time; QNT; Quan; Quant; Q…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Dial fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> [arb'U]/mL
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7169-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 13057-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Qn (Dial fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet Dial fld-aCnc
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Arbitrary concentration:To identify measures at a point in time:Dialysis fluid:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [Units/volume] in Dialysis fluid
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/26515-7`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/UNIVERSAL_LAB_ORDERS_VALUE_SET` -> TRUE
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0942474
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Bld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 235
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 71
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Number concentration; Number Concentration (count/…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32892-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/78699-6
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/69742-5
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/24317-0
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/95270-5
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/55429-5
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/96789-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32892-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/mm3
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 26515-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Bld
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/26516-5`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0942475
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393224-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Plas:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002157
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.46
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Number concentration; Number Concentration (count/vol); P…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Plas
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32776-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32776-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7479-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 26516-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Plas
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Plasma
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Plasma:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets (P) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/40574-6`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1544531
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393221-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Body fld:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 1560
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; B/F; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; Number concentration; Number Concentra…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 40574-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Auto (Body fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Body fluid by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Fld Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Body fluid, unsp:Quantitative:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.15
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/47284-5`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1831352
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393220-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Cord blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:BldCo:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU072203
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood - (umbilical) cord; Cnt; Cord (umbilical) blood; Cord bld; Cord blood; Count; Count/volume; CT; HEMATOLOG…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> BldCo
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32923-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47288-6
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/74412-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32923-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7069-0
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 47284-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Cord blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # BldCo
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets (BldCo) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Blood - cord:Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.19
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/49497-1`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1977245
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Bld:Qn:Estimate
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 316
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; estimation; HEMATOLOGY/CELL COUNTS; Number concentration; Number Concentra…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Estimate
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP64451-5
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32892-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/mm3
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LEA` -> Reference range 130 - 400
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 49497-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Estimate
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Blood by Estimate
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Estimate (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Bld Est
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> In the Hematology world estimated cell counts have existed for many moons and they are reported either qualitatively or quantitatively and d…
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.22
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/55802-3`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C2733696
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393220-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Cord blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:BldCo:Qn:Estimate
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU072203
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.46
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood - (umbilical) cord; Cnt; Cord (umbilical) blood; Cord bld; Cord blood; Count; Count/volume; CT; estimatio…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> BldCo
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Estimate
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP64451-5
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32923-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7069-0
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 55802-3
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Blood - cord:Quantitative:Estimate
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # BldCo Est
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Estimate (BldCo) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Cord blood by Estimate
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.29
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/62244-9`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C2973166
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393226-8
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Fetal Platelet count
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Bld^Fetus:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; Blood; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; Fetal; Gyn; Gynecology; HE…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld^Fetus
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_supersystem` -> http://purl.bioontology.org/ontology/LNC/LP6982-5
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP281788-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7831-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 62244-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Whole blood^Fetus:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Blood from Fetus by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Bld Fetus Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Auto (Bld fetus) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.34
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/74464-9`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3699922
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393219-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:BldC:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001583
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.46
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood - capillary; Cap bld; Cap blood; Capillary bld; Capillary blood; Cnt; Count; Count/volume; CT; Finger sti…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> BldC
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7068-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 74464-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Capillary blood by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Blood capillary:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # BldC Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Manual cnt (BldC) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> Studies suggest that capillary cell counts can have values different from venous blood. One study reported significantly higher venous plate…
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.46
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/74775-8`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3847147
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393225-0
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:PRP:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003693
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.48
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; HEMATOLOGY/CELL COUNTS; Number co…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> PRP
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/74545-5
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7506-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 74775-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Auto (PRP) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # PRP Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Platelet rich plasma by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Platelet rich plasma:Quantitative:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.48
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/777-3`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/UNIVERSAL_LAB_ORDERS_VALUE_SET` -> TRUE
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0362994
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Bld:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 20
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; Blood; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; HEMATOLOGY/CELL COUNTS; Nu…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32892-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/98491-4
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/98125-8
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/53800-9
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/58410-2
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/93340-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 777-3
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Bld Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Auto (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Blood by Automated count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/778-1`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0362995
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Bld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 7062
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Manl; Number concentration; Number Concentration (…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32892-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 778-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Manual cnt (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Bld Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Blood by Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0
+
+## "platelets"  (search term: "platelets")
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/104705-9`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938175
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:PrThr:Pt:Bld:Ord
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Blood; HEMATOLOGY/CELL COUNTS; Ordinal; Platelet; Platelet adequacy; Platelet estimate; Platelt; Plt; Point in time; PR; QL; Qual; Qualitati…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 104705-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [Presence] in Blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet Bld Ql
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Ql (Bld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Presence or Threshold:To identify measures at a point in time:Whole blood:Ordinal
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/11126-0`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Morph
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549844
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393222-7
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:Morph:Pt:Bone mar:Nom
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 753
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6832-2
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BM; BON; Bone marrow; HEMATOLOGY/CELL COUNTS; MAR; Marrow (bone); minimal angle of resolution; Minimum angle of resolution; Morphology; Nomi…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7750-5
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Nom
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 11126-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Nom (BM)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet Mar
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [Morphology] in Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Morphology:To identify measures at a point in time:Marrow (bone):Nominal
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/111353-9`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> {Measurement}
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6021008
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU854845
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:{Measurement}:-:Bld:-
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> -
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP447904-6
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Blood; Lab orders; Msmt; Platelet; Platelt; Plt; Thrb; Thrombocyte; Thrombocytes; WB; Whole blood
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> TRIAL
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7747-1
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Order
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> -
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP70420-2
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> LABORDERS.ONTOLOGY
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP448291-7
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 111353-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets (Bld) [Measurement]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:{Measurement}:-:Whole blood:-
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [Measurement] in Blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet Msmt Bld
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> This term is intended to collate similar measurements for the LOINC SNOMED CT Collaboration in an ontological view. Additionally, it can be …
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/13056-7`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549845
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393224-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Plas:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 19151
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002157
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; HEMATOLOGY/CELL COUNTS; Number co…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Plas
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32776-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7479-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 13056-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Plasma by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Plas Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Plasma:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Auto (P) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/13057-5`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> ACnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549843
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393223-5
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Dialysis fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:ACnc:Pt:Dial fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003414
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.69
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6773-8
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Arbitrary concentration; Diaf; Dialysate; Dialysis fluid; HEMATOLOGY/CELL COUNTS; Platelet; Platelt; Plt; Point in time; QNT; Quan; Quant; Q…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Dial fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> [arb'U]/mL
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7169-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 13057-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Qn (Dial fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet Dial fld-aCnc
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Arbitrary concentration:To identify measures at a point in time:Dialysis fluid:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [Units/volume] in Dialysis fluid
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/26515-7`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/UNIVERSAL_LAB_ORDERS_VALUE_SET` -> TRUE
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0942474
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Bld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 235
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 71
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Number concentration; Number Concentration (count/…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32892-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/78699-6
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/69742-5
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/24317-0
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/95270-5
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/55429-5
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/96789-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32892-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/mm3
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 26515-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Bld
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/26516-5`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0942475
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393224-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Plas:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002157
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.46
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Number concentration; Number Concentration (count/vol); P…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Plas
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32776-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32776-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7479-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 26516-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Plas
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Plasma
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Plasma:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets (P) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/40574-6`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1544531
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393221-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Body fld:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 1560
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; B/F; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; Number concentration; Number Concentra…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 40574-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Auto (Body fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Body fluid by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Fld Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Body fluid, unsp:Quantitative:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.15
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/47284-5`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1831352
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393220-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Cord blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:BldCo:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU072203
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood - (umbilical) cord; Cnt; Cord (umbilical) blood; Cord bld; Cord blood; Count; Count/volume; CT; HEMATOLOG…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> BldCo
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32923-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47288-6
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/74412-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32923-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7069-0
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 47284-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Cord blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # BldCo
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets (BldCo) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Blood - cord:Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.19
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/49497-1`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1977245
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Bld:Qn:Estimate
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 316
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; estimation; HEMATOLOGY/CELL COUNTS; Number concentration; Number Concentra…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Estimate
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP64451-5
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32892-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/mm3
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LEA` -> Reference range 130 - 400
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 49497-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Estimate
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Blood by Estimate
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Estimate (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Bld Est
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> In the Hematology world estimated cell counts have existed for many moons and they are reported either qualitatively or quantitatively and d…
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.22
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/55802-3`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C2733696
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393220-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Cord blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:BldCo:Qn:Estimate
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU072203
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.46
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood - (umbilical) cord; Cnt; Cord (umbilical) blood; Cord bld; Cord blood; Count; Count/volume; CT; estimatio…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> BldCo
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Estimate
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP64451-5
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32923-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7069-0
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 55802-3
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Blood - cord:Quantitative:Estimate
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # BldCo Est
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Estimate (BldCo) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Cord blood by Estimate
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.29
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/62244-9`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C2973166
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393226-8
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Fetal Platelet count
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Bld^Fetus:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; Blood; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; Fetal; Gyn; Gynecology; HE…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld^Fetus
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_supersystem` -> http://purl.bioontology.org/ontology/LNC/LP6982-5
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP281788-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7831-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 62244-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Whole blood^Fetus:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Blood from Fetus by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Bld Fetus Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Auto (Bld fetus) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.34
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/74464-9`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3699922
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393219-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:BldC:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001583
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.46
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood - capillary; Cap bld; Cap blood; Capillary bld; Capillary blood; Cnt; Count; Count/volume; CT; Finger sti…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> BldC
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7068-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 74464-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Capillary blood by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Blood capillary:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # BldC Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Manual cnt (BldC) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> Studies suggest that capillary cell counts can have values different from venous blood. One study reported significantly higher venous plate…
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.46
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/74775-8`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3847147
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393225-0
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:PRP:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003693
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.48
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; HEMATOLOGY/CELL COUNTS; Number co…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> PRP
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/74545-5
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7506-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 74775-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Auto (PRP) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # PRP Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Platelet rich plasma by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Platelet rich plasma:Quantitative:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.48
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/777-3`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/UNIVERSAL_LAB_ORDERS_VALUE_SET` -> TRUE
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0362994
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Bld:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 20
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; Blood; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; HEMATOLOGY/CELL COUNTS; Nu…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32892-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/98491-4
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/98125-8
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/53800-9
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/58410-2
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/93340-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 777-3
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Bld Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Auto (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Blood by Automated count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/778-1`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0362995
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Bld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 7062
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Manl; Number concentration; Number Concentration (…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32892-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 778-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Manual cnt (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Bld Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Blood by Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/79427-1`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C4070202
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:Naric:Pt:Bld:Qn:Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.54
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Blood; HEMATOLOGY/CELL COUNTS; LM; Micro; Micros; Microscopic; Number areic; Platelet; Platelt; Plt; Point in time; QNT; Quan; Quant…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6399-2
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /HPF
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 79427-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets LM.HPF (Bld) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/area] in Blood by Microscopy high power field
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet #/area Bld HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Aeric (number per area):To identify measures at a point in time:Whole blood:Quantitative:Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.54
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/9317-9`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0484447
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:PrThr:Pt:Bld:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 189
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Blood; HEMATOLOGY/CELL COUNTS; LM; Micro; Micros; Microscopic; Ordinal; Platelet; Platelet adequacy; Platelet estimate; Platelt; Plt; Point …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/34994-4
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Microscopy is a more accurate way to describe platelet estimate; The PrThr property is used for LOINC terms whose results are reported using…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 9317-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets LM Ql (Bld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Presence or Threshold:To identify measures at a point in time:Whole blood:Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet adequacy [Presence] in Blood by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet Bld Ql Smear
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> Platelet Estimate
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0i
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/97995-5`  (matched: "Platelets")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5452585
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393218-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002432
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Platelet count, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets:NCnc:Pt:Bld:Qn:Automated count.optical
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Auto Optical; Automated detection; Blood; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; HEMATOLOGY/C…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count.optical
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP427008-0
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32892-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 97995-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets [#/volume] in Blood by Automated count.optical
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets Auto.optical (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet # Bld Auto Optical
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Automated count.optical
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.70
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/10412-5`  (matched: "Platelets given")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Type
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0484484
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000038
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU001625
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Type of Platelet count given
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Platelets given:Type:Pt:^Patient:Nom
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 1914
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6886-8
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BLOOD BANK; Gvn; Nominal; Platelet; Platelt; Plt; Point in time; Random; Thrb; Thrombocyte; Thrombocytes; Typ
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> ^Patient
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7750-5
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_suffix` -> http://purl.bioontology.org/ontology/LNC/LP29256-2
+    - `http://purl.bioontology.org/ontology/LNC/has_supersystem` -> http://purl.bioontology.org/ontology/LNC/LP6985-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14597-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP229345-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Nom
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Platelets given
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> BLDBK
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP310005-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7776-0
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LEA` -> Random donor; Single donor (apheresis); Maternal random donor
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 10412-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets given:Type:To identify measures at a point in time:^Patient:Nominal
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelet Gvn
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Platelets given [Type]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0i
+
+## "leukocyte"  (search term: "leukocytes")
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/100849-9`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5689521
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP433119-7
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Amniotic fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:NCnc:Pt:Amnio fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001056
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; AF; Amn; Amn fl; Amnio; Amniotic flu; Amniotic fluid; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Leu…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Amnio fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/100848-1
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7000-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 100849-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Number Concentration (count/vol):To identify measures at a point in time:Amniotic fluid:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [#/volume] in Amniotic fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Manual cnt (Amn fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC # Amn Manual
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.73
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/104646-5`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938122
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP441253-4
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:Naric:Pt:Urine:Qn:Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Artificial Intelligence; Automated detection; Comp Assist; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Number areic; Point …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70258-6
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 104646-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Computer assisted (U) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC #/area Ur Comp Assist
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Number Aeric (number per area):To identify measures at a point in time:Urine:Quantitative:Computer assisted
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [#/area] in Urine by Computer assisted method
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/105104-4`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938383
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402498-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:Naric:Pt:Urine sed:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Leuc; Leuk; Leukocyte; Lkcs; Number areic; Point in time; QNT; Quan; Quant; Quantitative; Random; UA; UR; URINALYSIS; Urine sediment…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40867-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 105104-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [#/area] in Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC (Urine sed) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC #/area UrnS
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Number Aeric (number per area):To identify measures at a point in time:Urine sediment:Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/105105-1`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938960
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402498-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:PrThr:Pt:Urine sed:Ord
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_NAME` -> Presence
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Leuc; Leuk; Leukocyte; Lkcs; Ordinal; Point in time; PR; QL; Qual; Qualitative; Random; Screen; UA; UR; URINALYSIS; Urine sediment; Urn; Urn…
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA6577-6
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11842-4
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11843-2
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11841-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40867-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_ID` -> LL6876-8
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_OID` -> 1.3.6.1.4.1.12009.10.1.5693
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 105105-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Presence or Threshold:To identify measures at a point in time:Urine sediment:Ordinal
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC UrnS Ql
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Ql (Urine sed)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Presence] in Urine sediment
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/10579-1`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0485041
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000074
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP400911-6
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Semen
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:NCnc:Pt:Semen:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 4818
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU065484
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; Ejaculate; FERTILITY TESTING; Genitourinary; GU; Leuc; Leuk; Leukocyte; Lkcs; Num…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Semen
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/4463-6
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/101569-2
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/54231-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> FERT
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7589-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7798-4
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29720-7
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 10579-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [#/volume] in Semen
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC (Sem) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC # Smn
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Number Concentration (count/vol):To identify measures at a point in time:Semen:Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0i
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/105921-1`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938815
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000096
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Urethra
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:NCnc:Pt:Urethra:Qn:Wet preparation
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001321
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; Genital tract; Leuc; Leuk; Leukocyte; Lkcs; Microbiology; Number concentration; N…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urethra
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Wet preparation
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6760-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> MICRO
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP30364-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7819-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 105921-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Number Concentration (count/vol):To identify measures at a point in time:Urethra:Quantitative:Wet preparation
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Wet prep (Urethra) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [#/volume] in Urethra by Wet preparation
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC # Urth Wet Prep
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/107011-9`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6018108
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392620-3
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Urethra
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:PrThr:Pt:Urethra:Ord:Wet preparation
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001321
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Genital tract; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Ordinal; Point in time; PR; Prep; QL; Qual; Qualitative; Random; Screen;…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urethra
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Wet preparation
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6760-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP30364-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 107011-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Urth Ql Wet Prep
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Presence or Threshold:To identify measures at a point in time:Urethra:Ordinal:Wet preparation
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Presence] in Urethra by Wet preparation
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Wet prep Ql (Urethra)
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/107465-7`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6018177
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP446680-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Pus
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:PrThr:Pt:Pus:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU022936
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; LM; Micro; Micros; Microscopic; Ordinal; Point in time; PR; QL; Qual; Qualitative; Rand…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Pus
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7527-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 107465-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Presence] in Pus by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Pus Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC LM Ql (Pus)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Presence or Threshold:To identify measures at a point in time:Pus:Ordinal:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/107469-9`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6018180
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP446679-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Aspirate
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:PrThr:Pt:Asp:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002010
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Aspirate; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; LM; Micro; Micros; Microscopic; Ordinal; Point in time; PR; QL; Qual; Qualita…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Asp
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7037-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 107469-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Aspirate Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Presence] in Aspirate by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Presence or Threshold:To identify measures at a point in time:Aspirate:Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC LM Ql (Asp)
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/107472-3`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6018183
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP446681-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Tissue
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:PrThr:Pt:Tiss:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001051
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unspecified; WBC; WBCs; White blood cell; White blood cells
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; LM; Micro; Micros; Microscopic; Ordinal; Point in time; PR; QL; Qual; Qualitative; Rand…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Tiss
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7641-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 107472-3
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Presence or Threshold:To identify measures at a point in time:Tissue, unspecified:Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Tiss Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC LM Ql (Tiss)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Presence] in Tissue by Light microscopy
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/107475-6`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6018186
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP446695-1
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Deep wound
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:PrThr:Pt:Wound.deep:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU007580
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Deep Wnd; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; LM; Micro; Micros; Microscopic; Ordinal; Point in time; PR; QL; Qual; Qualita…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Wound.deep
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7726-5
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7727-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 107475-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Presence or Threshold:To identify measures at a point in time:Wound.deep:Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC LM Ql (Deep wound)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Presence] in Wound deep by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Deep Wnd Ql Micro
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/107476-4`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6018187
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP446696-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Shallow wound
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:PrThr:Pt:Wound.shlw:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU007581
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; LM; Micro; Micros; Microscopic; Ordinal; Point in time; PR; QL; Qual; Qualitative; Rand…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Wound.shlw
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7728-1
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7726-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 107476-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Shlw Wnd Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC LM Ql (Shallow wound)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Presence] in Wound shallow by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Presence or Threshold:To identify measures at a point in time:Wound.shlw:Ordinal:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/107483-0`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6018193
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392612-0
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Pericardial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:PrThr:Pt:Pericard fld:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU033951
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; LM; Micro; Micros; Microscopic; Ordinal; Pcar; Pericardial fluid; Point in time; PR; QL…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Pericard fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7466-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 107483-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC LM Ql (Pericard fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Presence] in Pericardial fluid by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Presence or Threshold:To identify measures at a point in time:Pericardial fluid:Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Pcar Ql Micro
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/107497-0`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6018203
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392604-7
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Bronchial specimen
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:PrThr:Pt:Bronchial:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU004887
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bro; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; LM; Micro; Micros; Microscopic; Ordinal; Point in time; PR; QL; Qual; Qualitative;…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bronchial
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7091-4
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 107497-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Bronch Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Presence or Threshold:To identify measures at a point in time:Bronchial:Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Presence] in Bronchial specimen by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC LM Ql (Bronch spec)
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/110644-2`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> {Measurement}
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6020435
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU854845
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Stool
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:{Measurement}:-:Stool:-
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> -
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU065482
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP447904-6
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bowel movement; Faecal; Faeces; Fecal; Feces; Lab orders; Leuc; Leuk; Leukocyte; Lkcs; Msmt; Stl; Stool = Fecal; WBC; WBCs; White blood cell…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Stool
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> TRIAL
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7747-1
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Order
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> -
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP70420-2
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> LABORDERS.ONTOLOGY
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7604-4
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP448291-7
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 110644-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Msmt Stl
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC (Stl) [Measurement]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Measurement] in Stool
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> This term is intended to collate similar measurements for the LOINC SNOMED CT Collaboration in an ontological view. Additionally, it can be …
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/111204-4`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> {Measurement}
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6021133
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU854845
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:{Measurement}:-:Urine sed:-
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> -
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP447904-6
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Lab orders; Leuc; Leuk; Leukocyte; Lkcs; Msmt; UA; UR; Urine sediment; Urn; UrnS; WBC; WBCs; White blood cell; White blood cells
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> TRIAL
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7747-1
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Order
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> -
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP70420-2
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> LABORDERS.ONTOLOGY
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP448291-7
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 111204-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:{Measurement}:-:Urine sediment:-
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Measurement] in Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Msmt UrnS
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC (Urine sed) [Measurement]
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> This term is intended to collate similar measurements for the LOINC SNOMED CT Collaboration in an ontological view. Additionally, it can be …
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/11157-5`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Morph
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549808
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392603-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:Morph:Pt:Bone mar:Nom
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 8958
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6832-2
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BM; BON; Bone marrow; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; MAR; Marrow (bone); minimal angle of resolution; Minimum angle of…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7750-5
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Nom
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 11157-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Mar
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Morphology:To identify measures at a point in time:Marrow (bone):Nominal
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Nom (BM)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Morphology] in Bone marrow
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/12224-2`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549809
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392611-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Nose
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:Naric:Pt:Nose:Qn:Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 12295
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU065476
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; LM; Micro; Micros; Microscopic; Nasal; Nos; Nose (nasal passage); Number areic;…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Nose
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6399-2
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /HPF
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7443-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 12224-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Number Aeric (number per area):To identify measures at a point in time:Nose:Quantitative:Microscopy.light.HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [#/area] in Nose by Microscopy high power field
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC LM.HPF (Nose) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC #/area Nose HPF
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/12225-9`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549810
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392617-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Sputum
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:Naric:Pt:Sputum:Qn:Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001309
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.40
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; LM; Lower respiratory; Micro; Micros; Microscopic; Number areic; Point in time;…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Sputum
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6399-2
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /HPF
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7600-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 12225-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC LM.HPF (Sput) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Number Aeric (number per area):To identify measures at a point in time:Sputum:Quantitative:Microscopy.light.HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC #/area Spt HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [#/area] in Sputum by Microscopy high power field
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/12226-7`  (matched: "Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549807
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392621-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU051577
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> White blood cell (WBC) count, Vaginal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Leukocytes:PrThr:Pt:Vag:Ord:Wet preparation
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 2165
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU014732
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Genital vaginal; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Ordinal; Point in time; PR; Prep; QL; Qual; Qualitative; Random; Scree…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Vag
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Wet preparation
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6760-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/88849-5
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47531-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7271-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 12226-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Wet prep Ql (Vag fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes [Presence] in Vaginal fluid by Wet preparation
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Leukocytes:Presence or Threshold:To identify measures at a point in time:Vagina:Ordinal:Wet preparation
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> WBC Vag Ql Wet Prep
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+## "neutrophil (segmented)"  (search term: "neutrophils.segmented")
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/30451-9`  (matched: "Neutrophils.segmented")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1114302
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392658-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU013777
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented:NCnc:Pt:Bld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 458
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Neut; Neutr; Neutrophil; Neuts Seg; N-Seg; Number …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32792-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/24318-8
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/69738-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32792-0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 30451-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg # Bld
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils [#/volume] in Blood
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.04
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/30452-7`  (matched: "Neutrophils.segmented")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1114303
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392659-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU013777
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented:NCnc:Pt:Body fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 697
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Cnt; Count; Count/volume; CT; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; Neut; Neutr; Neutrophil; Neuts Seg; N-Seg; Number concentra…
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; B/F; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32793-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29580-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32793-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 30452-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils (Body fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils [#/volume] in Body fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented:Number Concentration (count/vol):To identify measures at a point in time:Body fluid, unsp:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg # Fld
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.04
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35009-0`  (matched: "Neutrophils.segmented")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378414
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392663-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU013777
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils, Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented:NCnc:Pt:Synv fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002403
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.54
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Joint aspirate; Joint fld; Joint flu; Joint fluid; Neut; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Synv fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29582-4
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7592-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415710-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35009-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg # Snv
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils [#/volume] in Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented:Number Concentration (count/vol):To identify measures at a point in time:Synovial fluid (Joint fluid):Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils (Syn fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35010-8`  (matched: "Neutrophils.segmented")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378413
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392661-7
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU013777
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils, Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented:NCnc:Pt:Periton fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003151
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.54
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Ascites; Ascitic fluid; Ascitis; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Neut; Neutr; Neutrophil;…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Periton fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29581-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7507-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35010-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils [#/volume] in Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg # Prt
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented:Number Concentration (count/vol):To identify measures at a point in time:Peritoneal fluid /ascites:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils (Periton fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35011-6`  (matched: "Neutrophils.segmented")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378410
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392660-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU013777
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils, Spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented:NCnc:Pt:CSF:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 5076
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001311
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cerebral spinal fluid; Cerebrospinal Fl; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Neuro; Neurology…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> CSF
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29584-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7156-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP201883-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35011-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils (CSF) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils [#/volume] in Cerebral spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg # CSF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented:Number Concentration (count/vol):To identify measures at a point in time:Cerebral spinal fluid:Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35012-4`  (matched: "Neutrophils.segmented")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378412
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392662-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU013777
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils, Pleural fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented:NCnc:Pt:Plr fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 5812
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU004829
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Lung; Neut; Neutr; Neutrophil; Neuts Seg; N-Seg; Number c…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Plr fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29583-2
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7486-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190498-8
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35012-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg # Plr
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils (Pleur fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented:Number Concentration (count/vol):To identify measures at a point in time:Pleural fluid (thoracentesis fld):Quantitativ…
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils [#/volume] in Pleural fluid
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/6745-4`  (matched: "Neutrophils.segmented")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0484442
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392659-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU013777
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented:NCnc:Pt:Body fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 3828
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Cnt; Count; Count/volume; CT; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; Manl; Neut; Neutr; Neutrophil; Neuts Seg; N-Seg; Number con…
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; B/F; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32793-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 6745-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg # Fld Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils [#/volume] in Body fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils Manual cnt (Body fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented:Number Concentration (count/vol):To identify measures at a point in time:Body fluid, unsp:Quantitative:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0h(2)
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/768-2`  (matched: "Neutrophils.segmented")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0362985
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392658-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU013777
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented:NCnc:Pt:Bld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 397
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Manl; Neut; Neutr; Neutrophil; Neuts Seg; N-Seg; N…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32792-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 768-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils Manual cnt (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg # Bld Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils [#/volume] in Blood by Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/11128-6`  (matched: "Neutrophils.segmented/Cells")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549830
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071227
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils/cells, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented/Cells:NFr:Pt:Bone mar:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 8293
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BM; BON; Bone marrow; Cell; Cellularity; HEMATOLOGY/CELL COUNTS; MAR; Marrow (bone); minimal angle of resolution; Minimum angle of resolutio…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47286-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14738-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP445497-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented/Cells
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 11128-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/cells in Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented/Cells:Number Fraction:To identify measures at a point in time:Marrow (bone):Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg NFr Mar
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/cells (BM)
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP174115-8
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/14107-7`  (matched: "Neutrophils.segmented/Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0797295
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392660-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071276
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils/White Blood Cells, Spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented/Leukocytes:NFr:Pt:CSF:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 5379
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001311
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Cerebral spinal fluid; Cerebrospinal Fl; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Manl; Neuro; Neurology; Neut; Neutr; Neutrophi…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> CSF
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP286651-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented/Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7156-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP201883-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 14107-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes Manual cnt (CSF)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg NFr CSF Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes in Cerebral spinal fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented/Leukocytes:Number Fraction:To identify measures at a point in time:Cerebral spinal fluid:Quantitative:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP157588-7
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0k
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/26505-8`  (matched: "Neutrophils.segmented/Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0942466
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392658-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071276
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils/White Blood Cells, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented/Leukocytes:NFr:Pt:Bld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 545
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Blood; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Neut; Neutr; Neutrophil; Neuts Seg; N-Seg; Number fraction; Percent; PMN; PNM; P…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/24318-8
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/69738-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP286651-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented/Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 26505-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes in Blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg NFr Bld
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes (Bld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented/Leukocytes:Number Fraction:To identify measures at a point in time:Whole blood:Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP157588-7
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/26506-6`  (matched: "Neutrophils.segmented/Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0942467
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392660-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071276
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils/White Blood Cells, Spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented/Leukocytes:NFr:Pt:CSF:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 5930
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001311
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Cerebral spinal fluid; Cerebrospinal Fl; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Neuro; Neurology; Neut; Neutr; Neutrophil; Neu…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> CSF
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29584-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP286651-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented/Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7156-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP201883-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 26506-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes (CSF)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented/Leukocytes:Number Fraction:To identify measures at a point in time:Cerebral spinal fluid:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes in Cerebral spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg NFr CSF
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP157588-7
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/30230-7`  (matched: "Neutrophils.segmented/Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1114109
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392659-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071276
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils/White Blood Cells, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented/Leukocytes:NFr:Pt:Body fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 6150
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Manl; Neut; Neutr; Neutrophil; Neuts Seg; N-Seg; Number frac…
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> B/F; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP286651-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented/Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 30230-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes in Body fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented/Leukocytes:Number Fraction:To identify measures at a point in time:Body fluid, unsp:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes Manual cnt (Body fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg NFr Fld Manual
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP157588-7
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.04
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/30453-5`  (matched: "Neutrophils.segmented/Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1114304
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392659-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071276
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils/White Blood Cells, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented/Leukocytes:NFr:Pt:Body fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 2372
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> B/F; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Neut; Neutr; Neutrophil; Neuts Seg; N-Seg; Number fraction; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29580-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP286651-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented/Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 30453-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes (Body fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg NFr Fld
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented/Leukocytes:Number Fraction:To identify measures at a point in time:Body fluid, unsp:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes in Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP157588-7
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.04
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/32200-8`  (matched: "Neutrophils.segmented/Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1147884
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392658-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071276
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils/White Blood Cells, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented/Leukocytes:NFr:Pt:Bld:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 703
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Auto; Automated detection; Blood; Elec; Elect; Electr; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Neut; Neutr; Neutrophil; Neuts S…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP286651-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented/Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 32200-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes Auto (Bld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes in Blood by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented/Leukocytes:Number Fraction:To identify measures at a point in time:Whole blood:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg NFr Bld Auto
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP157588-7
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.07
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/33384-9`  (matched: "Neutrophils.segmented/Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1315853
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392661-7
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071276
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils/White Blood Cells, Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented/Leukocytes:NFr:Pt:Periton fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003151
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Ascites; Ascitic fluid; Ascitis; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Neut; Neutr; Neutrophil; Neuts Seg; N-Seg; Number frac…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Periton fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29581-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP286651-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented/Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7507-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 33384-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes (Periton fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg NFr Prt
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented/Leukocytes:Number Fraction:To identify measures at a point in time:Peritoneal fluid /ascites:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes in Peritoneal fluid
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP157588-7
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.09
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/33385-6`  (matched: "Neutrophils.segmented/Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1315854
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392662-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071276
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils/White Blood Cells, Pleural fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented/Leukocytes:NFr:Pt:Plr fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU004829
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Lung; Neut; Neutr; Neutrophil; Neuts Seg; N-Seg; Number fraction; Percent; Pleural; Ple…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Plr fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29583-2
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP286651-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented/Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7486-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190498-8
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 33385-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes (Pleur fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg NFr Plr
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented/Leukocytes:Number Fraction:To identify measures at a point in time:Pleural fluid (thoracentesis fld):Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes in Pleural fluid
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP157588-7
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.09
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/33386-4`  (matched: "Neutrophils.segmented/Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1315855
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392663-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071276
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils/White Blood Cells, Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented/Leukocytes:NFr:Pt:Synv fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 5835
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002403
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> HEMATOLOGY/CELL COUNTS; Joint aspirate; Joint fld; Joint flu; Joint fluid; Leuc; Leuk; Leukocyte; Lkcs; Neut; Neutr; Neutrophil; Neuts Seg; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Synv fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29582-4
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP286651-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented/Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7592-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415710-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 33386-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg NFr Snv
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented/Leukocytes:Number Fraction:To identify measures at a point in time:Synovial fluid (Joint fluid):Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes in Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes (Syn fld)
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP157588-7
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.09
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/33387-2`  (matched: "Neutrophils.segmented/Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1315856
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071276
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils/White Blood Cells, Pericardial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented/Leukocytes:NFr:Pt:Pericard fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU033951
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Cardio; Cardiology; Heart Disease; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Neut; Neutr; Neutrophil; Neuts Seg; N-Seg; Number fr…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Pericard fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/69741-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP286651-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented/Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7466-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190563-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 33387-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes in Pericardial fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented/Leukocytes:Number Fraction:To identify measures at a point in time:Pericardial fluid:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg NFr Pcar
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes (Pericard fld)
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP157588-7
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.09
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/56960-8`  (matched: "Neutrophils.segmented/Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C2735239
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071276
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Segmented neutrophils/White Blood Cells, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Neutrophils.segmented/Leukocytes:NFr:Pt:Bone mar:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BM; BON; Bone marrow; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Manl; MAR; Marrow (bone); minimal angle of resolution; Minimum an…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47286-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14267-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP286651-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29151-5
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Neutrophils.segmented/Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 56960-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes Manual cnt (BM)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neutrophils.segmented/Leukocytes:Number Fraction:To identify measures at a point in time:Marrow (bone):Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Segmented neutrophils/Leukocytes in Bone marrow by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Neuts Seg NFr Mar Manual
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP157588-7
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.29
+
+## "lymphocyte"  (search term: "lymphocytes")
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/105870-0`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938973
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392931-4
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Specimen
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:XXX:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU065483
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Lymp; Lymph; Lympho; Lymphocyte; Lymphs; Lymphs%; Misc; M…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> XXX
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG51691-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG51691-0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7735-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 105870-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes (Specimen) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Spec
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Not specified:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Specimen
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/107036-6`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6018112
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP445857-8
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000046
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Specimen
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:XXX:Qn:Flow cytometry
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU065483
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; CELL MARKERS; Cnt; Count; Count/volume; CT; Dynamic; FC; Lymp; Lymph; Lympho; Lymphocyte; Lymphs; Lymphs%; Misc…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> XXX
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Flow cytometry
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> {#}/mL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6274-7
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> CELLMARK
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> #/mL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7735-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7783-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 107036-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes FC (Specimen) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Specimen by Flow cytometry (FC)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Spec FC
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Not specified:Quantitative:Flow cytometry
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/107042-4`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6018118
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP445856-0
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000046
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:Bone mar:Qn:Flow cytometry
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; BM; BON; Bone marrow; CELL MARKERS; Cnt; Count; Count/volume; CT; Dynamic; FC; Lymp; Lymph; Lympho; Lymphocyte;…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Flow cytometry
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10^9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6274-7
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> CELLMARK
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> x10(9)/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7783-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 107042-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Bone marrow by Flow cytometry (FC)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Marrow (bone):Quantitative:Flow cytometry
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes FC (BM) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Mar FC
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/107155-4`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5976337
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP445937-8
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Blood Product Unit
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:Hematopoietic progenitor cells^BPU:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU052722
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood product unit; Blood Product Unit (Pack); Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; HPC; HPC^B…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Hematopoietic progenitor cells^BPU
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_supersystem` -> http://purl.bioontology.org/ontology/LNC/LP7739-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP193445-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP193444-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 107155-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Hematopoietic progenitor cells^BPU:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # HPC BPU
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes (Hematopoietic progenitor cells BPU) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Hematopoietic progenitor cells from Blood product unit
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.79
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/14106-9`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0797294
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392922-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:CSF:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 8434
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001311
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cerebral spinal fluid; Cerebrospinal Fl; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Lymp; Lymph; Lym…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> CSF
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32864-7
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7156-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP201883-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 14106-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Cerebral spinal fluid:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # CSF Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Cerebral spinal fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes Manual cnt (CSF) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0k
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/20585-6`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0803390
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392931-4
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Specimen
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:XXX:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 780
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU065483
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; HEMATOLOGY/CELL COUNTS; Lymp; Lym…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> XXX
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG51691-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7735-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 20585-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Spec Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Not specified:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Specimen by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes Auto (Specimen) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0m
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/26474-7`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0942437
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392919-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:Bld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 112
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Lymp; Lymph; Lympho; Lymphocyte; Lymphs; Lymphs%; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32863-9
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/24318-8
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/65759-3
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/49120-9
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/55429-5
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/69738-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32863-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 26474-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Bld
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Blood
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/26475-4`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0942438
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392922-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:CSF:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 5025
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001311
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cerebral spinal fluid; Cerebrospinal Fl; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Lymp; Lymph; Lym…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> CSF
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32864-7
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29584-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32864-7
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7156-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP201883-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 26475-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes (CSF) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # CSF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Cerebral spinal fluid:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Cerebral spinal fluid
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/26476-2`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0942439
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392921-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:Body fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 1545
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Cnt; Count; Count/volume; CT; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; Lymp; Lymph; Lympho; Lymphocyte; Lymphs; Lymphs%; Number co…
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; B/F; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32865-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29580-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32865-4
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 26476-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Body fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Body fluid, unsp:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes (Body fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Fld
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/30364-4`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1114226
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP400782-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000046
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:Bld:Qn:Flow cytometry
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 2168
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; CELL MARKERS; Cnt; Count; Count/volume; CT; Dynamic; FC; Lymp; Lymph; Lympho; Lymphocyte; Lymphs; Lymphs…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Flow cytometry
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6274-7
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> CELLMARK
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7783-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 30364-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Blood by Flow cytometry (FC)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Flow cytometry
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Bld FC
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes FC (Bld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.04
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/32697-5`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0797996
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392928-0
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:Synv fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002403
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Joint aspirate; Joint fld; Joint flu; Joint fluid; Lymp; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Synv fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32944-7
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7592-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415710-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 32697-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Synovial fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes Manual cnt (Syn fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Snv Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Synovial fluid (Joint fluid):Quantitative:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.09
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35049-6`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378306
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392928-0
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:Synv fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 5937
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002403
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Joint aspirate; Joint fld; Joint flu; Joint fluid; Lymp; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Synv fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32944-7
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29582-4
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32944-7
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7592-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415710-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35049-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Snv
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Synovial fluid (Joint fluid):Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes (Syn fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35097-5`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378305
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392924-9
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:Periton fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003151
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.44
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Ascites; Ascitic fluid; Ascitis; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Lymp; Lymph; Lympho; Lym…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Periton fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32906-6
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29581-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32906-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7507-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35097-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Prt
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes (Periton fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Peritoneal fluid /ascites:Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35098-3`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378297
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392925-6
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Pleural fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:Plr fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU004829
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.44
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Lung; Lymp; Lymph; Lympho; Lymphocyte; Lymphs; Lymphs%; N…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Plr fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32907-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29583-2
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32907-4
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7486-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190498-8
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35098-3
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Plr
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes (Pleur fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Pleural fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Pleural fluid (thoracentesis fld):Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/38903-1`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1542964
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392927-2
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Stool
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:PrThr:Pt:Stool:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU065482
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.56
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bowel movement; Faecal; Faeces; Fecal; Feces; Gastro; Gastroenterology; GI; HEMATOLOGY/CELL COUNTS; LM; Lymp; Lymph; Lympho; Lymphocyte; Lym…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Stool
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7604-4
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190554-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 38903-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Presence or Threshold:To identify measures at a point in time:Stool:Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes LM Ql (Stl)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes Stl Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [Presence] in Stool by Light microscopy
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.15
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/40470-7`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1544445
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392926-4
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Semen
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:Naric:Pt:Semen:Qn:Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU065484
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Ejaculate; Genitourinary; GU; HEMATOLOGY/CELL COUNTS; LM; Lymp; Lymph; Lympho; Lymphocyte; Lymphs; Lymphs%; Micro; Micros; Microscop…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Semen
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6399-2
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /HPF
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7589-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29720-7
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 40470-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/area] in Semen by Microscopy high power field
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes LM.HPF (Sem) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Aeric (number per area):To identify measures at a point in time:Semen:Quantitative:Microscopy.light.HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes #/area Smn HPF
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.15
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/51627-8`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C2359887
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392924-9
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:Periton fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003151
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.44
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Ascites; Ascitic fluid; Ascitis; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Lymp; Lymph; Lympho; Lym…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Periton fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32906-6
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7507-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 51627-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Prt Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Peritoneal fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes Manual cnt (Periton fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Peritoneal fluid /ascites:Quantitative:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.24
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/55787-6`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Num
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C2733681
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392922-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:Num:Pt:CSF:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001311
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.69
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6841-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Cerebral spinal fluid; Cerebrospinal Fl; Cnt; Count; HEMATOLOGY/CELL COUNTS; Lymp; Lymph; Lympho; Lymphocyte; Lymphs; Lymphs%; Manl; Neuro; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> CSF
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> {#}
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7156-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP201883-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 55787-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number:To identify measures at a point in time:Cerebral spinal fluid:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes Manual cnt (CSF) [#]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes CSF Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#] in Cerebral spinal fluid by Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.29
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/66140-5`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3258972
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392932-2
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Fetal Lymphocytes
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:Bld^Fetus:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; Fetal; Gyn; Gynecology; HEMATOLOGY/CELL COUNTS; Lymp; Lymph; Lympho; Lymph…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld^Fetus
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_supersystem` -> http://purl.bioontology.org/ontology/LNC/LP6982-5
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP281788-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7831-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 66140-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Whole blood^Fetus:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Bld Fetus Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes Manual cnt (Bld fetus) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Blood from Fetus by Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.38
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/6744-7`  (matched: "Lymphocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0484432
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392921-5
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU004645
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Lymphocytes, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Lymphocytes:NCnc:Pt:Body fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 4396
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Cnt; Count; Count/volume; CT; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; Lymp; Lymph; Lympho; Lymphocyte; Lymphs; Lymphs%; Manl; Num…
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; B/F; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32865-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14540-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Lymphocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 6744-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes:Number Concentration (count/vol):To identify measures at a point in time:Body fluid, unsp:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes # Fld Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes [#/volume] in Body fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Lymphocytes Manual cnt (Body fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0h(2)
+
+## "monocyte"  (search term: "monocytes")
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/104548-3`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938095
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393028-8
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Bld:Qn:Flow cytometry
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; Dynamic; FC; HEMATOLOGY/CELL COUNTS; Mono; Monocyte; Monos; Number concent…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Flow cytometry
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6274-7
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32885-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/104547-5
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 104548-3
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes FC (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Blood by Flow cytometry (FC)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Bld FC
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Flow cytometry
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/26484-6`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0942446
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393028-8
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Bld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 111
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Mono; Monocyte; Monos; Number concentration; Numbe…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32885-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/24318-8
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/69738-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32885-2
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/mm3
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 26484-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Bld
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/30145-7`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1114036
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393035-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Synv fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002403
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.30
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Joint aspirate; Joint fld; Joint flu; Joint fluid; Manl; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Synv fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32787-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7592-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 30145-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Synovial fluid (Joint fluid):Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Snv Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Synovial fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes Manual cnt (Syn fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.04
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/30435-2`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1114288
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393035-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Synv fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 12428
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002403
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Joint aspirate; Joint fld; Joint flu; Joint fluid; Mono; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Synv fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32787-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29582-4
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32787-0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7592-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 30435-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Synovial fluid (Joint fluid):Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Snv
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes (Syn fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.04
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/33251-0`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0484440
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393030-4
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Body fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Cnt; Count; Count/volume; CT; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; Manl; Mono; Monocyte; Monos; Number concentration; Number C…
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; B/F; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32872-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 33251-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes Manual cnt (Body fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Body fluid, unsp:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Body fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Fld Manual
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.09
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/33252-8`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0484439
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393031-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:CSF:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001311
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cerebral spinal fluid; Cerebrospinal Fl; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Manl; Mono; Mono…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> CSF
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32873-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7156-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 33252-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # CSF Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Cerebral spinal fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Cerebral spinal fluid:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes Manual cnt (CSF) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.09
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35026-4`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378337
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393031-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:CSF:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 8381
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001311
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cerebral spinal fluid; Cerebrospinal Fl; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Mono; Monocyte; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> CSF
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32873-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29584-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32873-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7156-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35026-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # CSF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Cerebral spinal fluid:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Cerebral spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes (CSF) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35027-2`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378342
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393033-8
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Periton fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003151
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.44
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Ascites; Ascitic fluid; Ascitis; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Mono; Monocyte; Monos; N…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Periton fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32926-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29581-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32926-4
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7507-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35027-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Prt
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes (Periton fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Peritoneal fluid /ascites:Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35028-0`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378341
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393034-6
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Pleural fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Plr fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU004829
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.44
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Mono; Monocyte; Monos; Number concentration; Number Conce…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Plr fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32927-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29583-2
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32927-2
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7486-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35028-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Plr
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Pleural fluid (thoracentesis fld):Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Pleural fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes (Pleur fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35076-9`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378338
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393030-4
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Body fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 1427
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; B/F; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Cnt; Count; Count/volume; CT; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; Mono; Monocyte; Monos; Number concentration; Number Concent…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32872-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29580-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32872-0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35076-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Fld
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Body fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Body fluid, unsp:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes (Body fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/66143-9`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3258825
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393037-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Fetal Monocytes
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Bld^Fetus:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; Fetal; Gyn; Gynecology; HEMATOLOGY/CELL COUNTS; Manl; Mono; Monocyte; Mono…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld^Fetus
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_supersystem` -> http://purl.bioontology.org/ontology/LNC/LP6982-5
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP281788-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7831-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 66143-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Blood from Fetus by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes Manual cnt (Bld fetus) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Bld Fetus Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Whole blood^Fetus:Quantitative:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.38
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/68420-9`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3262299
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393032-0
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Pericardial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Pericard fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 19036
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU033951
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cardio; Cardiology; Cnt; Count; Count/volume; CT; Heart Disease; HEMATOLOGY/CELL COUNTS; Manl; Mono; Monocyte; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Pericard fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7466-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190563-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 68420-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Pericardial fluid:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Pericardial fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Pcar Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes Manual cnt (Pericard fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.38
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/68421-7`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3262300
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393033-8
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Periton fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003151
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Ascites; Ascitic fluid; Ascitis; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Manl; Mono; Monocyte; Mo…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Periton fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32926-4
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7507-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 68421-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes Manual cnt (Periton fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Peritoneal fluid /ascites:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Peritoneal fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Prt Manual
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.38
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/68422-5`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3262301
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393034-6
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Pleural fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Plr fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU004829
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Manl; Mono; Monocyte; Monos; Number concentration; Number…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Plr fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32927-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7486-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 68422-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes Manual cnt (Pleur fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Plr Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Pleural fluid (thoracentesis fld):Quantitative:Manual cou…
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Pleural fluid by Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.38
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/68424-1`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3262303
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393036-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Vitreous fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Vitr fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003218
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Manl; Mono; Monocyte; Monos; Number concentration; Number…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Vitr fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/72394-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7715-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 68424-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes Manual cnt (Vitr fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Vitreous Fluid:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Vitreous fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Vitf Manual
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.38
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/742-7`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0362958
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393028-8
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Bld:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 32
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; Blood; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; HEMATOLOGY/CELL COUNTS; Mo…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32885-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/57023-4
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/93340-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 742-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes Auto (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Blood by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Bld Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/743-5`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0362959
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393028-8
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:Bld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 266
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Manl; Mono; Monocyte; Monos; Number concentration;…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32885-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 743-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # Bld Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes Manual cnt (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Blood by Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/74399-7`  (matched: "Monocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3699845
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393029-6
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012776
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Monocytes, Cord blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Monocytes:NCnc:Pt:BldCo:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU072203
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.46
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood - (umbilical) cord; Cnt; Cord (umbilical) blood; Cord bld; Cord blood; Count; Count/volume; CT; HEMATOLOG…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> BldCo
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/74413-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14313-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Monocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7069-0
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 74399-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes # BldCo
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes [#/volume] in Cord blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes (BldCo) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Monocytes:Number Concentration (count/vol):To identify measures at a point in time:Blood - cord:Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.46
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/33855-8`  (matched: "Promonocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0796790
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393040-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU015690
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Promonocytes, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Promonocytes:NCnc:Pt:Bld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.40
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Manl; Number concentration; Number Concentration (…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32802-7
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP15083-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Promonocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 33855-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Promonocytes:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Promonocytes Manual cnt (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Promonycytes # Bld Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Promonocytes [#/volume] in Blood by Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.09
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/34926-6`  (matched: "Promonocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378333
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP393040-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU015690
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Promonocytes, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Promonocytes:NCnc:Pt:Bld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 15091
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Blood; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Number concentration; Number Concentration (count/…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32802-7
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/24318-8
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/69738-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP15083-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32802-7
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Promonocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 34926-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Promonycytes # Bld
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Promonocytes (Bld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Promonocytes:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Promonocytes [#/volume] in Blood
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+## "basophil"  (search term: "basophils")
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/26444-0`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0942414
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392736-7
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Blood
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:NCnc:Pt:Bld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 212
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Baso; Basophil; Basos; Blood; Bph; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Number concentration; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32848-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/24318-8
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/69738-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32848-0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/mm3
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 26444-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils # Bld
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number Concentration (count/vol):To identify measures at a point in time:Whole blood:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#/volume] in Blood
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils (Bld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/34579-3`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1317040
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392742-5
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:Naric:Pt:Periton fld:Qn:Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003151
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Ascites; Ascitic fluid; Ascitis; Baso; Basophil; Basos; Bph; HEMATOLOGY/CELL COUNTS; LM; Micro; Micros; Microscopic; Number areic; P…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Periton fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6399-2
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /HPF
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7507-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 34579-3
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number Aeric (number per area):To identify measures at a point in time:Peritoneal fluid /ascites:Quantitative:Microscopy.light.HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils LM.HPF (Periton fld) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#/area] in Peritoneal fluid by Microscopy high power field
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils #/area Prt HPF
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.10
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35071-0`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378224
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392738-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:NCnc:Pt:Body fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 1796
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; B/F; Baso; Basophil; Basos; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Bph; Cnt; Count; Count/volume; CT; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; Number concentration; Number Concentration (count/vol)…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32881-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29580-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32881-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35071-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number Concentration (count/vol):To identify measures at a point in time:Body fluid, unsp:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils # Fld
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#/volume] in Body fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils (Body fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35072-8`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378223
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392739-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:NCnc:Pt:CSF:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 10824
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001311
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Baso; Basophil; Basos; Bph; Cerebral spinal fluid; Cerebrospinal Fl; Cnt; Count; Count/volume; CT; HEMATOLOGY/C…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> CSF
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29584-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7156-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35072-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils (CSF) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#/volume] in Cerebral spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils # CSF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number Concentration (count/vol):To identify measures at a point in time:Cerebral spinal fluid:Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35073-6`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1369872
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392742-5
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:NCnc:Pt:Periton fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003151
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.44
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Ascites; Ascitic fluid; Ascitis; Baso; Basophil; Basos; Bph; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUN…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Periton fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32960-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29581-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32960-3
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7507-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35073-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number Concentration (count/vol):To identify measures at a point in time:Peritoneal fluid /ascites:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#/volume] in Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils # Prt
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils (Periton fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35074-4`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1378225
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392744-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:NCnc:Pt:Synv fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 19682
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002403
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Baso; Basophil; Basos; Bph; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Joint aspirate; Joint fld; Jo…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Synv fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32961-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29582-4
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32961-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7592-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35074-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#/volume] in Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils # Snv
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils (Syn fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number Concentration (count/vol):To identify measures at a point in time:Synovial fluid (Joint fluid):Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/35075-1`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1369873
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392743-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Pleural fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:NCnc:Pt:Plr fld:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU004829
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.44
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Baso; Basophil; Basos; Bph; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Number concentration; Number …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Plr fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32900-9
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/29583-2
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG32900-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7486-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 35075-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils # Plr
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number Concentration (count/vol):To identify measures at a point in time:Pleural fluid (thoracentesis fld):Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#/volume] in Pleural fluid
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils (Pleur fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.11
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/40571-2`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1764755
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392738-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:NCnc:Pt:Body fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 6300
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; B/F; Baso; Basophil; Basos; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Bph; Cnt; Count; Count/volume; CT; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; Manl; Number concentration; Number Concentration (coun…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32881-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 40571-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils Manual cnt (Body fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils # Fld Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#/volume] in Body fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number Concentration (count/vol):To identify measures at a point in time:Body fluid, unsp:Quantitative:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.15
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/44018-0`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1715301
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392738-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Body fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:PrThr:Pt:Body fld:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001005
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.56
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> unsp; Bph; Fl; Fld; FLU; Fluid; HEMATOLOGY/CELL COUNTS; LM; Micro; Micros; Microscopic; Ordinal; Point in time; PR; QL; Qual; Qualitative; R…
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> B/F; Baso; Basophil; Basos; BF; bod; Bodies; Body fluid; Body fluid
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Body fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7238-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 44018-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Presence or Threshold:To identify measures at a point in time:Body fluid, unsp:Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils LM Ql (Body fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [Presence] in Body fluid by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils Fld Ql Micro
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.17
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/44040-4`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1715320
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392739-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:PrThr:Pt:CSF:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001311
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.56
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Baso; Basophil; Basos; Bph; Cerebral spinal fluid; Cerebrospinal Fl; HEMATOLOGY/CELL COUNTS; LM; Micro; Micros; Microscopic; Ordinal; Point …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> CSF
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7156-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 44040-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [Presence] in Cerebral spinal fluid by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Presence or Threshold:To identify measures at a point in time:Cerebral spinal fluid:Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils CSF Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils LM Ql (CSF)
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.17
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/44041-2`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1717304
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392744-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Synovial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:PrThr:Pt:Synv fld:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU002403
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.56
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Baso; Basophil; Basos; Bph; HEMATOLOGY/CELL COUNTS; Joint aspirate; Joint fld; Joint flu; Joint fluid; LM; Micro; Micros; Microscopic; Ordin…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Synv fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7592-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 44041-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Presence or Threshold:To identify measures at a point in time:Synovial fluid (Joint fluid):Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [Presence] in Synovial fluid by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils LM Ql (Syn fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils Snv Ql Micro
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.17
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/44042-0`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1715321
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392741-7
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Pericardial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:PrThr:Pt:Pericard fld:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU033951
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.56
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Baso; Basophil; Basos; Bph; Cardio; Cardiology; Heart Disease; HEMATOLOGY/CELL COUNTS; LM; Micro; Micros; Microscopic; Ordinal; Pcar; Perica…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Pericard fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7466-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190563-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 44042-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils LM Ql (Pericard fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Presence or Threshold:To identify measures at a point in time:Pericardial fluid:Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [Presence] in Pericardial fluid by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils Pcar Ql Micro
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.17
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/44043-8`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1715322
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392743-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Pleural fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:PrThr:Pt:Plr fld:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU004829
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.56
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Baso; Basophil; Basos; Bph; HEMATOLOGY/CELL COUNTS; LM; Micro; Micros; Microscopic; Ordinal; Pleural; Pleural fluid; Point in time; PR; QL; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Plr fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7486-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 44043-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils Plr Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils LM Ql (Pleur fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [Presence] in Pleural fluid by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Presence or Threshold:To identify measures at a point in time:Pleural fluid (thoracentesis fld):Ordinal:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.17
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/44044-6`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1715323
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392742-5
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:PrThr:Pt:Periton fld:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003151
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.56
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Ascites; Ascitic fluid; Ascitis; Baso; Basophil; Basos; Bph; HEMATOLOGY/CELL COUNTS; LM; Micro; Micros; Microscopic; Ordinal; Peritoneal flu…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Periton fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7507-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 44044-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils LM Ql (Periton fld)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [Presence] in Peritoneal fluid by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils Prt Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Presence or Threshold:To identify measures at a point in time:Peritoneal fluid /ascites:Ordinal:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.17
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/44048-7`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1715327
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392740-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Nose
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:PrThr:Pt:Nose:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 17173
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU065476
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Baso; Basophil; Basos; Bph; HEMATOLOGY/CELL COUNTS; LM; Micro; Micros; Microscopic; Nasal; Nos; Nose (nasal passage); Ordinal; Point in time…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Nose
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7443-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 44048-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils LM Ql (Nose)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils Nose Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [Presence] in Nose by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Presence or Threshold:To identify measures at a point in time:Nose:Ordinal:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.17
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/55771-0`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Num
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C2733662
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392739-1
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Spinal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:Num:Pt:CSF:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001311
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.69
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6841-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Baso; Basophil; Basos; Bph; Cerebral spinal fluid; Cerebrospinal Fl; Cnt; Count; HEMATOLOGY/CELL COUNTS; Manl; Number; Point in time; QNT; Q…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> CSF
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> {#}
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7156-5
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 55771-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number:To identify measures at a point in time:Cerebral spinal fluid:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#] in Cerebral spinal fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils Manual cnt (CSF) [#]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils CSF Manual
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.29
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/66142-1`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3258974
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392746-6
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Fetal Basophils
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:NCnc:Pt:Bld^Fetus:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001095
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Baso; Basophil; Basos; Blood; Bph; Cnt; Count; Count/volume; CT; Fetal; Gyn; Gynecology; HEMATOLOGY/CELL COUNTS…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bld^Fetus
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_supersystem` -> http://purl.bioontology.org/ontology/LNC/LP6982-5
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7057-5
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP281788-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7831-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 66142-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#/volume] in Blood from Fetus by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number Concentration (count/vol):To identify measures at a point in time:Whole blood^Fetus:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils # Bld Fetus Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils Manual cnt (Bld fetus) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.38
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/68392-0`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3261135
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392742-5
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Peritoneal fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:NCnc:Pt:Periton fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU003151
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Ascites; Ascitic fluid; Ascitis; Baso; Basophil; Basos; Bph; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUN…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Periton fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32960-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7507-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 68392-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#/volume] in Peritoneal fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils # Prt Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils Manual cnt (Periton fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number Concentration (count/vol):To identify measures at a point in time:Peritoneal fluid /ascites:Quantitative:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.38
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/68393-8`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3261136
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392741-7
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Pericardial fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:NCnc:Pt:Pericard fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU033951
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Baso; Basophil; Basos; Bph; Cardio; Cardiology; Cnt; Count; Count/volume; CT; Heart Disease; HEMATOLOGY/CELL CO…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Pericard fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7466-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190563-9
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 68393-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number Concentration (count/vol):To identify measures at a point in time:Pericardial fluid:Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils Manual cnt (Pericard fld) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils # Pcar Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#/volume] in Pericardial fluid by Manual count
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.38
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/68394-6`  (matched: "Basophils")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3261137
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP392743-3
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU012774
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Basophils, Pleural fluid
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Basophils:NCnc:Pt:Plr fld:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU004829
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.70
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Baso; Basophil; Basos; Bph; Cnt; Count; Count/volume; CT; HEMATOLOGY/CELL COUNTS; Manl; Number concentration; N…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Plr fld
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> 10*3/uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG32900-9
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14328-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Basophils
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> 10*9/L
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7486-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 68394-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils [#/volume] in Pleural fluid by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils # Plr Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils:Number Concentration (count/vol):To identify measures at a point in time:Pleural fluid (thoracentesis fld):Quantitative:Manual cou…
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Basophils Manual cnt (Pleur fld) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.38
+
+## "bacteria (urine)"  (search term: "bacteria", System contains "urine")
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/100906-7`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5689561
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000096
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP433186-6
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial culture, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:NCnc:Pt:Urine:Qn:Culture
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Bact; C&S; Cnt; Count; Count/volume; CT; Cult; Cultures; Microbiology; Number concentration; Number Concentrati…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Culture
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> {#}/mL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6209-3
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG51697-7
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG51412-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> MICRO
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> #/mL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7819-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP343406-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 100906-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [#/volume] in Urine by Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria # Ur Cult
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Number Concentration (count/vol):To identify measures at a point in time:Urine:Quantitative:Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Cx (U) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.73
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/104865-1`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938284
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000096
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP433186-6
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:PrThr:Pt:Urine:Ord:Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Artificial Intelligence; Automated detection; Bact; Comp Assist; Microbiology; Ordinal; Point in time; PR; QL; Qual; Qualitative; Random; Sc…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70258-6
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG36598-7
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG34230-9
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> MICRO
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7819-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP343406-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 104865-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Presence or Threshold:To identify measures at a point in time:Urine:Ordinal:Computer assisted
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Computer assisted Ql (U)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [Presence] in Urine by Computer assisted method
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Ur Ql Comp Assist
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/105051-7`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938338
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000096
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP441982-8
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:Naric:Pt:Urine sed:Qn:Microscopy
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Bact; Micro; Microbiology; Micros; Microscopic; Number areic; Point in time; QNT; Quan; Quant; Quantitative; Random; UA; UR; Urine s…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> MICRO
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7819-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP343406-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 105051-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria UrnS Micro-#/area
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Number Aeric (number per area):To identify measures at a point in time:Urine sediment:Quantitative:Microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [#/area] in Urine sediment by Microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Microscopy (Urine sed) [#/Area]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/105052-5`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5890275
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000096
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP441982-8
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:PrThr:Pt:Urine sed:Ord:Microscopy
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_NAME` -> Bacteria presence
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bact; Micro; Microbiology; Micros; Microscopic; Ordinal; Point in time; PR; QL; Qual; Qualitative; Random; Screen; UA; UR; Urine sediment; U…
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA6577-6
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11842-4
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11843-2
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11841-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_ID` -> LL6716-6
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> MICRO
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_OID` -> 1.3.6.1.4.1.12009.10.1.5533
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7819-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP343406-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 105052-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [Presence] in Urine sediment by Microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria UrnS Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Microscopy Ql (Urine sed)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Presence or Threshold:To identify measures at a point in time:Urine sediment:Ordinal:Microscopy
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/105907-0`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938802
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402461-0
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:NCnc:Pt:Urine:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Bact; Cnt; Count; Count/volume; CT; Number concentration; Number Concentration (count/vol); Point in time; QNT;…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG51412-1
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40875-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG51412-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 105907-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria # Ur
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Number Concentration (count/vol):To identify measures at a point in time:Urine:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria (U) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [#/volume] in Urine
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/105908-8`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938803
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402462-8
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:Naric:Pt:Urine sed:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Bact; Number areic; Point in time; QNT; Quan; Quant; Quantitative; Random; UA; UR; URINALYSIS; Urine sediment; Urn; UrnS
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40875-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 105908-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria #/area UrnS
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Number Aeric (number per area):To identify measures at a point in time:Urine sediment:Quantitative
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [#/area] in Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria (Urine sed) [#/Area]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/111153-3`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> {Measurement}
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6020869
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU854845
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:{Measurement}:-:Urine:-
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> -
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP447904-6
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bact; Lab orders; Msmt; UA; UR; Urn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> TRIAL
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7747-1
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Order
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> -
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP70420-2
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> LABORDERS.ONTOLOGY
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP448291-7
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 111153-3
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [Measurement] in Urine
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Msmt Ur
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria (U) [Measurement]
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> This term is intended to collate similar measurements for the LOINC SNOMED CT Collaboration in an ontological view. Additionally, it can be …
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/111195-4`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> {Measurement}
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C6020888
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU854845
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:{Measurement}:-:Urine sed:-
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> -
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.81
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP447904-6
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bact; Lab orders; Msmt; UA; UR; Urine sediment; Urn; UrnS
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> TRIAL
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7747-1
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Order
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> -
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP70420-2
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> LABORDERS.ONTOLOGY
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP448291-7
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 111195-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:{Measurement}:-:Urine sediment:-
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Msmt UrnS
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [Measurement] in Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria (Urine sed) [Measurement]
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> This term is intended to collate similar measurements for the LOINC SNOMED CT Collaboration in an ontological view. Additionally, it can be …
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.81
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/13315-7`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Prid
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0551074
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000096
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP433186-6
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial culture, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:Prid:24H:Urine:Nom:Culture
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 1387
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> 24H
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6850-4
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> 1 day; 24 hours; 24HR; Bact; C&S; Cult; Cultures; ID; Identity or presence; Infectious Disease; InfectiousDisease; Microbiology; Nominal; UA…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7750-5
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Culture
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6209-3
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG34664-9
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG51652-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Nom
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6924-7
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.78: COMPONENT: Removed "Identified" from the component because it is implied by the Property "Prid";
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> MICRO
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7819-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP343406-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 13315-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Presence or Identity:24 hours:Urine:Nominal:Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria 24h Ur Cult
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria identified in 24 hour Urine by Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria identified Cx Nom (24H U)
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/25145-4`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0941344
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402462-8
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacteria, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:PrThr:Pt:Urine sed:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 152
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_NAME` -> Quantity (5 answers, ord)
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bact; ID; Infectious Disease; InfectiousDisease; Kidney; LM; Micro; Micros; Microscopic; Nephrology; Ordinal; Point in time; PR; QL; Qual; Q…
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA6751-7
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA15680-4
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA15679-6
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA137-2
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA15681-2
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40875-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/58435-9
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/88848-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_ID` -> LL1162-8
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_OID` -> 1.3.6.1.4.1.12009.10.1.333
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190552-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LEA` -> Few, Mod, Many
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 25145-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Presence or Threshold:To identify measures at a point in time:Urine sediment:Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [Presence] in Urine sediment by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria UrnS Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria LM Ql (Urine sed)
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.00
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/33218-9`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1315689
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402462-8
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacteria, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:Naric:Pt:Urine sed:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 302
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Auto; Automated detection; Bact; Elec; Elect; Electr; ID; Infectious Disease; InfectiousDisease; Kidney; Nephrology; Number areic; P…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40875-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/53293-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Specimen changed from Urine to Urine sediment since results generated by analyzers assume a spun urine.
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /HPF
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190552-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 33218-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Number Aeric (number per area):To identify measures at a point in time:Urine sediment:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria #/area UrnS Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Auto (Urine sed) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [#/area] in Urine sediment by Automated count
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> Automated counters measure the number concentration directly and calculate values for the per HPF (or per LPF) when the laboratory chooses t…
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.09
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/50221-1`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1978056
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402461-0
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacteria, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:PrThr:Pt:Urine:Ord:Automated
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 517
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Auto; Automated detection; Bact; Elec; Elect; Electr; ID; Infectious Disease; InfectiousDisease; Ordinal; Point in time; PR; QL; Qual; Quali…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG36598-7
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40875-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/53315-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LEA` -> Many Ref range = None
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 50221-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Presence or Threshold:To identify measures at a point in time:Urine:Ordinal:Automated
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Auto Ql (U)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [Presence] in Urine by Automated
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Ur Ql Auto
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.22
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/51480-2`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1979496
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402461-0
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacteria, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:NCnc:Pt:Urine:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 1371
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; Bact; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; ID; Infectious Disease; Inf…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG51412-1
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40875-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/50554-5
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 51480-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [#/volume] in Urine by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Number Concentration (count/vol):To identify measures at a point in time:Urine:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria # Ur Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Auto (U) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> Automated counters measure the number concentration directly and calculate values for the per HPF (or per LPF) when the laboratory chooses t…
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.22
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/5769-5`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0367984
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402462-8
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacteria, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:Naric:Pt:Urine sed:Qn:Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 190
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Bact; ID; Infectious Disease; InfectiousDisease; Kidney; LM; Micro; Micros; Microscopic; Nephrology; Number areic; Point in time; QN…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6399-2
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40875-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/58435-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /HPF
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190552-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 5769-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria LM.HPF (Urine sed) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Number Aeric (number per area):To identify measures at a point in time:Urine sediment:Quantitative:Microscopy.light.HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria #/area UrnS HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [#/area] in Urine sediment by Microscopy high power field
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/630-4`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/UNIVERSAL_LAB_ORDERS_VALUE_SET` -> TRUE
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Prid
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0368563
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000096
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP433186-6
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial culture, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:Prid:Pt:Urine:Nom:Culture
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 10
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 78
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6850-4
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bact; C&S; Cult; Cultures; ID; Identity or presence; Infectious Disease; InfectiousDisease; Microbiology; Nominal; Point in time; Random; UA…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7750-5
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Culture
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6209-3
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG34664-9
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG51652-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/88848-7
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/57019-2
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/100904-2
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/58077-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Nom
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.78: COMPONENT: Removed "Identified" from the component because it is implied by the Property "Prid";
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> MICRO
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7819-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP343406-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 630-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Ur Cult
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria identified in Urine by Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Presence or Identity:To identify measures at a point in time:Urine:Nominal:Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria identified Cx Nom (U)
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/87829-8`  (matched: "Bacteria")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C4533204
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402461-0
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacteria, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria:PrThr:Pt:Urine:Ord
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_NAME` -> Neg, 1+,2+,3+,4+
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.63
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bact; ID; Infectious Disease; InfectiousDisease; Ordinal; Point in time; PR; QL; Qual; Qualitative; Random; Screen; UA; UR; URINALYSIS; Urn
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA6577-6
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11842-4
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11844-0
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11843-2
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11841-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG36598-7
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40875-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG36598-7
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_ID` -> LL3105-5
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_OID` -> 1.3.6.1.4.1.12009.10.1.2008
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 87829-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria [Presence] in Urine
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Ur Ql
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria:Presence or Threshold:To identify measures at a point in time:Urine:Ordinal
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Ql (U)
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.63
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/17970-5`  (matched: "Bacteria^^^2")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Prid
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0801022
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000096
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP433186-6
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial culture, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria^^^2:Prid:Pt:Urine:Nom:Culture
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 5290
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6850-4
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bact; C&S; Cult; Cultures; ID; Identity or presence; II; Infectious Disease; InfectiousDisease; Microbiology; Nominal; Point in time; Random…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7750-5
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Culture
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6209-3
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG51653-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP442421-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Nom
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria^^^2
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.78: COMPONENT: Removed "Identified" from the component because it is implied by the Property "Prid";
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> MICRO
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7819-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP343406-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_count` -> http://purl.bioontology.org/ontology/LNC/LP20590-3
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 17970-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria identified # 2 Cx Nom (U)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria # 2 identified in Urine by Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria^^^2:Presence or Identity:To identify measures at a point in time:Urine:Nominal:Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Ur Cult org #2
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> Routine urine cultures are aerobic, so it is not necessary to state in method
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0l
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/17971-3`  (matched: "Bacteria^^^3")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Prid
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0801023
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000096
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP433186-6
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial culture, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria^^^3:Prid:Pt:Urine:Nom:Culture
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 5315
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6850-4
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bact; C&S; Cult; Cultures; ID; Identity or presence; III; Infectious Disease; InfectiousDisease; Microbiology; Nominal; Point in time; Rando…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7750-5
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Culture
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6209-3
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG51654-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP442420-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Nom
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria^^^3
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.78: COMPONENT: Removed "Identified" from the component because it is implied by the Property "Prid";
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> MICRO
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7819-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP343406-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_count` -> http://purl.bioontology.org/ontology/LNC/LP20591-1
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 17971-3
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria identified # 3 Cx Nom (U)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria # 3 identified in Urine by Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria^^^3:Presence or Identity:To identify measures at a point in time:Urine:Nominal:Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Ur Cult org #3
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> Routine urine cultures are aerobic, so it is not necessary to state in method
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0l
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/17972-1`  (matched: "Bacteria^^^4")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Prid
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0801024
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000096
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP433186-6
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial culture, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria^^^4:Prid:Pt:Urine:Nom:Culture
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 5320
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6850-4
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bact; C&S; Cult; Cultures; ID; Identity or presence; Infectious Disease; InfectiousDisease; Microbiology; Nominal; Point in time; Random; UA…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7750-5
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Culture
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6209-3
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG51655-5
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP442419-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Nom
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria^^^4
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.78: COMPONENT: Removed "Identified" from the component because it is implied by the Property "Prid";
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> MICRO
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7819-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP343406-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_count` -> http://purl.bioontology.org/ontology/LNC/LP20592-9
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 17972-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria # 4 identified in Urine by Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria^^^4:Presence or Identity:To identify measures at a point in time:Urine:Nominal:Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Ur Cult org #4
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria identified # 4 Cx Nom (U)
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> Routine urine cultures are aerobic, so it is not necessary to state in method
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0l
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/17973-9`  (matched: "Bacteria^^^5")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Prid
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0801025
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000096
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP433186-6
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU002404
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Bacterial culture, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Bacteria^^^5:Prid:Pt:Urine:Nom:Culture
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6850-4
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Bact; C&S; Cult; Cultures; ID; Identity or presence; Infectious Disease; InfectiousDisease; Microbiology; Nominal; Point in time; Random; UA…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7750-5
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Culture
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6209-3
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG51656-3
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP98185-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP442415-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14082-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Nom
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Bacteria^^^5
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.78: COMPONENT: Removed "Identified" from the component because it is implied by the Property "Prid";
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> MICRO
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7819-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP343406-7
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_count` -> http://purl.bioontology.org/ontology/LNC/LP20593-7
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 17973-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria Ur Cult org #5
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria identified # 5 Cx Nom (U)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria # 5 identified in Urine by Culture
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Bacteria^^^5:Presence or Identity:To identify measures at a point in time:Urine:Nominal:Culture
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> Routine urine cultures are aerobic, so it is not necessary to state in method
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0l
+
+## "yeast (urine)"  (search term: "yeast", System contains "urine")
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/104648-1`  (matched: "Yeast")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938124
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402489-1
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU003208
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast:PrThr:Pt:Urine:Ord:Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Artificial Intelligence; Automated detection; Comp Assist; Ordinal; Point in time; PR; QL; Qual; Qualitative; Random; Screen; UA; UR; URINAL…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70258-6
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG37231-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40933-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /HPF
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 104648-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast:Presence or Threshold:To identify measures at a point in time:Urine:Ordinal:Computer assisted
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Computer assisted Ql (U)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast [Presence] in Urine by Computer assisted method
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Ur Ql Comp Assist
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/105098-8`  (matched: "Yeast")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938377
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402490-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU003208
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast:Naric:Pt:Urine sed:Qn
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Number areic; Point in time; QNT; Quan; Quant; Quantitative; Random; UA; UR; URINALYSIS; Urine sediment; Urn; UrnS
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40933-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 105098-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast #/area UrnS
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast [#/area] in Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast (Urine sed) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast:Number Aeric (number per area):To identify measures at a point in time:Urine sediment:Quantitative
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/105099-6`  (matched: "Yeast")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> ADD
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5938378
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402490-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU003208
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast:PrThr:Pt:Urine sed:Ord
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_NAME` -> Presence
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.78
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Ordinal; Point in time; PR; QL; Qual; Qualitative; Random; Screen; UA; UR; URINALYSIS; Urine sediment; Urn; UrnS
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA6577-6
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11842-4
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11843-2
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11841-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40933-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_ID` -> LL6876-8
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_OID` -> 1.3.6.1.4.1.12009.10.1.5693
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 105099-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Ql (Urine sed)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast:Presence or Threshold:To identify measures at a point in time:Urine sediment:Ordinal
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast [Presence] in Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast UrnS Ql
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.78
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/32356-8`  (matched: "Yeast")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1148040
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402490-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU003208
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast:PrThr:Pt:Urine sed:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 1165
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> ID; Infectious Disease; InfectiousDisease; Kidney; LM; Micro; Micros; Microscopic; Nephrology; Ordinal; Point in time; PR; QL; Qual; Qualita…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40933-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/58435-9
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/88848-7
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190552-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 32356-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast UrnS Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast:Presence or Threshold:To identify measures at a point in time:Urine sediment:Ordinal:Microscopy.light
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast [Presence] in Urine sediment by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast LM Ql (Urine sed)
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.07
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/41215-5`  (matched: "Yeast")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1545138
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402490-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU003208
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast:Naric:Pt:Urine sed:Qn:Microscopy.light.LPF
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 16355
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; ID; Infectious Disease; InfectiousDisease; Kidney; LM; Micro; Micros; Microscopic; Nephrology; Number areic; Point in time; QNT; Qua…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light.LPF
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[LPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6400-8
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40933-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /lpf
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190552-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 41215-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast LM.LPF (Urine sed) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast:Number Aeric (number per area):To identify measures at a point in time:Urine sediment:Quantitative:Microscopy.light.LPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast [#/area] in Urine sediment by Microscopy low power field
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast #/area UrnS LPF
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.15
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/51481-0`  (matched: "Yeast")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1979497
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402489-1
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU003208
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast:NCnc:Pt:Urine:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 4752
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Auto; Automated detection; Cnt; Count; Count/volume; CT; Elec; Elect; Electr; ID; Infectious Disease; Infectiou…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40933-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 51481-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast:Number Concentration (count/vol):To identify measures at a point in time:Urine:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Auto (U) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast # Ur Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast [#/volume] in Urine by Automated count
+    - `http://purl.bioontology.org/ontology/LNC/SOS` -> Automated counters measure the number concentration directly and calculate values for the per HPF (or per LPF) when the laboratory chooses t…
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.22
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/5822-2`  (matched: "Yeast")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0368080
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402490-9
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU003208
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast:Naric:Pt:Urine sed:Qn:Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 863
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; ID; Infectious Disease; InfectiousDisease; Kidney; LM; Micro; Micros; Microscopic; Nephrology; Number areic; Point in time; QNT; Qua…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6399-2
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40933-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/58435-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /HPF
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190552-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 5822-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast:Number Aeric (number per area):To identify measures at a point in time:Urine sediment:Quantitative:Microscopy.light.HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast [#/area] in Urine sediment by Microscopy high power field
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast #/area UrnS HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast LM.HPF (Urine sed) [#/Area]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/72223-1`  (matched: "Yeast")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3533810
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402489-1
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU003208
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast:PrThr:Pt:Urine:Ord:Automated
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 3052
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_NAME` -> PhenX12_44
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Auto; Automated detection; Elec; Elect; Electr; ID; Infectious Disease; InfectiousDisease; Ordinal; Point in time; PR; QL; Qual; Qualitative…
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA9633-4
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA14895-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG37231-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40933-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_ID` -> LL1311-1
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_OID` -> 1.3.6.1.4.1.12009.10.1.488
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 72223-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Auto Ql (U)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast [Presence] in Urine by Automated
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast:Presence or Threshold:To identify measures at a point in time:Urine:Ordinal:Automated
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Ur Ql Auto
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.42
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/78742-4`  (matched: "Yeast")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C4070850
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402489-1
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU003208
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast:Naric:Pt:Urine:Qn:Automated count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 18739
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Auto; Automated detection; Elec; Elect; Electr; ID; Infectious Disease; InfectiousDisease; Number areic; Point in time; QNT; Quan; Q…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Automated count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6141-8
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70259-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40933-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /HPF
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 78742-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast #/area Ur Auto
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast [#/area] in Urine by Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast:Number Aeric (number per area):To identify measures at a point in time:Urine:Quantitative:Automated count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Auto (U) [#/Area]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.54
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/87831-4`  (matched: "Yeast")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C4533206
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402489-1
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU003208
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast:PrThr:Pt:Urine:Ord
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 19177
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_NAME` -> Detected&#x7C;Not det
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> ID; Infectious Disease; InfectiousDisease; Ordinal; Point in time; PR; QL; Qual; Qualitative; Random; Screen; UA; UR; URINALYSIS; Urn
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11882-0
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA11883-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG37231-4
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40933-0
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Both
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/archetype_of` -> http://purl.bioontology.org/ontology/LNC/LG37231-4
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_ID` -> LL744-4
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_OID` -> 1.3.6.1.4.1.12009.10.1.3226
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 87831-4
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Ql (U)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast [Presence] in Urine
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Ur Ql
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast:Presence or Threshold:To identify measures at a point in time:Urine:Ordinal
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.63
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/41861-6`  (matched: "Yeast.hyphae")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1645322
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402494-1
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU018795
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast.hyphae, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast.hyphae:Naric:Pt:Urine sed:Qn:Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 9407
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; ID; Infectious Disease; InfectiousDisease; Kidney; LM; Micro; Micros; Microscopic; Nephrology; Number areic; Point in time; QNT; Qua…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6399-2
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40923-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP35886-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast.hyphae
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /HPF
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190552-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 41861-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Hyphae #/area UrnS HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae:Number Aeric (number per area):To identify measures at a point in time:Urine sediment:Quantitative:Microscopy.light.HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae [#/area] in Urine sediment by Microscopy high power field
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae LM.HPF (Urine sed) [#/Area]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.16
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/41864-0`  (matched: "Yeast.hyphae")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1644651
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402493-3
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU018795
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast.hyphae, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast.hyphae:PrThr:Pt:Urine:Ord:Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 2494
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Artificial Intelligence; Automated detection; Comp Assist; ID; Infectious Disease; InfectiousDisease; Ordinal; Point in time; PR; QL; Qual; …
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70258-6
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40923-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/53263-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP35886-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast.hyphae
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 41864-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae Computer assisted Ql (U)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Hyphae Ur Ql Comp Assist
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae [Presence] in Urine by Computer assisted method
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae:Presence or Threshold:To identify measures at a point in time:Urine:Ordinal:Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.16
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/41865-7`  (matched: "Yeast.hyphae")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1643606
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402494-1
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU018795
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast.hyphae, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast.hyphae:PrThr:Pt:Urine sed:Ord:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 8915
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> ID; Infectious Disease; InfectiousDisease; Kidney; LM; Micro; Micros; Microscopic; Nephrology; Ordinal; Point in time; PR; QL; Qual; Qualita…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40923-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/58435-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP35886-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast.hyphae
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190552-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 41865-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae LM Ql (Urine sed)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae [Presence] in Urine sediment by Light microscopy
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Hyphae UrnS Ql Micro
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae:Presence or Threshold:To identify measures at a point in time:Urine sediment:Ordinal:Microscopy.light
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.16
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/53265-5`  (matched: "Yeast.hyphae")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C2361788
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402493-3
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU018795
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast.hyphae, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast.hyphae:NCnc:Pt:Urine:Qn:Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.42
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Artificial Intelligence; Automated detection; Cnt; Comp Assist; Count; Count/volume; CT; ID; Infectious Disease…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70258-6
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40923-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/53264-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP35886-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast.hyphae
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 53265-5
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae:Number Concentration (count/vol):To identify measures at a point in time:Urine:Quantitative:Computer assisted
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Hyphae # Ur Comp Assist
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae Computer assisted (U) [#/Vol]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae [#/volume] in Urine by Computer assisted method
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.24
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/53268-9`  (matched: "Yeast.hyphae")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C2361791
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402493-3
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU018795
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast.hyphae, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast.hyphae:Naric:Pt:Urine:Qn:Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 6501
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Artificial Intelligence; Automated detection; Comp Assist; ID; Infectious Disease; InfectiousDisease; Number areic; Point in time; Q…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70258-6
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40923-1
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/53267-1
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP35886-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast.hyphae
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 53268-9
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae:Number Aeric (number per area):To identify measures at a point in time:Urine:Quantitative:Computer assisted
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae Computer assisted (U) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Hyphae #/area Ur Comp Assist
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.hyphae [#/area] in Urine by Computer assisted method
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.24
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/21033-6`  (matched: "Yeast.budding")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0803829
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402492-5
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU009441
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast.budding, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast.budding:PrThr:Pt:Urine sed:Ord
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 3014
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> ID; Infectious Disease; InfectiousDisease; Kidney; Nephrology; Ordinal; Point in time; PR; QL; Qual; Qualitative; Random; Renal; Screen; UA;…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40927-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/58435-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP19485-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast.budding
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190552-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 21033-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding Ql (Urine sed)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Budding UrnS Ql
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding [Presence] in Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding:Presence or Threshold:To identify measures at a point in time:Urine sediment:Ordinal
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0m
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/41172-8`  (matched: "Yeast.budding")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1545100
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402492-5
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU009441
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast.budding, Urine sediment
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast.budding:Naric:Pt:Urine sed:Qn:Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 5096
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001346
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; ID; Infectious Disease; InfectiousDisease; Kidney; LM; Micro; Micros; Microscopic; Nephrology; Number areic; Point in time; QNT; Qua…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine sed
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6399-2
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6398-4
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6393-5
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40927-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP19485-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast.budding
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /HPF
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7690-3
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP190552-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 41172-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding LM.HPF (Urine sed) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding [#/area] in Urine sediment by Microscopy high power field
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Budding #/area UrnS HPF
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding:Number Aeric (number per area):To identify measures at a point in time:Urine sediment:Quantitative:Microscopy.light.HPF
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.15
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/50240-1`  (matched: "Yeast.budding")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> PrThr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1978075
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402491-7
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU009441
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast.budding, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast.budding:PrThr:Pt:Urine:Ord:Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 3715
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_NAME` -> Quantity (5 answers, ord)
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP217195-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> Artificial Intelligence; Automated detection; Comp Assist; ID; Infectious Disease; InfectiousDisease; Ordinal; Point in time; PR; QL; Qual; …
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA6751-7
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA15680-4
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA15679-6
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA137-2
+    - `http://purl.bioontology.org/ontology/LNC/has_answer` -> http://purl.bioontology.org/ontology/LNC/LA15681-2
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7751-3
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70258-6
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40927-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/53263-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP19485-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Ord
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast.budding
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_ID` -> LL1162-8
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> The PrThr property is used for LOINC terms whose results are reported using an ordered categorical scale, regardless of whether or not an in…
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/ANSWER_LIST_OID` -> 1.3.6.1.4.1.12009.10.1.333
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LEA` -> few, many
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 50240-1
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding [Presence] in Urine by Computer assisted method
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding:Presence or Threshold:To identify measures at a point in time:Urine:Ordinal:Computer assisted
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Budding Ur Ql Comp Assist
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding Computer assisted Ql (U)
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.22
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/53266-3`  (matched: "Yeast.budding")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NCnc
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C2361789
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402491-7
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU009441
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast.budding, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast.budding:NCnc:Pt:Urine:Qn:Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.42
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6836-3
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #; ABS; absolute; absolutes; Artificial Intelligence; Automated detection; Cnt; Comp Assist; Count; Count/volume; CT; ID; Infectious Disease…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70258-6
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40927-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/53264-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP19485-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast.budding
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> /uL
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 53266-3
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding [#/volume] in Urine by Computer assisted method
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding:Number Concentration (count/vol):To identify measures at a point in time:Urine:Quantitative:Computer assisted
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Budding # Ur Comp Assist
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding Computer assisted (U) [#/Vol]
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.24
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/53269-7`  (matched: "Yeast.budding")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> MIN
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> Naric
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C2361792
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP402491-7
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000144
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU009441
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Yeast.budding, Urine
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Yeast.budding:Naric:Pt:Urine:Qn:Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 5085
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001343
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.73
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6835-5
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> #/area; Artificial Intelligence; Automated detection; Comp Assist; ID; Infectious Disease; InfectiousDisease; Number areic; Point in time; Q…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Urine
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Computer assisted
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> /[HPF]
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP70258-6
+    - `http://purl.bioontology.org/ontology/LNC/loinc_number_of` -> http://purl.bioontology.org/ontology/LNC/LG40927-2
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/53267-1
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP19485-9
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP29134-1
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Yeast.budding
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> UA
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7681-2
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7851-1
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP415704-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 53269-7
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding [#/area] in Urine by Computer assisted method
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding:Number Aeric (number per area):To identify measures at a point in time:Urine:Quantitative:Computer assisted
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast.budding Computer assisted (U) [#/Area]
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Yeast Budding #/area Ur Comp Assist
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.24
+
+## "myelocyte (bone marrow)"  (search term: "myelocytes", System contains "bone mar")
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/11114-6`  (matched: "Myelocytes/Cells")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549828
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071217
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Myelocytes/cells, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Myelocytes/Cells:NFr:Pt:Bone mar:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BM; BON; Bone marrow; Cell; Cellularity; HEMATOLOGY/CELL COUNTS; Manl; MAR; Marrow (bone); minimal angle of resolution; Minimum angle of res…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47286-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP15077-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP445490-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14738-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Myelocytes/Cells
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 11114-6
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Myelocytes NFr Mar Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Myelocytes/cells Manual cnt (BM)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Myelocytes/cells in Bone marrow by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Myelocytes/Cells:Number Fraction:To identify measures at a point in time:Marrow (bone):Quantitative:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP174115-8
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/11120-3`  (matched: "Promyelocytes/Cells")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549848
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071223
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Promyelocytes/cells, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Promyelocytes/Cells:NFr:Pt:Bone mar:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 8374
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BM; BON; Bone marrow; Cell; Cellularity; HEMATOLOGY/CELL COUNTS; Manl; MAR; Marrow (bone); minimal angle of resolution; Minimum angle of res…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47286-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP15084-4
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14738-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP445526-9
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Promyelocytes/Cells
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 11120-3
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Promyelocytes/cells in Bone marrow by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Promyelocytes NFr Mar Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Promyelocytes/cells Manual cnt (BM)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Promyelocytes/Cells:Number Fraction:To identify measures at a point in time:Marrow (bone):Quantitative:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP174115-8
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/11111-2`  (matched: "Metamyelocytes/Cells")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C0549824
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071214
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Metamyelocytes/cells, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Metamyelocytes/Cells:NFr:Pt:Bone mar:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 7919
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BM; BON; Bone marrow; Cell; Cellularity; HEMATOLOGY/CELL COUNTS; Manl; MAR; Marrow (bone); Meta; Metamyelo; Metamyelocyte; Metamyelocyte%; M…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47286-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP445468-4
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP15075-2
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14738-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Metamyelocytes/Cells
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> Y
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 11111-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Metamyelocytes/cells Manual cnt (BM)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Metamyelocytes NFr Mar Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Metamyelocytes/cells in Bone marrow by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Metamyelocytes/Cells:Number Fraction:To identify measures at a point in time:Marrow (bone):Quantitative:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP174115-8
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 1.0j-a
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/50374-8`  (matched: "Myelocytes.eosinophilic/Cells")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C1978228
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071685
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Myelocytes.eosinophilic/cells, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Myelocytes.eosinophilic/Cells:NFr:Pt:Bone mar:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BM; BON; Bone marrow; Cell; Cellularity; HEMATOLOGY/CELL COUNTS; Manl; MAR; Marrow (bone); minimal angle of resolution; Minimum angle of res…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47286-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP15077-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14738-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP445486-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP65366-4
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Myelocytes.eosinophilic/Cells
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://purl.bioontology.org/ontology/LNC/LEA` -> 0 - 100
+    - `http://purl.bioontology.org/ontology/LNC/LUR` -> N
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 50374-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Myelocytes.eosinophilic/cells Manual cnt (BM)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Myelocytes.eosinophilic/Cells:Number Fraction:To identify measures at a point in time:Marrow (bone):Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Myelocytes.eos NFr Mar Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Myelocytes.eosinophilic/cells in Bone marrow by Manual count
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP174115-8
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.22
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/74426-8`  (matched: "Myelocytes.neutrophilic/Cells")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3699872
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071848
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Myelocytes.neutrophilic/cells, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Myelocytes.neutrophilic/Cells:NFr:Pt:Bone mar:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BM; BON; Bone marrow; Cell; Cellularity; HEMATOLOGY/CELL COUNTS; Manl; MAR; Marrow (bone); minimal angle of resolution; Minimum angle of res…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47286-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP174580-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP445488-2
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP15077-8
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14738-6
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Myelocytes.neutrophilic/Cells
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 74426-8
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Myelocytes.neutrophilic/cells in Bone marrow by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Myelocytes.neutrophilic/Cells:Number Fraction:To identify measures at a point in time:Marrow (bone):Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Myelocytes.neutrophilic/cells Manual cnt (BM)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Myelocytes.neut NFr Mar Manual
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP174115-8
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.46
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/74429-2`  (matched: "Metamyelocytes.eosinophilic/Cells")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C3699878
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071851
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Metamyelocytes.eosinophilic/cells, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Metamyelocytes.eosinophilic/Cells:NFr:Pt:Bone mar:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BM; BON; Bone marrow; Cell; Cellularity; HEMATOLOGY/CELL COUNTS; Manl; MAR; Marrow (bone); Meta; Metamyelo; Metamyelocyte; Metamyelocyte%; M…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47286-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP174579-5
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP15075-2
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14738-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP445466-8
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Metamyelocytes.eosinophilic/Cells
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 74429-2
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Metamyelocytes.eosinophilic/cells Manual cnt (BM)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Metamyelocytes.eosinophilic/Cells:Number Fraction:To identify measures at a point in time:Marrow (bone):Quantitative:Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Metamyelocytes.eos NFr Mar Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Metamyelocytes.eosinophilic/cells in Bone marrow by Manual count
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP174115-8
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.46
+
+  **Candidate:** `http://purl.bioontology.org/ontology/LNC/93952-0`  (matched: "Metamyelocytes.neutrophilic/Leukocytes")
+    - `http://purl.bioontology.org/ontology/LNC/LCT` -> NAM
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_PROPERTY` -> NFr
+    - `http://bioportal.bioontology.org/ontologies/umls/cui` -> C5212524
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/LP248770-2
+    - `http://www.w3.org/2000/01/rdf-schema#subClassOf` -> http://purl.bioontology.org/ontology/LNC/MTHU000080
+    - `http://purl.bioontology.org/ontology/LNC/measures` -> http://purl.bioontology.org/ontology/LNC/MTHU071850
+    - `http://purl.bioontology.org/ontology/LNC/CONSUMER_NAME` -> Metamyelocytes.neutrophilic/White Blood Cells, Bone marrow
+    - `http://www.w3.org/2004/02/skos/core#prefLabel` -> Metamyelocytes.neutrophilic/Leukocytes:NFr:Pt:Bone mar:Qn:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_ORDER_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/COMMON_TEST_RANK` -> 0
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_TIME_ASPECT` -> Pt
+    - `http://www.w3.org/1999/02/22-rdf-syntax-ns#type` -> http://www.w3.org/2002/07/owl#Class
+    - `http://purl.bioontology.org/ontology/LNC/analyzes` -> http://purl.bioontology.org/ontology/LNC/MTHU001324
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_LAST_CHANGED` -> 2.79
+    - `http://purl.bioontology.org/ontology/LNC/has_property` -> http://purl.bioontology.org/ontology/LNC/LP6838-9
+    - `http://purl.bioontology.org/ontology/LNC/LRN2` -> BM; BON; Bone marrow; HEMATOLOGY/CELL COUNTS; Leuc; Leuk; Leukocyte; Lkcs; Manl; MAR; Marrow (bone); Meta; Metamyelo; Metamyelocyte; Metamye…
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SYSTEM` -> Bone mar
+    - `http://purl.bioontology.org/ontology/LNC/LCS` -> ACTIVE
+    - `http://purl.bioontology.org/ontology/LNC/has_scale` -> http://purl.bioontology.org/ontology/LNC/LP7753-9
+    - `http://bioportal.bioontology.org/ontologies/umls/tui` -> T201
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_METHOD_TYP` -> Manual count
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UCUM_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6376-0
+    - `http://purl.bioontology.org/ontology/LNC/has_method` -> http://purl.bioontology.org/ontology/LNC/LP6377-8
+    - `http://purl.bioontology.org/ontology/LNC/LOR` -> Observation
+    - `http://purl.bioontology.org/ontology/LNC/member_of` -> http://purl.bioontology.org/ontology/LNC/47286-0
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP174581-1
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP14419-3
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP445467-6
+    - `http://purl.bioontology.org/ontology/LNC/has_component` -> http://purl.bioontology.org/ontology/LNC/LP15075-2
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_SCALE_TYP` -> Qn
+    - `http://purl.bioontology.org/ontology/LNC/LOINC_COMPONENT` -> Metamyelocytes.neutrophilic/Leukocytes
+    - `http://bioportal.bioontology.org/ontologies/umls/hasSTY` -> http://purl.bioontology.org/ontology/STY/T201
+    - `http://purl.bioontology.org/ontology/LNC/has_time_aspect` -> http://purl.bioontology.org/ontology/LNC/LP6960-1
+    - `http://purl.bioontology.org/ontology/LNC/CHANGE_REASON_PUBLIC` -> Release 2.79: COMPONENT: Triggered by Coll w SCT: This is a specific fraction case where the denominator is percentage or /100. Because the …
+    - `http://purl.bioontology.org/ontology/LNC/LCL` -> HEM/BC
+    - `http://purl.bioontology.org/ontology/LNC/EXAMPLE_UNITS` -> %
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP7410-6
+    - `http://purl.bioontology.org/ontology/LNC/has_system` -> http://purl.bioontology.org/ontology/LNC/LP29159-8
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP29693-6
+    - `http://purl.bioontology.org/ontology/LNC/has_class` -> http://purl.bioontology.org/ontology/LNC/LP7803-2
+    - `http://www.w3.org/2004/02/skos/core#notation` -> 93952-0
+    - `http://purl.bioontology.org/ontology/LNC/LCN` -> 1
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Metamyelocytes.neutrophilic/Leukocytes in Bone marrow by Manual count
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Metamyelocytes.neutrophilic/Leukocytes Manual cnt (BM)
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Metamyelocytes.neut NFr Mar Manual
+    - `http://www.w3.org/2004/02/skos/core#altLabel` -> Metamyelocytes.neutrophilic/Leukocytes:Number Fraction:To identify measures at a point in time:Marrow (bone):Quantitative:Manual count
+    - `http://purl.bioontology.org/ontology/LNC/has_divisor` -> http://purl.bioontology.org/ontology/LNC/LP157588-7
+    - `http://purl.bioontology.org/ontology/LNC/VERSION_FIRST_RELEASED` -> 2.67

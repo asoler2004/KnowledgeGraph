@@ -1,0 +1,182 @@
+history | grep "robot"
+ 1857  robot extract --input Thesaurus.owl               --method MIREOT  
+              --term http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3208    
+              --term http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12683
+              --output ncit_lymphoma_subset.ttl
+
+ 1864  robot extract --input Thesaurus.owl               --method MIREOT 
+              --term http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3208 
+              --term http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12683 
+              --output ncit_lymphoma_subset.ttl
+              
+ 1865  robot extract --input Thesaurus.owl               --method BOT
+                --term "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3208"               
+                --term "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12683"               
+                --output ncit_lymphoma_subset.ttl
+
+ 1866  robot extract --input mondo.owl               --method BOT
+                --term "MONDO:0005072"               
+                --term "MONDO:0005570"       
+                annotate --ontology-iri "http://digpatho.vet/graphs/mondo"
+                convert --format ttl               
+                --output mondo_lymphoma_subset.ttl
+                
+ 1908  curl -L -o robot https://githubusercontent.com
+ 1911  curl -L -o robot https://githubusercontent.com
+ 1913  curl -L -o robot.jar https://github.com
+ 1914  mkdir -p ~/bin/robot
+ 1915  cd ~/bin/robot
+ 1916  # Download robot.jar from the latest GitHub release into this directory.
+ 1917  curl -O https://raw.githubusercontent.com/ontodev/robot/master/bin/robot
+ 1918  chmod u+x robot
+ 1920  cd robot
+ 1921  echo 'export PATH="$HOME/bin/robot:$PATH"' >> ~/.bashrc
+ 1923  robot --version
+ 1924  curl -L -o robot.jar   https://github.com/ontodev/robot/releases/latest/download/robot.jar
+ 1926  robot --version
+
+ 1930  robot extract --input mondo.owl               --method BOT
+                --term "MONDO:0005072"               
+                --term "MONDO:0005570"       
+                annotate --ontology-iri "http://digpatho.vet/graphs/mondo"       
+                convert --format ttl               
+                --output mondo_lymphoma_subset.ttl
+
+ 1944  robot filter --input cl.owl
+               --term-file cl_terms.txt              
+               --select "self ancestors"              
+               --output cl_subset.ttl
+               
+ 1947  robot filter --input mondo.owl
+               --term-file mondo_terms.txt              
+               --select "self ancestors"              
+               --output mondo_subset.ttl
+
+ 1948  robot filter --input uberon.owl
+               --term-file uberon_terms.txt              
+               --select "self ancestors"              
+               --output uberon_subset.ttl
+
+ 1949  robot filter --input ncbitaxon.owl
+               --term-file ncbitaxon_terms.txt              
+               --select "self ancestors"              
+               --output ncbitaxon_subset.ttl
+
+robot filter --input ncbitaxon.owl
+               --term-file ncbitaxon_terms.txt              
+               --select "self ancestors annotations"              
+               --output ncbitaxon_subset_annotations.ttl
+
+ 1951  robot filter --input Thesaurus.owl
+               --term-file ncit_terms.txt              
+               --select "self ancestors"              
+               --output ncit_subset.ttl
+
+ 1990  history | grep "robot"
+
+robot filter --select "self ancestors" only keeps the class hierarchy 
+    (the entities themselves + their ancestor superclasses). 
+    It does not keep annotation axioms — rdfs:label, oboInOwl:hasExactSynonym, hasDbXref, etc. 
+    — unless you explicitly add annotations to the --select list.
+
+ncit_terms.txt contiene los codigos con el formato equivocado
+
+robot filter --input Thesaurus.owl \
+              --term-file ncit_target_terms.txt \
+              --select "self ancestors annotations" \
+              --output ncit_subset_annotations.ttl
+
+thesaurus.owl no es el archivo con el formato correcto para poderse conectar con los demas grafos.
+Descargue ncit.owl y repito el comando con el set the ncit_terms.txt original.
+
+robot filter --input ncit.owl \
+             --term-file ncit_terms.txt \
+             --select "self ancestors annotations" \
+             --output ncit_subset_annotations.ttl
+
+Repito todo para los demas dataset agregando las annotations
+
+robot filter --input cl.owl \
+             --term-file cl_terms.txt \
+             --select "self ancestors annotations" \
+             --output cl_subset_annotations.ttl
+               
+robot filter --input mondo.owl \
+             --term-file mondo_terms.txt \
+             --select "self ancestors annotations" \
+             --output mondo_subset_annotations.ttl
+
+robot filter --input uberon.owl \
+             --term-file uberon_terms.txt \
+             --select "self ancestors annotations" \
+             --output uberon_subset_annotations.ttl
+
+robot filter --input ncbitaxon.owl \
+             --term-file ncbitaxon_terms.txt \
+             --select "self ancestors annotations" \
+             --output ncbitaxon_subset_annotations.ttl
+
+ncbitaxon.owl es demasiado grande da out of memory error. Uso una version reducida taxslim.owl
+
+robot filter --input taxslim.owl \
+             --term-file ncbitaxon_terms.txt \
+             --select "self ancestors annotations" \
+             --output taxslim_subset_annotations.ttl
+
+robot extract \
+  --method MIREOT \
+  --input ncbitaxon.owl \
+  --lower-terms ncbitaxon_terms.txt \
+  --intermediates all \
+  --copy-ontology-annotations true \
+  --output ncbitaxon_subset.ttl
+
+robot filter --input loinc.owl \
+             --term-file loinc_terms.txt \
+             --select "self ancestors annotations" \
+             --output loinc_subset_annotations.ttl
+
+1. Validate the Turtle first
+
+Don't load unvalidated output straight into a running store — a malformed file can leave the graph in a bad state mid-load.
+
+bash
+riot --validate ncit_subset_annotations.ttl
+riot --validate mondo_subset_annotations.ttl
+riot --validate uberon_subset_annotations.ttl
+riot --validate cl_subset_annotations.ttl
+
+2. Replace each graph with PUT
+bash
+curl -u admin:password123 \
+  -X PUT \
+  -H "Content-Type: text/turtle" \
+  --data-binary @ncit_subset_annotations.ttl \
+  "http://localhost:3030/Veterinary/data?graph=http://digpatho.org/ncit_subset"
+
+Repeat for the other three, matching each file to its exact graph URI:
+
+bash
+curl -u admin:password123 -X PUT -H "Content-Type: text/turtle" \
+  --data-binary @mondo_subset_annotations.ttl \
+  "http://localhost:3030/Veterinary/data?graph=http://digpatho.org/mondo_subset"
+
+curl -u admin:password123 -X PUT -H "Content-Type: text/turtle" \
+  --data-binary @uberon_subset_annotations.ttl \
+  "http://localhost:3030/Veterinary/data?graph=http://digpatho.org/uberon_subset"
+
+curl -u admin:password123 -X PUT -H "Content-Type: text/turtle" \
+  --data-binary @cl_subset_annotations.ttl \
+  "http://localhost:3030/Veterinary/data?graph=http://digpatho.org/cell_lineage"
+
+
+curl -u admin:password123 -X PUT -H "Content-Type: text/turtle" \
+  --data-binary @veterinary-ontology-rules.ttl \
+  "http://localhost:3030/Veterinary/data?graph=http://digpatho.org/complete_vet_rules"
+
+command to delete a graph :
+
+curl -u admin:password123 -X DELETE "http://localhost:3030/Veterinary/data?graph=http://digpatho.org/cl_subset"
+
+borrar vetsnomed que estaba duplicado en default graph
+curl -u admin:password123 -X DELETE "http://localhost:3030/Veterinary/data?default"
